@@ -1,8 +1,13 @@
-﻿internal class NumberBaseBall
+﻿// This code is a simple console application that implements a number guessing game similar to "Baseball".
+
+using System;
+using static System.Console;
+
+internal class NumberBaseBall
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("I want to play a game~!!\n");
+        WriteLine("I want to play a game~!!\n");
 
         Random random = new Random();
 
@@ -26,7 +31,7 @@
             }
         }
 
-        Console.WriteLine($"정답 : {q1} , {q2} , {q3}");
+        WriteLine($"정답 : {q1} , {q2} , {q3}");
 
         int[] answerDigits = new int[3] { q1, q2, q3 };
         int strike = 0;
@@ -34,27 +39,27 @@
 
         do
         {
-            Console.WriteLine("\n세 자리 숫자를 입력하세요: ");
+            WriteLine("\n세 자리 숫자를 입력하세요: ");
             string? answer = Console.ReadLine();
 
             if (string.IsNullOrEmpty(answer) || answer.Length != 3)
             {
-                Console.WriteLine("\n세 자리 숫자를 입력해야 합니다.");
+                WriteLine("\n세 자리 숫자를 입력해야 합니다.");
                 continue;
             }
 
             if (!int.TryParse(answer, out int userInput) || userInput < 0 || userInput > 999)
             {
-                Console.WriteLine("\n유효한 세 자리 숫자를 입력하세요.");
+                WriteLine("\n유효한 세 자리 숫자를 입력하세요.");
                 continue;
             }
 
             CompareDigits(answerDigits, userInput, out strike, out ball);
-            Console.WriteLine($"\n{userInput} : {strike} Strike, {ball} Ball");
+            WriteLine($"\n{userInput} : {strike} Strike, {ball} Ball");
 
         } while (strike != 3);
 
-        Console.WriteLine("\nStrike Out~!!! Game Over.");
+        WriteLine("\nStrike Out~!!! Game Over.");
     }
 
     public static void CompareDigits(int[] answerDigits, int userInput, out int strike, out int ball)
