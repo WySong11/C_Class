@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿internal class NumberBaseBall
 {
     private static void Main(string[] args)
     {
@@ -6,29 +6,29 @@
 
         Random random = new Random();
 
-        int a1 = random.Next(0, 9);
-        int a2 = random.Next(0, 9);
-        int a3 = random.Next(0, 9);
+        int q1 = random.Next(0, 9);
+        int q2 = random.Next(0, 9);
+        int q3 = random.Next(0, 9);
 
-        while (((a1 != a2) && (a2 != a3) && (a1 != a3)) == false)
+        while (((q1 != q2) && (q2 != q3) && (q1 != q3)) == false)
         {
-            if (a1 == a2)
+            if (q1 == q2)
             {
-                a2 = random.Next(0, 9);
+                q2 = random.Next(0, 9);
             }
-            else if (a2 == a3)
+            else if (q2 == q3)
             {
-                a3 = random.Next(0, 9);
+                q3 = random.Next(0, 9);
             }
-            else if (a1 == a3)
+            else if (q1 == q3)
             {
-                a3 = random.Next(0, 9);
+                q3 = random.Next(0, 9);
             }
         }
 
-        Console.WriteLine($"정답 : {a1} , {a2} , {a3}");
+        Console.WriteLine($"정답 : {q1} , {q2} , {q3}");
 
-        int[] answerDigits = new int[3] { a1, a2, a3 };
+        int[] answerDigits = new int[3] { q1, q2, q3 };
         int strike = 0;
         int ball = 0;
 
@@ -57,7 +57,7 @@
         Console.WriteLine("\nStrike Out~!!! Game Over.");
     }
 
-    private static void CompareDigits(int[] answerDigits, int userInput, out int strike, out int ball)
+    public static void CompareDigits(int[] answerDigits, int userInput, out int strike, out int ball)
     {
         strike = 0;
         ball = 0;
