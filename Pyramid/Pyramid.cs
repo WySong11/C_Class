@@ -24,14 +24,22 @@ namespace Pyramid
                 int space = reverse ? i - 1 : height - i;
                 int star = reverse ? (2 * height) - (i*2 -1) : 2 * i - 1;
 
-                // Print leading spaces
-                Write(new string(' ', space));
-
-                // Print stars
-                WriteLine(new string('*', star));
+               Draw(space, star);
             }
 
             WriteLine();
+        }
+
+        /// 피라미드 출력 메서드
+        /// space: 앞에 출력할 공백의 개수
+        /// star: 출력할 별의 개수
+        private void Draw(int space, int star)
+        {
+            // Print leading spaces
+            Write(new string(' ', space));
+
+            // Print stars
+            WriteLine(new string('*', star));
         }
     }
 }

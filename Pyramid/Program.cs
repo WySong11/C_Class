@@ -23,12 +23,16 @@ namespace Main
                 if (bHalf)
                 {
                     PrintHalfPyramid(Height, eTypePyamid);
+                    
+                    //HalfPyramid.HalfPyramid.Draw(0, 5);
                 }
                 else
                 {
                     // If not HalfPyramid, print the full pyramid
                     Pyramid.Pyramid pyramid = new Pyramid.Pyramid();
                     pyramid.PrintPyramid(Height, eTypePyamid == ETypePyamid.Increase || eTypePyamid == ETypePyamid.ReverseIncrease ? false : true);
+                    
+                    //pyramid.Draw(Height, eTypePyamid == ETypePyamid.Increase || eTypePyamid == ETypePyamid.ReverseIncrease ? false : true);
                 }
             } while (Height > 0);
         }
