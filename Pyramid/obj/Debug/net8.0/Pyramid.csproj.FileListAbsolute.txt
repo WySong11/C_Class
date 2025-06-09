@@ -1,0 +1,14 @@
+C:\Users\teras\source\repos\Pyramid\bin\Debug\net8.0\Pyramid.exe
+C:\Users\teras\source\repos\Pyramid\bin\Debug\net8.0\Pyramid.deps.json
+C:\Users\teras\source\repos\Pyramid\bin\Debug\net8.0\Pyramid.runtimeconfig.json
+C:\Users\teras\source\repos\Pyramid\bin\Debug\net8.0\Pyramid.dll
+C:\Users\teras\source\repos\Pyramid\bin\Debug\net8.0\Pyramid.pdb
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.AssemblyInfoInputs.cache
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.AssemblyInfo.cs
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.csproj.CoreCompileInputs.cache
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.dll
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\refint\Pyramid.dll
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.pdb
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\Pyramid.genruntimeconfig.cache
+C:\Users\teras\source\repos\Pyramid\obj\Debug\net8.0\ref\Pyramid.dll
