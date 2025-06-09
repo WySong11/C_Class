@@ -36,7 +36,7 @@ namespace Main
         public static void Selection(ref bool half, ref ETypePyamid type, ref int height )
         {
             height = 0;
-            do
+            while(height <= 0 || height > MaxHeight)
             {
                 WriteLine("\nEnter the height of the pyramid (1-{0}): ", MaxHeight);
                 string? input = ReadLine();
@@ -49,7 +49,7 @@ namespace Main
                 {
                     WriteLine($"Please enter a valid height between 1 and {MaxHeight}.");
                 }
-            } while (height > 0);
+            }
 
             half = false; // Reset half to false for the next part of the program
             bool selection = true;
@@ -77,7 +77,7 @@ namespace Main
             } while(selection == false );
 
             type = ETypePyamid.None; // Initialize direction
-            do
+            while (type == ETypePyamid.None)
             {
                 WriteLine("\nSelect the direction of the pyramid (1: Increase, 2: Decrease, 3: Revers Increase, 4: Reverse Decrease): ");
                 string? input = ReadLine();
@@ -104,8 +104,7 @@ namespace Main
                         WriteLine("Invalid selection. Please select 1, 2, 3, or 4.");
                         continue; // Continue the loop for valid input
                 }
-
-            } while (type == ETypePyamid.None);
+            } 
 
             return;
         }
