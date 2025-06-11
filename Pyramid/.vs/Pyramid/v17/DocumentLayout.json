@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\teras\\source\\repos\\Pyramid\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TestInterface.cs",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestInterface.cs",
+              "RelativeDocumentMoniker": "Test\\TestInterface.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestInterface.cs",
+              "RelativeToolTip": "Test\\TestInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:19:26.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pyramid",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+              "RelativeDocumentMoniker": "Pyramid.csproj",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+              "RelativeToolTip": "Pyramid.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T13:54:52.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestDelegate.cs",
+              "RelativeDocumentMoniker": "Test\\TestDelegate.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestDelegate.cs",
+              "RelativeToolTip": "Test\\TestDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:17:36.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasePyrramid.cs",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "RelativeDocumentMoniker": "Pyramid\\BasePyrramid.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "RelativeToolTip": "Pyramid\\BasePyrramid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:56:34.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Enum.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Enum.cs",
-              "RelativeDocumentMoniker": "Enum.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Enum.cs",
-              "RelativeToolTip": "Enum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Common\\Enum.cs",
+              "RelativeDocumentMoniker": "Common\\Enum.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Common\\Enum.cs",
+              "RelativeToolTip": "Common\\Enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T14:46:02.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:46:24.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HalfPyramid.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\HalfPyramid.cs",
-              "RelativeDocumentMoniker": "HalfPyramid.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\HalfPyramid.cs",
-              "RelativeToolTip": "HalfPyramid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "RelativeDocumentMoniker": "Pyramid\\HalfPyramid.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:45:31.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pyramid.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.cs",
-              "RelativeDocumentMoniker": "Pyramid.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.cs",
-              "RelativeToolTip": "Pyramid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\Pyramid.cs",
+              "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
+              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\Pyramid.cs",
+              "RelativeToolTip": "Pyramid\\Pyramid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:39:43.864Z",
               "EditorCaption": ""
