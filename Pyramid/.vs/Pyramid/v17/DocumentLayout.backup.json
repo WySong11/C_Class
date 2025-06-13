@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\teras\\source\\repos\\Pyramid\\",
+  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Pyramid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|c:\\users\\teras\\source\\repos\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -42,56 +42,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestDelegate.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestDelegate.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
               "RelativeDocumentMoniker": "Test\\TestDelegate.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestDelegate.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
               "RelativeToolTip": "Test\\TestDelegate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:17:36.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T15:17:36.842Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "BasePyrramid.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\BasePyrramid.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
               "RelativeToolTip": "Pyramid\\BasePyrramid.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:56:34.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T13:56:34.897Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Enum.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Common\\Enum.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
               "RelativeDocumentMoniker": "Common\\Enum.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Common\\Enum.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
               "RelativeToolTip": "Common\\Enum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T14:46:02.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T14:46:02.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Program.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:46:24.6Z",
               "EditorCaption": ""
@@ -100,35 +97,33 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HalfPyramid.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\HalfPyramid.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
               "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:45:31.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T07:45:31.777Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Pyramid.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\Pyramid.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid\\Pyramid.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeToolTip": "Pyramid\\Pyramid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:39:43.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T07:39:43.864Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Pyramid.csproj",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
               "RelativeDocumentMoniker": "Pyramid.csproj",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
               "RelativeToolTip": "Pyramid.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -136,16 +131,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestInterface.cs",
-              "DocumentMoniker": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestInterface.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeDocumentMoniker": "Test\\TestInterface.cs",
-              "ToolTip": "C:\\Users\\teras\\source\\repos\\Pyramid\\Test\\TestInterface.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeToolTip": "Test\\TestInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:19:26.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T15:19:26.555Z"
             }
           ]
         }

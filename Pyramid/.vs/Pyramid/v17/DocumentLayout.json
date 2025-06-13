@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Pyramid\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestDelegate.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
               "RelativeDocumentMoniker": "Test\\TestDelegate.cs",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Test\\TestDelegate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:17:36.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T15:17:36.842Z"
             },
             {
               "$type": "Document",
@@ -83,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:46:24.6Z"
+              "WhenOpened": "2025-06-09T07:46:24.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestInterface.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeDocumentMoniker": "Test\\TestInterface.cs",
