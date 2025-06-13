@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj": {}
+    "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj": {
+    "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+        "projectUniqueName": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
         "projectName": "Pyramid",
-        "projectPath": "C:\\Users\\teras\\source\\repos\\Pyramid\\Pyramid.csproj",
+        "projectPath": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
         "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\teras\\source\\repos\\Pyramid\\obj\\",
+        "outputPath": "D:\\GitHub\\C_Class\\Pyramid\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

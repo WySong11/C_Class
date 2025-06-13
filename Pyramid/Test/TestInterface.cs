@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pyramid.Test
 {
-    internal interface TestInterface
+    public interface TestInterface
     {
     }
 }

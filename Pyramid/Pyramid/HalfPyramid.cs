@@ -3,8 +3,9 @@ using static System.Console;
 
 namespace HalfPyramid
 {
-    internal class HalfPyramid
+     internal class HalfPyramid
     {
+        // static : 클래스의 인스턴스 없이 호출할 수 있는 메서드로, HalfPyramid 클래스의 PrintHalfPyramid 메서드를 호출합니다.
         public static void PrintHalfPyramid(int height, ETypePyamid type)
         {
             for (int i = 1; i <= height; i++)
@@ -34,6 +35,7 @@ namespace HalfPyramid
             }
         }
 
+        /// static 메서드
         /// 피라미드 출력 메서드
         /// space: 앞에 출력할 공백의 개수
         /// star: 출력할 별의 개수
