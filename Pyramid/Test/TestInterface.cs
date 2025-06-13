@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Pyramid.Test
 {
-    public interface TestInterface
+    public interface ITestInterface1
     {
+        void WriteInterface1Method();
+    }
+
+    public interface ITestInterface2
+    {
+        void WriteInterface2Method();
     }
 }

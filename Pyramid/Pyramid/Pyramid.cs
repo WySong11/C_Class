@@ -1,13 +1,16 @@
-﻿using System;
+﻿using BasePyramid;
+using Pyramid.Test;
+using System;
+using System.Transactions;
 using static System.Console;
-using BasePyramid;
-using System.Transactions; // Assuming BasePyramid is in the same namespace or accessible
 
 namespace Pyramid
 {
     // BasePyrramid 클래스를 상속받는 Pyramid 클래스입니다.
     // internal : 같은 프로젝트 내에서만 접근할 수 있는 클래스입니다.
-    internal class Pyramid : BasePyrramid
+    // c# 에서 클래스는 다중 상속을 지원하지 않지만, 인터페이스는 다중 구현이 가능합니다.
+    // ITestInterface : 인터페이스를 구현합니다. 인터페이스는 클래스가 특정 메서드를 구현하도록 강제합니다.
+    internal class Pyramid : BasePyrramid, ITestInterface1, ITestInterface2
     {
         /// 피라미드 출력 메서드
         /// height: 피라미드 높이
@@ -65,6 +68,18 @@ namespace Pyramid
             Write(new string(' ', space));
             // Print stars
             WriteLine(new string('*', star));   
+        }
+
+        // ITestInterface1 인터페이스의 메서드를 구현합니다.
+        public void WriteInterface1Method()
+        {
+            WriteLine("This is a method from ITestInterface1.");
+        }
+
+        // ITestInterface2 인터페이스의 메서드를 구현합니다.
+        public void WriteInterface2Method()
+        {
+            WriteLine("This is a method from ITestInterface2.");
         }
     }
 }

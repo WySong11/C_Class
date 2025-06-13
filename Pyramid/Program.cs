@@ -3,6 +3,7 @@ using static System.Console;
 using Common;
 using Pyramid;
 using static HalfPyramid.HalfPyramid;
+using Pyramid.Test;
 
 namespace Main
 {
@@ -15,6 +16,12 @@ namespace Main
             int Height = 0;
             bool bHalf = false;
             bool restart;
+
+            // 클래스  Pyramid의 인스턴스를 생성하고 PrintPyramid 메서드를 호출합니다.
+            Pyramid.Pyramid pyramid = new Pyramid.Pyramid();
+
+            // TestDelegate 클래스의 인스턴스를 생성합니다.
+            TestDelegate testDelegate = new TestDelegate();
 
             do
             {
@@ -29,18 +36,34 @@ namespace Main
                     //HalfPyramid.HalfPyramid.Draw(0, 5);
                 }
                 else
-                {
-                    // 클래스  Pyramid의 인스턴스를 생성하고 PrintPyramid 메서드를 호출합니다.
-                    Pyramid.Pyramid pyramid = new Pyramid.Pyramid();
+                {                    
                     pyramid.PrintPyramid(Height, eTypePyamid == ETypePyamid.Increase || eTypePyamid == ETypePyamid.ReverseIncrease ? false : true);
-                    
+
                     //pyramid.Draw(Height, eTypePyamid == ETypePyamid.Increase || eTypePyamid == ETypePyamid.ReverseIncrease ? false : true);
+
+                    /*
+
+                    // pyramidMethod : Pyramid 클래스의 PrintPyramid 메서드를 대리자에 할당합니다.
+                    testDelegate.pyramidMethod += pyramid.PrintPyramid;
+
+                    // pyramidMethod : 대리자에 람다식을 할당하여 PrintPyramid 메서드를 호출합니다.
+                    testDelegate.pyramidMethod = (int h, bool r) => pyramid.PrintPyramid(h, r);
+
+                    // pyramidMethod.Invoke : 대리자를 호출하여 PrintPyramid 메서드를 실행합니다.
+                    // ? : 널 조건부 연산자로, pyramidMethod가 null이 아닐 때만 호출합니다.
+                    testDelegate.pyramidMethod?.Invoke(Height, eTypePyamid == ETypePyamid.Increase || eTypePyamid == ETypePyamid.ReverseIncrease ? false : true);                    */
                 }
 
                 // out : 초기화되지 않은 변수를 참조로 전달. 메서드 내에서 반드시 초기화해야 함.
                 Restart(out restart);
 
             } while (restart == true);
+
+            // 대리자에서 메서드를 제거합니다.
+            testDelegate.pyramidMethod -= pyramid.PrintPyramid;
+
+            // 대리자를 null로 설정하여 메모리 해제
+            testDelegate.pyramidMethod = null; 
         }
 
         // Restart 메서드는 프로그램을 재시작할지 여부를 묻는 기능을 수행합니다.
