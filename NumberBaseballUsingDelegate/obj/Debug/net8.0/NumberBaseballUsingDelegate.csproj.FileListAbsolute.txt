@@ -1,0 +1,14 @@
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.AssemblyInfoInputs.cache
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.AssemblyInfo.cs
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.csproj.CoreCompileInputs.cache
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\bin\Debug\net8.0\NumberBaseballUsingDelegate.exe
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\bin\Debug\net8.0\NumberBaseballUsingDelegate.deps.json
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\bin\Debug\net8.0\NumberBaseballUsingDelegate.runtimeconfig.json
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\bin\Debug\net8.0\NumberBaseballUsingDelegate.dll
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\bin\Debug\net8.0\NumberBaseballUsingDelegate.pdb
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.dll
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\refint\NumberBaseballUsingDelegate.dll
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.pdb
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\NumberBaseballUsingDelegate.genruntimeconfig.cache
+C:\Users\teras\source\repos\NumberBaseballUsingDelegate\obj\Debug\net8.0\ref\NumberBaseballUsingDelegate.dll
