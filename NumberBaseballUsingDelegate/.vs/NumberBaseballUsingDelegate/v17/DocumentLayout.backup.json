@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|solutionrelative:numberbaseballgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|d:\\github\\c_class\\numberbaseballusingdelegate\\outputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|solutionrelative:outputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|d:\\github\\c_class\\numberbaseballusingdelegate\\inputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|solutionrelative:inputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|d:\\github\\c_class\\numberbaseballusingdelegate\\outputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|solutionrelative:outputdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F427E029-D80B-4285-8DD9-B5545BBB0296}|NumberBaseballUsingDelegate.csproj|d:\\github\\c_class\\numberbaseballusingdelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,9 +34,9 @@
               "Title": "NumberBaseballGame.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\NumberBaseballGame.cs",
               "RelativeDocumentMoniker": "NumberBaseballGame.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\NumberBaseballGame.cs*",
-              "RelativeToolTip": "NumberBaseballGame.cs*",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwG8AAAAjAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\NumberBaseballGame.cs",
+              "RelativeToolTip": "NumberBaseballGame.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:54:09.479Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:47:28.262Z"
             }
@@ -57,11 +57,11 @@
         },
         {
           "DockedWidth": 181,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OutputDelegate.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\OutputDelegate.cs",
               "RelativeDocumentMoniker": "OutputDelegate.cs",
@@ -69,12 +69,11 @@
               "RelativeToolTip": "OutputDelegate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:51:19.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T11:51:19.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InputDelegate.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballUsingDelegate\\InputDelegate.cs",
               "RelativeDocumentMoniker": "InputDelegate.cs",
