@@ -93,17 +93,29 @@ namespace NumberBaseballList
             };
 
             // 스트라이크와 볼 계산
-            for (int i = 0; i < userDigits.Count; i++)
+            for (int i = 0; i < userDigits.Count && i < answerDigits.Count; i++)
             {
-                // 같은 자리의 숫자가 일치하면 스트라이크 증가
-                if (userDigits[i] == answerDigits[i])
+                // 입력된 숫자가 정답에 존재하는지 확인
+                // Find 메서드를 사용하여 입력된 숫자의 인덱스를 찾음
+                // 만약 존재하지 않으면 -1을 반환
+                // Find 메서드를 사용하여 입력된 숫자의 인덱스를 찾음
+                int result = answerDigits.IndexOf(userDigits[i]);
+
+                if (result == -1)
                 {
+                    // 입력된 숫자가 정답에 존재하지 않으면 continue
+                    continue;
+                }
+
+                // 같은 자리의 숫자가 일치하면 스트라이크 증가
+                if ( result == i )
+                {                     
                     strike++;
+                    continue;
                 }
                 // 다른 자리의 숫자가 정답에 존재하면 볼 증가
-                else if (answerDigits.Contains(userDigits[i]) == true)
-                {
-                    ball++;
+                {   
+                    ball++; 
                 }
             }
         }
