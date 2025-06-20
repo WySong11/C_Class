@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Collections\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|d:\\github\\c_class\\collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|d:\\github\\c_class\\collections\\collectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|solutionrelative:collectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|d:\\github\\c_class\\collections\\systemcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|solutionrelative:systemcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|d:\\github\\c_class\\collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A900D7CF-56CF-4F9D-B5C5-6E11FE67B4B9}|Collections.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SystemCollections.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Collections\\SystemCollections.cs",
               "RelativeDocumentMoniker": "SystemCollections.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Collections\\SystemCollections.cs",
               "RelativeToolTip": "SystemCollections.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAwG4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T11:27:35.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CollectionsGeneric.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Collections\\CollectionsGeneric.cs",
               "RelativeDocumentMoniker": "CollectionsGeneric.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Collections\\CollectionsGeneric.cs",
               "RelativeToolTip": "CollectionsGeneric.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAuwPkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwC0BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T11:25:00.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Collections\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Collections\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T11:07:10.893Z",
               "EditorCaption": ""

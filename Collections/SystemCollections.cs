@@ -4,6 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Object 타입으로 데이터를 저장하므로 어떤 타입의 객체도 저장할 수 있지만, 타입 안전성을 제공하지 않음.
+// 저장할 때 타입을 명시하지 않기 때문에, 컴파일 시 타입 검사가 안 됨. 런타임에 타입 오류가 발생할 수 있음.
+// 저장할 때 박싱과 언박싱이 필요할 수 있어 성능에 영향을 줄 수 있음.
+
+// Boxing: 값 타입을 Object 타입으로 변환하는 과정. 
+// int a = 10;
+// object obj = a; // 박싱: int를 Object로 변환
+
+// Unboxing: Object 타입을 다시 값 타입으로 변환하는 과정.
+// int b = (int)obj; // 언박싱: Object를 int로 변환
+
 public class SystemCollections
 {
     public void OnArrayList()
