@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\TestDateTime\bin\Debug\net8.0\TestDateTime.exe
+D:\GitHub\C_Class\TestDateTime\bin\Debug\net8.0\TestDateTime.deps.json
+D:\GitHub\C_Class\TestDateTime\bin\Debug\net8.0\TestDateTime.runtimeconfig.json
+D:\GitHub\C_Class\TestDateTime\bin\Debug\net8.0\TestDateTime.dll
+D:\GitHub\C_Class\TestDateTime\bin\Debug\net8.0\TestDateTime.pdb
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.AssemblyInfo.cs
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.sourcelink.json
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.dll
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\refint\TestDateTime.dll
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.pdb
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\TestDateTime.genruntimeconfig.cache
+D:\GitHub\C_Class\TestDateTime\obj\Debug\net8.0\ref\TestDateTime.dll
