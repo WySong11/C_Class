@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\BinaryTreeTraversal\bin\Debug\net8.0\BinaryTreeTraversal.exe
+D:\GitHub\C_Class\BinaryTreeTraversal\bin\Debug\net8.0\BinaryTreeTraversal.deps.json
+D:\GitHub\C_Class\BinaryTreeTraversal\bin\Debug\net8.0\BinaryTreeTraversal.runtimeconfig.json
+D:\GitHub\C_Class\BinaryTreeTraversal\bin\Debug\net8.0\BinaryTreeTraversal.dll
+D:\GitHub\C_Class\BinaryTreeTraversal\bin\Debug\net8.0\BinaryTreeTraversal.pdb
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.AssemblyInfo.cs
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.sourcelink.json
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.dll
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\refint\BinaryTreeTraversal.dll
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.pdb
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\BinaryTreeTraversal.genruntimeconfig.cache
+D:\GitHub\C_Class\BinaryTreeTraversal\obj\Debug\net8.0\ref\BinaryTreeTraversal.dll
