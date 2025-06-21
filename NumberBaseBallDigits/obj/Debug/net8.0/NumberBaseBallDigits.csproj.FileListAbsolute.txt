@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.AssemblyInfo.cs
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.sourcelink.json
+D:\GitHub\C_Class\NumberBaseBallDigits\bin\Debug\net8.0\NumberBaseBallDigits.exe
+D:\GitHub\C_Class\NumberBaseBallDigits\bin\Debug\net8.0\NumberBaseBallDigits.deps.json
+D:\GitHub\C_Class\NumberBaseBallDigits\bin\Debug\net8.0\NumberBaseBallDigits.runtimeconfig.json
+D:\GitHub\C_Class\NumberBaseBallDigits\bin\Debug\net8.0\NumberBaseBallDigits.dll
+D:\GitHub\C_Class\NumberBaseBallDigits\bin\Debug\net8.0\NumberBaseBallDigits.pdb
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.dll
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\refint\NumberBaseBallDigits.dll
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.pdb
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\NumberBaseBallDigits.genruntimeconfig.cache
+D:\GitHub\C_Class\NumberBaseBallDigits\obj\Debug\net8.0\ref\NumberBaseBallDigits.dll
