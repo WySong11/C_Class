@@ -6,19 +6,64 @@ using System.Threading.Tasks;
 
 public static class RecordTime
 {
+    // 델리게이트 정의
     public delegate void StartTimeDelegate(DateTime starttime);
     public delegate void EndTimeDelegate(DateTime endtime);
 
+    // 이벤트 정의
     private static event StartTimeDelegate? StartTimeEvent;
     private static event EndTimeDelegate? EndTimeEvent;
 
+    // 상태 확인을 위한 프로퍼티
+    // 표현식 바디를 사용하여 간결하게 작성
     public static bool IsRunning => StartTime != DateTime.MinValue && EndTime == DateTime.MinValue;
     public static bool IsStopped => StartTime != DateTime.MinValue && EndTime != DateTime.MinValue;
     public static bool IsReset => StartTime == DateTime.MinValue && EndTime == DateTime.MinValue;
 
+    // 프로퍼티를 통해 시작 시간과 종료 시간을 가져올 수 있도록 설정    
     private static DateTime StartTime { get; set; }
     private static DateTime EndTime { get; set; }
 
+    // 시작 시간을 문자열로 표현하는 프로퍼티
+    public static string StartTimeString
+    {
+        get
+        {
+            return StartTime == DateTime.MinValue ? "시작 시간이 설정되지 않았습니다." : StartTime.ToString("F");
+        }
+    }
+
+    // 종료 시간을 문자열로 표현하는 프로퍼티
+    public static string EndTimeString
+    {
+        get
+        {
+            return EndTime == DateTime.MinValue ? "종료 시간이 설정되지 않았습니다." : EndTime.ToString("F");
+        }
+    }
+
+    // 소요 시간을 문자열로 표현하는 프로퍼티
+    public static string DurationTimeString
+    {
+        get
+        {
+            if( Duration.TotalHours >= 1 )
+            {
+                return $"{(int)Duration.TotalHours}시간 {(int)Duration.Minutes}분 {(int)Duration.Seconds}초";
+            }
+            else if( Duration.TotalMinutes >= 1 )
+            {
+                return $"{(int)Duration.TotalMinutes}분 {(int)Duration.Seconds}초";
+            }
+            else
+            {
+                return $"{(int)Duration.TotalSeconds}초";
+            }
+        }
+    }
+
+
+    // 소요 시간 계산을 위한 프로퍼티
     private static TimeSpan Duration => EndTime - StartTime;
 
     public static void Start()
@@ -46,6 +91,7 @@ public static class RecordTime
         EndTimeEvent = null;
     }
 
+    // 시작 시간과 종료 시간을 설정하는 델리게이트를 외부에서 설정할 수 있도록 하는 메서드
     public static void SetStartTimeDelegate(StartTimeDelegate startTimeDelegate)
     {
         StartTimeEvent += startTimeDelegate;
@@ -58,6 +104,6 @@ public static class RecordTime
 
     public static string PrintTime()
     {
-        return $"\n시작 시간 : {StartTime}\n종료 시간 : {EndTime}\n소요 시간 : {Duration}\n";
+        return $"\n시작 시간 : {StartTimeString}\n종료 시간 : {EndTimeString}\n소요 시간 : {DurationTimeString}\n";
     }
 }

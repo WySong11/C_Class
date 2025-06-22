@@ -21,17 +21,21 @@ public class NumberBaseballDigits
         }
         Console.WriteLine();
 
+        // 게임 시작 시간과 종료 시간을 기록하기 위한 RecordTime 클래스 사용
         RecordTime.SetStartTimeDelegate(StartTimeEventListner1);
         RecordTime.SetEndTimeDelegate(EndTimeEventListner1);
-
+        
         RecordTime.SetStartTimeDelegate(StartTimeEventListner2);
         RecordTime.SetEndTimeDelegate(EndTimeEventListner2);
 
+        // 게임 시작 시간 기록
         RecordTime.Reset();
         RecordTime.Start();
 
+        // 자리수 입력
         int PlayCount = PlayGame(digits);
 
+        // 게임 종료 시간 기록
         RecordTime.Stop();
 
         Console.Write($"\n게임 기록 : {PlayCount}회 시도\n{RecordTime.PrintTime()}");
@@ -107,6 +111,8 @@ public class NumberBaseballDigits
         {
             Console.WriteLine("숫자를 입력하세요: ");
             string? input = Console.ReadLine();
+
+            // 입력이 null이거나 길이가 InDigits가 아니거나 숫자가 아닌 경우
             if (input == null || input.Length != InDigits || !input.All(char.IsDigit))
             {
                 Console.WriteLine($"잘못된 입력입니다. {InDigits}자리 숫자를 입력하세요.");
@@ -119,6 +125,7 @@ public class NumberBaseballDigits
             ball = 0;
             for (int i = 0; i < InDigits; i++)
             {
+                // 입력된 숫자를 정수로 변환하고 비교
                 int userNumber = int.Parse(input[i].ToString());
                 if (userNumber == InQuest[i])
                 {
