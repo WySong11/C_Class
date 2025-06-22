@@ -25,6 +25,17 @@ public class NumberBaseballDigits
         }
         Console.WriteLine();
 
+        RecordTime.SetStartTimeDelegate((DateTime startTime) =>
+        {
+            Console.WriteLine($"\n게임 시작 시간: {startTime}\n");
+        });
+
+        RecordTime.SetEndTimeDelegate((DateTime endTime) =>
+        {
+            Console.WriteLine($"\n게임 종료 시간: {endTime}\n");
+        });
+
+        RecordTime.Reset();
         RecordTime.Start();
 
         int PlayCount = PlayGame(digits);
