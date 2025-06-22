@@ -6,22 +6,15 @@ using System.Threading.Tasks;
 
 public static class RecordTime
 {
-    private static Delegate? StartTimeDelegate;
-    private static Delegate? EndTimeDelegate;
+    public delegate void StartTimeDelegate(DateTime starttime);
+    public delegate void EndTimeDelegate(DateTime endtime);
+
+    private static event StartTimeDelegate? StartTimeEvent;
+    private static event EndTimeDelegate? EndTimeEvent;
 
     public static bool IsRunning => StartTime != DateTime.MinValue && EndTime == DateTime.MinValue;
     public static bool IsStopped => StartTime != DateTime.MinValue && EndTime != DateTime.MinValue;
     public static bool IsReset => StartTime == DateTime.MinValue && EndTime == DateTime.MinValue;
-
-    public static void SetStartTimeDelegate(Delegate startTimeDelegate)
-    {
-        StartTimeDelegate = startTimeDelegate;
-    }
-
-    public static void SetEndTimeDelegate(Delegate endTimeDelegate)
-    {
-        EndTimeDelegate = endTimeDelegate;
-    }
 
     private static DateTime StartTime { get; set; }
     private static DateTime EndTime { get; set; }
@@ -31,25 +24,36 @@ public static class RecordTime
     public static void Start()
     {
         StartTime = DateTime.Now;
-        if (StartTimeDelegate != null)
-        {
-            StartTimeDelegate.DynamicInvoke(StartTime);
-        }
+        StartTimeEvent?.Invoke(StartTime);
     }
 
     public static void Stop()
     {
         EndTime = DateTime.Now;
-        if (EndTimeDelegate != null)
-        {
-            EndTimeDelegate.DynamicInvoke(EndTime);
-        }
+        EndTimeEvent?.Invoke(EndTime);
     }
 
     public static void Reset()
     {
         StartTime = DateTime.MinValue;
         EndTime = DateTime.MinValue;
+    }
+
+    public static void Clear()
+    {
+        Reset();
+        StartTimeEvent = null;
+        EndTimeEvent = null;
+    }
+
+    public static void SetStartTimeDelegate(StartTimeDelegate startTimeDelegate)
+    {
+        StartTimeEvent += startTimeDelegate;
+    }
+
+    public static void SetEndTimeDelegate(EndTimeDelegate endTimeDelegate)
+    {
+        EndTimeEvent += endTimeDelegate;
     }
 
     public static string PrintTime()

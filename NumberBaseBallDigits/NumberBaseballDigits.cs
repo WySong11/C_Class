@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
-
 
 public class NumberBaseballDigits
 {
@@ -25,15 +21,11 @@ public class NumberBaseballDigits
         }
         Console.WriteLine();
 
-        RecordTime.SetStartTimeDelegate((DateTime startTime) =>
-        {
-            Console.WriteLine($"\n게임 시작 시간: {startTime}\n");
-        });
+        RecordTime.SetStartTimeDelegate(StartTimeEventListner1);
+        RecordTime.SetEndTimeDelegate(EndTimeEventListner1);
 
-        RecordTime.SetEndTimeDelegate((DateTime endTime) =>
-        {
-            Console.WriteLine($"\n게임 종료 시간: {endTime}\n");
-        });
+        RecordTime.SetStartTimeDelegate(StartTimeEventListner2);
+        RecordTime.SetEndTimeDelegate(EndTimeEventListner2);
 
         RecordTime.Reset();
         RecordTime.Start();
@@ -54,6 +46,30 @@ public class NumberBaseballDigits
         {
             Console.WriteLine("게임을 종료합니다.");
         }
+    }
+
+    private void StartTimeEventListner1(DateTime starttime)
+    {
+        // 여기에 시작 시간 이벤트 리스너 로직을 추가하세요.
+        Console.WriteLine($"\n1. 게임 시작 시간: {starttime}\n");
+    }
+
+    private void EndTimeEventListner1(DateTime endtime)
+    {
+        // 여기에 종료 시간 이벤트 리스너 로직을 추가하세요.
+        Console.WriteLine($"\n1. 게임 종료 시간: {endtime}\n");
+    }
+
+    private void StartTimeEventListner2(DateTime starttime)
+    {
+        // 여기에 시작 시간 이벤트 리스너 로직을 추가하세요.
+        Console.WriteLine($"\n2. 게임 시작 시간: {starttime}\n");
+    }
+
+    private void EndTimeEventListner2(DateTime endtime)
+    {
+        // 여기에 종료 시간 이벤트 리스너 로직을 추가하세요.
+        Console.WriteLine($"\n2. 게임 종료 시간: {endtime}\n");
     }
 
     public int PlayGame(int InDigits)
