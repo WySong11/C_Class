@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\recordtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:recordtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,41 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 243,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimeRecordRanking.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecordRanking.cs",
+              "RelativeDocumentMoniker": "TimeRecordRanking.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecordRanking.cs",
+              "RelativeToolTip": "TimeRecordRanking.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:50:04.423Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecordTime.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\RecordTime.cs",
-              "RelativeDocumentMoniker": "RecordTime.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\RecordTime.cs",
-              "RelativeToolTip": "RecordTime.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswGYAAABnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TimeRecorder.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecorder.cs",
+              "RelativeDocumentMoniker": "TimeRecorder.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecorder.cs",
+              "RelativeToolTip": "TimeRecorder.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:43:35.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NumberBaseballDigits.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseballDigits.cs",
               "RelativeDocumentMoniker": "NumberBaseballDigits.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseballDigits.cs",
               "RelativeToolTip": "NumberBaseballDigits.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAvwE4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowB8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:25:52.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

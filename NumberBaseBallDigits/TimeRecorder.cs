@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-public static class RecordTime
+public static class TimeRecorder
 {
     // 델리게이트 정의
     public delegate void StartTimeDelegate(DateTime starttime);
@@ -21,8 +17,27 @@ public static class RecordTime
     public static bool IsReset => StartTime == DateTime.MinValue && EndTime == DateTime.MinValue;
 
     // 프로퍼티를 통해 시작 시간과 종료 시간을 가져올 수 있도록 설정    
-    private static DateTime StartTime { get; set; }
+    private static DateTime StartTime 
+    {
+        get
+        {
+            return StartTime;
+        }
+        set
+        {
+            StartTime = value;
+        }
+    }
     private static DateTime EndTime { get; set; }
+
+    // Public 프로퍼티로 현재 시간을 가져올 수 있도록 설정
+    // get;만 public으로 설정하고,
+    // private set을 사용하여 외부에서 직접 설정할 수 없도록 함
+    public static DateTime CurrentTime
+    {
+        get;
+        private set;
+    }
 
     // 시작 시간을 문자열로 표현하는 프로퍼티
     public static string StartTimeString

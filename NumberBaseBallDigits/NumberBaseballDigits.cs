@@ -21,24 +21,24 @@ public class NumberBaseballDigits
         }
         Console.WriteLine();
 
-        // 게임 시작 시간과 종료 시간을 기록하기 위한 RecordTime 클래스 사용
-        RecordTime.SetStartTimeDelegate(StartTimeEventListner1);
-        RecordTime.SetEndTimeDelegate(EndTimeEventListner1);
+        // 게임 시작 시간과 종료 시간을 기록하기 위한 TimeRecorder 클래스 사용
+        TimeRecorder.SetStartTimeDelegate(StartTimeEventListner1);
+        TimeRecorder.SetEndTimeDelegate(EndTimeEventListner1);
         
-        RecordTime.SetStartTimeDelegate(StartTimeEventListner2);
-        RecordTime.SetEndTimeDelegate(EndTimeEventListner2);
+        TimeRecorder.SetStartTimeDelegate(StartTimeEventListner2);
+        TimeRecorder.SetEndTimeDelegate(EndTimeEventListner2);
 
         // 게임 시작 시간 기록
-        RecordTime.Reset();
-        RecordTime.Start();
+        TimeRecorder.Reset();
+        TimeRecorder.Start();
 
         // 자리수 입력
         int PlayCount = PlayGame(digits);
 
         // 게임 종료 시간 기록
-        RecordTime.Stop();
+        TimeRecorder.Stop();
 
-        Console.Write($"\n게임 기록 : {PlayCount}회 시도\n{RecordTime.PrintTime()}");
+        Console.Write($"\n게임 기록 : {PlayCount}회 시도\n{TimeRecorder.PrintTime()}");
 
         Console.WriteLine("\n다시 하시겠습니까? (Y/N)");
         string? playAgain = Console.ReadLine()?.ToUpper();
