@@ -5,6 +5,7 @@ public class Diamond
 {
     public static void StartDiamond()
     {
+        Clear();
         WriteLine("\n다이아몬드 높이를 입력하세요 (홀수): ");
         string? input = ReadLine();
         if (int.TryParse(input, out int height) && height % 2 == 1)

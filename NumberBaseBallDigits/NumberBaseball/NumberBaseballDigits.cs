@@ -43,6 +43,12 @@ public class NumberBaseballDigits
         TimeRecordRanking ranking = new TimeRecordRanking();
         ranking.AddRecord(TimeRecorder.GetDuration(), "Player");
 
+        TimeRecordsManager.Instance.LoadRecordsFromJson();
+
+        TimeRecordsManager.Instance.AddRecord(TimeRecorder.GetDuration(), "Player");
+        TimeRecordsManager.Instance.PrintRecords();
+        TimeRecordsManager.Instance.SaveRecordsToJson();
+
         Console.WriteLine("\n다시 하시겠습니까? (Y/N)");
         string? playAgain = Console.ReadLine()?.ToUpper();
         if (playAgain == "Y")
