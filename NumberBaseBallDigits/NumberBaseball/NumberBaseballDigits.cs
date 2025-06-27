@@ -22,11 +22,11 @@ public class NumberBaseballDigits
         Console.WriteLine();
 
         // 게임 시작 시간과 종료 시간을 기록하기 위한 TimeRecorder 클래스 사용
-        TimeRecorder.SetStartTimeDelegate(StartTimeEventListner1);
-        TimeRecorder.SetEndTimeDelegate(EndTimeEventListner1);
+        TimeRecorder.AddStartTimeDelegate(StartTimeEventListner1);
+        TimeRecorder.AddEndTimeDelegate(EndTimeEventListner1);
         
-        TimeRecorder.SetStartTimeDelegate(StartTimeEventListner2);
-        TimeRecorder.SetEndTimeDelegate(EndTimeEventListner2);
+        TimeRecorder.AddStartTimeDelegate(StartTimeEventListner2);
+        TimeRecorder.AddEndTimeDelegate(EndTimeEventListner2);
 
         // 게임 시작 시간 기록
         TimeRecorder.Reset();
@@ -40,6 +40,9 @@ public class NumberBaseballDigits
 
         Console.Write($"\n게임 기록 : {PlayCount}회 시도\n{TimeRecorder.PrintTime()}");
 
+        TimeRecordRanking ranking = new TimeRecordRanking();
+        ranking.AddRecord(TimeRecorder.GetDuration(), "Player");
+
         Console.WriteLine("\n다시 하시겠습니까? (Y/N)");
         string? playAgain = Console.ReadLine()?.ToUpper();
         if (playAgain == "Y")
@@ -48,6 +51,7 @@ public class NumberBaseballDigits
         }
         else
         {
+            ClearGame();
             Console.WriteLine("게임을 종료합니다.");
         }
     }
@@ -55,25 +59,25 @@ public class NumberBaseballDigits
     private void StartTimeEventListner1(DateTime starttime)
     {
         // 여기에 시작 시간 이벤트 리스너 로직을 추가하세요.
-        Console.WriteLine($"\n1. 게임 시작 시간: {starttime}\n");
+        Console.WriteLine($"\n1. 숫자 야구 게임 시작 시간: {starttime}\n");
     }
 
     private void EndTimeEventListner1(DateTime endtime)
     {
         // 여기에 종료 시간 이벤트 리스너 로직을 추가하세요.
-        Console.WriteLine($"\n1. 게임 종료 시간: {endtime}\n");
+        Console.WriteLine($"\n1. 숫자 야구 게임 종료 시간: {endtime}\n");
     }
 
     private void StartTimeEventListner2(DateTime starttime)
     {
         // 여기에 시작 시간 이벤트 리스너 로직을 추가하세요.
-        Console.WriteLine($"\n2. 게임 시작 시간: {starttime}\n");
+        Console.WriteLine($"\n2. 숫자 야구 게임 시작 시간: {starttime}\n");
     }
 
     private void EndTimeEventListner2(DateTime endtime)
     {
         // 여기에 종료 시간 이벤트 리스너 로직을 추가하세요.
-        Console.WriteLine($"\n2. 게임 종료 시간: {endtime}\n");
+        Console.WriteLine($"\n2. 숫자 야구 게임 종료 시간: {endtime}\n");
     }
 
     public int PlayGame(int InDigits)
@@ -143,5 +147,14 @@ public class NumberBaseballDigits
         }
         Console.WriteLine("축하합니다! 정답을 맞추셨습니다.");
         return count;
+    }
+
+    private void ClearGame()
+    {
+        // 게임 초기화 로직을 여기에 추가하세요.
+        TimeRecorder.RemoveStartTimeDelegate(StartTimeEventListner1);
+        TimeRecorder.RemoveEndTimeDelegate(EndTimeEventListner1);
+        TimeRecorder.RemoveStartTimeDelegate(StartTimeEventListner2);
+        TimeRecorder.RemoveEndTimeDelegate(EndTimeEventListner2);
     }
 }

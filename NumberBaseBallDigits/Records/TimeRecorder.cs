@@ -17,18 +17,8 @@ public static class TimeRecorder
     public static bool IsReset => StartTime == DateTime.MinValue && EndTime == DateTime.MinValue;
 
     // 프로퍼티를 통해 시작 시간과 종료 시간을 가져올 수 있도록 설정    
-    private static DateTime StartTime 
-    {
-        get
-        {
-            return StartTime;
-        }
-        set
-        {
-            StartTime = value;
-        }
-    }
-    private static DateTime EndTime { get; set; }
+    private static DateTime StartTime { get; set; } = DateTime.MinValue;
+    private static DateTime EndTime { get; set; } = DateTime.MinValue;
 
     // Public 프로퍼티로 현재 시간을 가져올 수 있도록 설정
     // get;만 public으로 설정하고,
@@ -37,6 +27,18 @@ public static class TimeRecorder
     {
         get;
         private set;
+    }
+
+    private static DateTime TestTime 
+    {
+        get
+        {
+            return TestTime;
+        }
+        set
+        {
+            TestTime = value;
+        }
     }
 
     // 시작 시간을 문자열로 표현하는 프로퍼티
@@ -81,6 +83,22 @@ public static class TimeRecorder
     // 소요 시간 계산을 위한 프로퍼티
     private static TimeSpan Duration => EndTime - StartTime;
 
+    public static TimeSpan GetDuration()
+    {
+        if (IsRunning)
+        {
+            return DateTime.Now - StartTime;
+        }
+        else if (IsStopped)
+        {
+            return Duration;
+        }
+        else
+        {
+            return TimeSpan.Zero; // 초기화 상태에서는 0초 반환
+        }
+    }
+
     public static void Start()
     {
         StartTime = DateTime.Now;
@@ -107,14 +125,31 @@ public static class TimeRecorder
     }
 
     // 시작 시간과 종료 시간을 설정하는 델리게이트를 외부에서 설정할 수 있도록 하는 메서드
-    public static void SetStartTimeDelegate(StartTimeDelegate startTimeDelegate)
+    public static void AddStartTimeDelegate(StartTimeDelegate startTimeDelegate)
     {
         StartTimeEvent += startTimeDelegate;
     }
 
-    public static void SetEndTimeDelegate(EndTimeDelegate endTimeDelegate)
+    public static void AddEndTimeDelegate(EndTimeDelegate endTimeDelegate)
     {
         EndTimeEvent += endTimeDelegate;
+    }
+
+    public static void RemoveStartTimeDelegate(StartTimeDelegate startTimeDelegate)
+    {
+        StartTimeEvent -= startTimeDelegate;
+    }
+
+    public static void RemoveEndTimeDelegate(EndTimeDelegate endTimeDelegate)
+    {
+        EndTimeEvent -= endTimeDelegate;
+    }
+
+    // 모든 델리게이트를 제거하는 메서드
+    public static void RemoveAllDelegates()
+    {
+        StartTimeEvent = null;
+        EndTimeEvent = null;
     }
 
     public static string PrintTime()

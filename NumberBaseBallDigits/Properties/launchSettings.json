@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NumberBaseBallDigits": {
+      "commandName": "Project",
+      "commandLineArgs": "1 numberbaseball"
+    }
+  }
+}

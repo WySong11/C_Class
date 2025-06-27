@@ -4,11 +4,14 @@ using System.Linq;
 
 public class TimeRecordRanking
 {
+    // 최대 기록 수를 상수로 정의
     private const int MAX_RECORDS = 10;
 
+    // 기록을 저장할 리스트
     private List<TimeSpan> records = new List<TimeSpan>();
-    private Dictionary<int, string> recordNames = new Dictionary<int, string>();
 
+    // 기록에 대한 랭커 이름을 저장할 딕셔너리
+    private Dictionary<int, string> recordNames = new Dictionary<int, string>();
 
     // 인덱서 : 클래스의 인스턴스를 배열처럼 사용할 수 있음
     // this 키워드를 사용하여 인스턴스의 속성이나 메서드에 접근할 수 있음

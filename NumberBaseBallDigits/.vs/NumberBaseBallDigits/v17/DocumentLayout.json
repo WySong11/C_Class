@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\records\\timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:records\\timerecordranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\numberbaseballdigits.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:numberbaseballdigits.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\diamond\\diamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:diamond\\diamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\diamond\\output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:diamond\\output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|d:\\github\\c_class\\numberbaseballdigits\\diamond\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28CE6F8-9D64-4E64-AB90-697219058DEF}|NumberBaseBallDigits.csproj|solutionrelative:diamond\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,31 +45,40 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Diamond.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Diamond.cs",
+              "RelativeDocumentMoniker": "Diamond\\Diamond.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Diamond.cs",
+              "RelativeToolTip": "Diamond\\Diamond.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:54:33.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TimeRecordRanking.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecordRanking.cs",
-              "RelativeDocumentMoniker": "TimeRecordRanking.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecordRanking.cs",
-              "RelativeToolTip": "TimeRecordRanking.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowDcAAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Records\\TimeRecordRanking.cs",
+              "RelativeDocumentMoniker": "Records\\TimeRecordRanking.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Records\\TimeRecordRanking.cs",
+              "RelativeToolTip": "Records\\TimeRecordRanking.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T13:50:04.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TimeRecorder.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecorder.cs",
-              "RelativeDocumentMoniker": "TimeRecorder.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\TimeRecorder.cs",
-              "RelativeToolTip": "TimeRecorder.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwAwAAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Records\\TimeRecorder.cs",
+              "RelativeDocumentMoniker": "Records\\TimeRecorder.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Records\\TimeRecorder.cs",
+              "RelativeToolTip": "Records\\TimeRecorder.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:43:35.228Z",
               "EditorCaption": ""
@@ -62,26 +87,64 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "NumberBaseballDigits.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseballDigits.cs",
-              "RelativeDocumentMoniker": "NumberBaseballDigits.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseballDigits.cs",
-              "RelativeToolTip": "NumberBaseballDigits.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowB8AAAAdAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseball\\NumberBaseballDigits.cs",
+              "RelativeDocumentMoniker": "NumberBaseball\\NumberBaseballDigits.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseball\\NumberBaseballDigits.cs",
+              "RelativeToolTip": "NumberBaseball\\NumberBaseballDigits.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:25:52.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "NumberBaseBallDigits",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
+              "RelativeDocumentMoniker": "NumberBaseBallDigits.csproj",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
+              "RelativeToolTip": "NumberBaseBallDigits.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-27T01:42:16.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Output.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Output.cs",
+              "RelativeDocumentMoniker": "Diamond\\Output.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Output.cs",
+              "RelativeToolTip": "Diamond\\Output.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:55:40.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowC8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:24:49.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Input.cs",
+              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Input.cs",
+              "RelativeDocumentMoniker": "Diamond\\Input.cs",
+              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\Diamond\\Input.cs",
+              "RelativeToolTip": "Diamond\\Input.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:55:43.055Z",
               "EditorCaption": ""
             }
           ]
