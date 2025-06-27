@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class NumberBaseballDigits
-{
+{    
     public void StartGame()
     {
         Console.Clear();

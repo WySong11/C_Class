@@ -1,5 +1,7 @@
 ﻿using System;
 
+// 모든 함수가 변수가 static으로 선언된 Static 클래스를 사용하여
+// 시간 기록을 관리하는 TimeRecorder 클래스를 정의합니다.
 public static class TimeRecorder
 {
     // 델리게이트 정의
@@ -99,6 +101,9 @@ public static class TimeRecorder
         }
     }
 
+    // Static이 아니라 사용할 수 없는 변수
+    //public bool TestTimeSpan;
+
     public static void Start()
     {
         StartTime = DateTime.Now;
@@ -156,4 +161,10 @@ public static class TimeRecorder
     {
         return $"\n시작 시간 : {StartTimeString}\n종료 시간 : {EndTimeString}\n소요 시간 : {DurationTimeString}\n";
     }
+
+    // Static 메서드가 아니라서 인스턴스 메서드는 사용할 수 없다.
+    //public void SetCurrentTime(DateTime time)
+    //{
+    //    CurrentTime = time;
+    //}
 }

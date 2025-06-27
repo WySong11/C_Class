@@ -1,8 +1,16 @@
 ﻿using System;
 using static System.Console;
 
+// 일반 클래스 + static 메서드로 구성된 다이아몬드 출력 프로그램
+// 일부 함수는 static으로 변경하여 인스턴스 생성 없이 호출 가능
 public class Diamond
 {
+    // 인스턴스 변수로 선언된 bool 변수
+    public bool TestBool;
+
+    // static 메서드로 변경하여 인스턴스 생성 없이 호출 가능
+    public static bool TestStaticBool;
+
     public static void StartDiamond()
     {
         Clear();
@@ -62,5 +70,12 @@ public class Diamond
     {
         // 여기에 종료 시간 이벤트 리스너 로직을 추가하세요.
         Console.WriteLine($"\n다이아몬드 게임 종료 시간: {endtime}\n");
+    }
+
+    // Static 메서드가 아니라서 인스턴스를 생성해야 하는 경우
+    public void ClearGame()
+    {
+        TimeRecorder.RemoveStartTimeDelegate(StartTimeEventListner);
+        TimeRecorder.RemoveEndTimeDelegate(EndTimeEventListner);
     }
 }

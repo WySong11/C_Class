@@ -39,12 +39,17 @@ public class Program
 
     private static void StartNumberBaseballDigits()
     {
+        // NumberBaseballDigits 클래스의 인스턴스를 생성하고 StartGame 메서드를 호출합니다.
         NumberBaseballDigits numberBaseballDigits = new NumberBaseballDigits();
         numberBaseballDigits.StartGame();
     }
 
     private static void StartDiamond()
     {
+        // Static 클래스는 인스턴스를 생성하지 않고도 메서드를 호출할 수 있습니다.
         Diamond.StartDiamond();
+
+        // Static 메서드가 아니라서 인스턴스를 생성해야 하는 경우
+        //amond.ClearGame();
     }
 }
