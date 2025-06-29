@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.AssemblyInfo.cs
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.sourcelink.json
+D:\GitHub\C_Class\NumberbaseballStructure\bin\Debug\net8.0\NumberbaseballStructure.exe
+D:\GitHub\C_Class\NumberbaseballStructure\bin\Debug\net8.0\NumberbaseballStructure.deps.json
+D:\GitHub\C_Class\NumberbaseballStructure\bin\Debug\net8.0\NumberbaseballStructure.runtimeconfig.json
+D:\GitHub\C_Class\NumberbaseballStructure\bin\Debug\net8.0\NumberbaseballStructure.dll
+D:\GitHub\C_Class\NumberbaseballStructure\bin\Debug\net8.0\NumberbaseballStructure.pdb
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.dll
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\refint\NumberbaseballStructure.dll
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.pdb
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\NumberbaseballStructure.genruntimeconfig.cache
+D:\GitHub\C_Class\NumberbaseballStructure\obj\Debug\net8.0\ref\NumberbaseballStructure.dll
