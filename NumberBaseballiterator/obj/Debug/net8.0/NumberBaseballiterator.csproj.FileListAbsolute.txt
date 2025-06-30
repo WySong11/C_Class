@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\NumberBaseballiterator\bin\Debug\net8.0\NumberBaseballiterator.exe
+D:\GitHub\C_Class\NumberBaseballiterator\bin\Debug\net8.0\NumberBaseballiterator.deps.json
+D:\GitHub\C_Class\NumberBaseballiterator\bin\Debug\net8.0\NumberBaseballiterator.runtimeconfig.json
+D:\GitHub\C_Class\NumberBaseballiterator\bin\Debug\net8.0\NumberBaseballiterator.dll
+D:\GitHub\C_Class\NumberBaseballiterator\bin\Debug\net8.0\NumberBaseballiterator.pdb
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.AssemblyInfo.cs
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.sourcelink.json
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.dll
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\refint\NumberBaseballiterator.dll
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.pdb
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\NumberBaseballiterator.genruntimeconfig.cache
+D:\GitHub\C_Class\NumberBaseballiterator\obj\Debug\net8.0\ref\NumberBaseballiterator.dll
