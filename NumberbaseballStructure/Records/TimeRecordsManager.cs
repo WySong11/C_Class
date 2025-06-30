@@ -86,7 +86,6 @@ public class TimeRecordsManager
         }
     }
 
-
     // lock을 사용하여 멀티스레드 환경에서 안전하게 인스턴스를 생성
     // 
     public static TimeRecordsManager GetInstance()
@@ -136,7 +135,7 @@ public class TimeRecordsManager
             // 랭커 이름이 같으면 알파벳 순서 정렬
             // TimeRecord 클래스의 CompareTo 메서드를 사용하여 정렬
             // records 리스트가 최대 기록 수를 초과하는 경우, 기존 기록을 정렬하여 가장 낮은 기록을 제거
-            
+
             records.Sort((x, y) =>
             {
                 int playCountComparison = x.PlayCount.CompareTo(y.PlayCount);
@@ -151,12 +150,12 @@ public class TimeRecordsManager
                 }
                 return string.Compare(x.PlayerName, y.PlayerName, StringComparison.Ordinal); // 랭커 이름으로 정렬
             });
+        }
 
-            // 최대 기록 수를 초과하는 경우, 기존 기록을 정렬하여 가장 낮은 기록을 제거
-            if (records[records.Count - 1] >= new TimeRecord(playcount, record, ranker))
-            {
-                return; // 새로운 기록이 기존 기록보다 낮으면 추가하지 않음
-            }
+        // 최대 기록 수를 초과하는 경우, 가장 낮은 기록을 제거
+        if (records.Count > MAX_RECORDS)
+        {
+            records.RemoveAt(records.Count - 1); // 가장 낮은 기록 제거
         }
     }
 

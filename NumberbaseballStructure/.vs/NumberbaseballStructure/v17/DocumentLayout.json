@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\records\\timerecordsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:records\\timerecordsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\github\\c_class\\numberbaseballstructure\\numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\C_Class\\NumberbaseballStructure\\bin\\Debug\\net8.0\\Records\\records.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,25 +46,24 @@
               "RelativeToolTip": "bin\\Debug\\net8.0\\Records\\records.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-29T12:06:19.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:06:19.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NumberBaseballDigits.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\NumberBaseball\\NumberBaseballDigits.cs",
               "RelativeDocumentMoniker": "NumberBaseball\\NumberBaseballDigits.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\NumberBaseball\\NumberBaseballDigits.cs",
               "RelativeToolTip": "NumberBaseball\\NumberBaseballDigits.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowCoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T12:04:15.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TimeRecorder.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecorder.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecorder.cs",
@@ -77,26 +76,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TimeRecordsManager.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecordsManager.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecordsManager.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecordsManager.cs",
               "RelativeToolTip": "Records\\TimeRecordsManager.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAUwKcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwJ0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T11:15:20.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TimeRecord.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecord.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecord.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecord.cs",
               "RelativeToolTip": "Records\\TimeRecord.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwIkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwLAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T11:11:33.731Z",
               "EditorCaption": ""
@@ -111,8 +110,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:09:26.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T11:09:26.055Z"
             }
           ]
         }
