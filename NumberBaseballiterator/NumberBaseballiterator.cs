@@ -15,25 +15,43 @@ public class NumberBaseballiterator
 
         if (int.TryParse(input, out int digits) && digits >= 1 && digits <= 10)
         {
-            Console.WriteLine($"게임 시작! 자리수: {digits}");
-            // 게임 로직을 여기에 추가하세요.
+            Console.WriteLine($"\n게임 시작! 자리수: {digits}");
         }
         else
         {
             Console.WriteLine("잘못된 입력입니다. 1에서 10 사이의 숫자를 입력하세요.");
+            return;
         }
-        Console.WriteLine();
 
-        // 자리수 입력
-        int PlayCount = PlayGame(digits);
+        List<int> quest = new();
+        while (quest.Count < digits)
+        {
+            quest.Add(GetQuestNumber(quest));
+        }
 
+        Console.WriteLine("\n생성된 숫자: " + string.Join(", ", quest) + "\n");
+
+        // 이 코드는 PlayGame 메서드가 반환한 IEnumerator 객체를 순회합니다.
+        // PlayGame 메서드는 yield return 문을 사용한 이터레이터 블록입니다. 
+        // 즉, IEnumerator를 구현하는 상태 머신을 만들어 냅니다.
+        // MoveNext()가 호출될 때마다:
+        // 1. 다음 yield return 문까지 실행하고,
+        // 2. 반환값은 game.Current에 들어감
+        // 3. MoveNext()가 false를 반환하면 반복문 종료
+        // 4. game.Current는 마지막 yield return의 값을 반환
+        // 5. 이터레이터가 끝나면 PlayGame 메서드가 종료됨
+        // yield return $"축하합니다! 정답을 맞추셨습니다. 총 시도 횟수: {count}";
+        // 이 줄을 마지막으로 더 이상 yield return이 없기 때문에,
+        // 그 다음 MoveNext() 호출 시 false를 반환합니다.
+        IEnumerator game = PlayGame(digits, quest);
+        while (game.MoveNext())
+        {
+            Console.WriteLine(game.Current);
+        }
 
         Console.WriteLine("\n이름을 입력하세요 : ");
         string? PlayerName = Console.ReadLine();
-
-        // Null 체크 추가
         PlayerName = string.IsNullOrWhiteSpace(PlayerName) ? "Player" : PlayerName;
-
 
         Console.WriteLine("\n다시 하시겠습니까? (Y/N)");
         string? playAgain = Console.ReadLine()?.ToUpper();
@@ -47,21 +65,6 @@ public class NumberBaseballiterator
         }
     }
 
-    public int PlayGame(int InDigits)
-    {
-        List<int> Quest = new();
-
-        while (Quest.Count < InDigits)
-        {
-            Quest.Add(GetQuestNumber(Quest));
-        }
-
-        Console.WriteLine("생성된 숫자: " + string.Join(", ", Quest));
-        Console.WriteLine();
-
-        return InputAnswer(InDigits, Quest);
-    }
-
     public int GetQuestNumber(List<int> InQuest)
     {
         Random random = new();
@@ -73,30 +76,27 @@ public class NumberBaseballiterator
         return number;
     }
 
-    public int InputAnswer(int InDigits, List<int> InQuest)
+    public IEnumerator PlayGame(int InDigits, List<int> InQuest)
     {
         int count = 0;
         int strike = 0;
-        int ball = 0;
+
         while (strike < InDigits)
         {
             Console.WriteLine("숫자를 입력하세요: ");
             string? input = Console.ReadLine();
 
-            // 입력이 null이거나 길이가 InDigits가 아니거나 숫자가 아닌 경우
             if (input == null || input.Length != InDigits || !input.All(char.IsDigit))
             {
-                Console.WriteLine($"잘못된 입력입니다. {InDigits}자리 숫자를 입력하세요.");
-                Console.WriteLine();
+                yield return $"잘못된 입력입니다. {InDigits}자리 숫자를 입력하세요.\n";
                 continue;
             }
-            Console.WriteLine();
 
             strike = 0;
-            ball = 0;
+            int ball = 0;
+
             for (int i = 0; i < InDigits; i++)
             {
-                // 입력된 숫자를 정수로 변환하고 비교
                 int userNumber = int.Parse(input[i].ToString());
                 if (userNumber == InQuest[i])
                 {
@@ -107,13 +107,12 @@ public class NumberBaseballiterator
                     ball++;
                 }
             }
-            Console.WriteLine($"{strike} 스트라이크, {ball} 볼");
-            Console.WriteLine();
 
             count++;
+            yield return $"{strike} 스트라이크, {ball} 볼\n";
         }
-        Console.WriteLine("축하합니다! 정답을 맞추셨습니다.");
-        return count;
+
+        yield return $"축하합니다! 정답을 맞추셨습니다. 총 시도 횟수: {count}";
     }
 }
 

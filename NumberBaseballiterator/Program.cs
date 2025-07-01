@@ -4,6 +4,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        NumberBaseballiterator game = new NumberBaseballiterator();
+        game.StartGame();
     }
 }
