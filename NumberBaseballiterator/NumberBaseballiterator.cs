@@ -9,60 +9,83 @@ public class NumberBaseballiterator
 {
     public void StartGame()
     {
-        Console.Clear();
-        Console.WriteLine("숫자 야구 자리수 입력하세요 (1~10): ");
-        string? input = Console.ReadLine();
+        while (true)
+        {
+            Console.Clear();
+            int digits = PromptDigits();
 
-        if (int.TryParse(input, out int digits) && digits >= 1 && digits <= 10)
-        {
-            Console.WriteLine($"\n게임 시작! 자리수: {digits}");
+            List<int> quest = GenerateQuestNumbers(digits);
+
+            Console.WriteLine("\n생성된 숫자: " + string.Join(", ", quest) + "\n");
+
+            // 이 코드는 PlayGame 메서드가 반환한 IEnumerator 객체를 순회합니다.
+            // PlayGame 메서드는 yield return 문을 사용한 이터레이터 블록입니다. 
+            // 즉, IEnumerator를 구현하는 상태 머신을 만들어 냅니다.
+            // MoveNext()가 호출될 때마다:
+            // 1. 다음 yield return 문까지 실행하고,
+            // 2. 반환값은 game.Current에 들어감
+            // 3. MoveNext()가 false를 반환하면 반복문 종료
+            // 4. game.Current는 마지막 yield return의 값을 반환
+            // 5. 이터레이터가 끝나면 PlayGame 메서드가 종료됨
+            // yield return $"축하합니다! 정답을 맞추셨습니다. 총 시도 횟수: {count}";
+            // 이 줄을 마지막으로 더 이상 yield return이 없기 때문에,
+            // 그 다음 MoveNext() 호출 시 false를 반환합니다.
+
+            IEnumerator game = PlayGame(digits, quest);
+            while (game.MoveNext())
+            {
+                Console.WriteLine(game.Current);
+            }
+
+            string playerName = PromptPlayerName();
+
+            if (!PromptPlayAgain())
+            {
+                Console.WriteLine("게임을 종료합니다.");
+                break;
+            }
         }
-        else
+    }
+
+    private int PromptDigits()
+    {
+        while (true)
         {
+            Console.WriteLine("숫자 야구 자리수 입력하세요 (1~10): ");
+            string? input = Console.ReadLine();
+
+            if (int.TryParse(input, out int digits) && digits >= 1 && digits <= 10)
+            {
+                Console.WriteLine($"\n게임 시작! 자리수: {digits}");
+                return digits;
+            }
             Console.WriteLine("잘못된 입력입니다. 1에서 10 사이의 숫자를 입력하세요.");
-            return;
         }
+    }
 
+    private List<int> GenerateQuestNumbers(int digits)
+    {
         List<int> quest = new();
         while (quest.Count < digits)
         {
             quest.Add(GetQuestNumber(quest));
         }
+        return quest;
+    }
 
-        Console.WriteLine("\n생성된 숫자: " + string.Join(", ", quest) + "\n");
-
-        // 이 코드는 PlayGame 메서드가 반환한 IEnumerator 객체를 순회합니다.
-        // PlayGame 메서드는 yield return 문을 사용한 이터레이터 블록입니다. 
-        // 즉, IEnumerator를 구현하는 상태 머신을 만들어 냅니다.
-        // MoveNext()가 호출될 때마다:
-        // 1. 다음 yield return 문까지 실행하고,
-        // 2. 반환값은 game.Current에 들어감
-        // 3. MoveNext()가 false를 반환하면 반복문 종료
-        // 4. game.Current는 마지막 yield return의 값을 반환
-        // 5. 이터레이터가 끝나면 PlayGame 메서드가 종료됨
-        // yield return $"축하합니다! 정답을 맞추셨습니다. 총 시도 횟수: {count}";
-        // 이 줄을 마지막으로 더 이상 yield return이 없기 때문에,
-        // 그 다음 MoveNext() 호출 시 false를 반환합니다.
-        IEnumerator game = PlayGame(digits, quest);
-        while (game.MoveNext())
-        {
-            Console.WriteLine(game.Current);
-        }
-
+    private string PromptPlayerName()
+    {
         Console.WriteLine("\n이름을 입력하세요 : ");
-        string? PlayerName = Console.ReadLine();
-        PlayerName = string.IsNullOrWhiteSpace(PlayerName) ? "Player" : PlayerName;
+        string? playerName = Console.ReadLine();
+        playerName = string.IsNullOrWhiteSpace(playerName) ? "Player" : playerName;
+        return playerName;
+    }
 
+    private bool PromptPlayAgain()
+    {
         Console.WriteLine("\n다시 하시겠습니까? (Y/N)");
-        string? playAgain = Console.ReadLine()?.ToUpper();
-        if (playAgain == "Y")
-        {
-            StartGame();
-        }
-        else
-        {
-            Console.WriteLine("게임을 종료합니다.");
-        }
+        string? playAgain = Console.ReadLine()?.Trim().ToUpper();
+        return playAgain == "Y";
     }
 
     public int GetQuestNumber(List<int> InQuest)

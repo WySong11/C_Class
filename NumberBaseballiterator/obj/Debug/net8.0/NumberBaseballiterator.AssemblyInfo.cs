@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberBaseballiterator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cadc1e7bf8371924e7ed848724c0e65c883b2205")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8824d6e9c9bb276a99cb009973674b3505df61f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberBaseballiterator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberBaseballiterator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

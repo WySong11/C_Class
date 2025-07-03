@@ -136,7 +136,7 @@ public class TimeRecordsManager
             // TimeRecord 클래스의 CompareTo 메서드를 사용하여 정렬
             // records 리스트가 최대 기록 수를 초과하는 경우, 기존 기록을 정렬하여 가장 낮은 기록을 제거
 
-            records.Sort((x, y) =>
+/*            records.Sort((x, y) =>
             {
                 int playCountComparison = x.PlayCount.CompareTo(y.PlayCount);
                 if (playCountComparison != 0)
@@ -149,7 +149,9 @@ public class TimeRecordsManager
                     return recordComparison; // 기록 시간으로 정렬
                 }
                 return string.Compare(x.PlayerName, y.PlayerName, StringComparison.Ordinal); // 랭커 이름으로 정렬
-            });
+            });*/
+
+            records.Sort();
         }
 
         // 최대 기록 수를 초과하는 경우, 가장 낮은 기록을 제거

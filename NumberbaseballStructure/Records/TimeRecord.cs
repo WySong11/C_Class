@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 // 구조체는 값형식( Value Typoe ) : 스택에 저장되어 성능이 빠르고, 복사 시 값 자체가 복제됩니다.
 // 상속 불가
@@ -96,7 +97,10 @@ public struct TimeRecordStruct
     }
 }
 
-public class TimeRecord
+// IComparable<T> 인터페이스를 구현하여 객체를 비교할 수 있도록 합니다.
+// IEquatable<T> 인터페이스를 구현하여 객체의 동등성을 비교할 수 있도록 합니다.
+
+public class TimeRecord : IComparable<TimeRecord>, IEquatable<TimeRecord>
 {
     public string? PlayerName { get; set; }
     public int PlayCount { get; set; }
@@ -166,14 +170,45 @@ public class TimeRecord
 
     // IComparable 인터페이스를 구현하여 TimeRecord 객체를 비교할 수 있도록 합니다.
     // CompareTo 메서드는 현재 객체(this)와 다른 객체(other)를 비교하여 정렬 순서를 결정합니다.
-    public int CompareTo(TimeRecord other)
+    public int CompareTo(TimeRecord? other)
     {
-        if (this < other) return -1;
-        if (this > other) return 1;
-        return 0; // 같을 경우
+        // is null은 객체가 null인지를 명확하게 검사합니다.
+        // == null과 비슷하게 동작하지만, 연산자 오버로딩의 영향을 받지 않습니다.
+        // 즉, == null은 해당 타입에 == 연산자가 오버로딩되어 있으면 그 연산자가 호출될 수 있지만,
+        // is null은 항상 참조가 null인지만 검사합니다.
+
+        // null은 항상 뒤로 정렬
+        if (other is null) return 1;
+
+        int playCountComparison = PlayCount.CompareTo(other.PlayCount);
+        if (playCountComparison != 0)
+            return playCountComparison;
+
+        int playTimeComparison = PlayTime.CompareTo(other.PlayTime);
+        if (playTimeComparison != 0)
+            return playTimeComparison;
+
+        // null PlayerName은 항상 뒤로 정렬
+        if (PlayerName == null && other.PlayerName == null) return 0;
+        if (PlayerName == null) return 1;
+        if (other.PlayerName == null) return -1;
+
+        return string.Compare(PlayerName, other.PlayerName, StringComparison.Ordinal);
     }
 
-    // Equals 메서드를 오버라이드하여 TimeRecord 객체의 동등성을 비교합니다.    
+    // IEquatable<TimeRecord> 인터페이스의 구현입니다.
+    // 타입이 명확히 TimeRecord일 때 동등성 비교를 빠르고 타입 안전하게 수행합니다.
+    // 성능이 더 좋고, 불필요한 박싱(Boxing)이 없습니다.
+    // Equals 메서드는 TimeRecord 객체가 다른 TimeRecord 객체와 동일한지를 확인합니다.
+    public bool Equals(TimeRecord? other)
+    {
+        if(other is null) return false;
+        return this == other;
+    }
+
+    // 모든.NET 객체의 기본 메서드입니다. (Object에서 상속)
+    // 파라미터 타입이 object이므로, 어떤 타입이든 받을 수 있습니다.
+    // 컬렉션 등에서 타입이 명확하지 않을 때(예: object로 캐스팅된 경우) 사용됩니다.  
     // Equals()는 객체의 동등성을 비교하는 메서드로, 두 객체가 동일한 값을 가지는지 확인합니다.
     public override bool Equals(object? obj)
     {
