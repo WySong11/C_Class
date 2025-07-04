@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj",
         "projectName": "LoadCSV",
-        "projectPath": "D:\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\LoadCSV.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\C_Class\\LoadCSV\\obj\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

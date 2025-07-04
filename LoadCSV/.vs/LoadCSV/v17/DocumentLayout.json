@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\LoadCSV\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7A2FF89-19C1-40A7-97A7-9AA32A6A7034}|LoadCSV.csproj|d:\\github\\c_class\\loadcsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7A2FF89-19C1-40A7-97A7-9AA32A6A7034}|LoadCSV.csproj|d:\\dev\\github\\c_class\\loadcsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7A2FF89-19C1-40A7-97A7-9AA32A6A7034}|LoadCSV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev\\GitHub\\C_Class\\LoadCSV\\bin\\Debug\\net8.0\\test.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\test.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.csv",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\bin\\Debug\\net8.0\\test.csv",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\test.csv",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\bin\\Debug\\net8.0\\test.csv",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\test.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-07-04T13:37:23.199Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\LoadCSV\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\LoadCSV\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAawCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswAsBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T12:01:50.501Z",
               "EditorCaption": ""
