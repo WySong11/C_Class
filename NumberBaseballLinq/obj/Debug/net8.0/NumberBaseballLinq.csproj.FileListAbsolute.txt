@@ -1,0 +1,15 @@
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.AssemblyInfo.cs
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.sourcelink.json
+D:\GitHub\C_Class\NumberBaseballLinq\bin\Debug\net8.0\NumberBaseballLinq.exe
+D:\GitHub\C_Class\NumberBaseballLinq\bin\Debug\net8.0\NumberBaseballLinq.deps.json
+D:\GitHub\C_Class\NumberBaseballLinq\bin\Debug\net8.0\NumberBaseballLinq.runtimeconfig.json
+D:\GitHub\C_Class\NumberBaseballLinq\bin\Debug\net8.0\NumberBaseballLinq.dll
+D:\GitHub\C_Class\NumberBaseballLinq\bin\Debug\net8.0\NumberBaseballLinq.pdb
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.dll
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\refint\NumberBaseballLinq.dll
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.pdb
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\NumberBaseballLinq.genruntimeconfig.cache
+D:\GitHub\C_Class\NumberBaseballLinq\obj\Debug\net8.0\ref\NumberBaseballLinq.dll
