@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\github\\c_class\\numberbaseballlinq\\records\\timerecordsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\dev\\github\\c_class\\numberbaseballlinq\\records\\timerecordsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|solutionrelative:records\\timerecordsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\github\\c_class\\numberbaseballlinq\\records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\dev\\github\\c_class\\numberbaseballlinq\\records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|solutionrelative:records\\timerecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\github\\c_class\\numberbaseballlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\dev\\github\\c_class\\numberbaseballlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\github\\c_class\\numberbaseballlinq\\records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|d:\\dev\\github\\c_class\\numberbaseballlinq\\records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D363F53F-41B0-47B8-A0C2-295965E6C0D9}|NumberBaseballLinq.csproj|solutionrelative:records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TimeRecordsManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecordsManager.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecordsManager.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecordsManager.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecordsManager.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecordsManager.cs",
               "RelativeToolTip": "Records\\TimeRecordsManager.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwE4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwEIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T05:42:53.687Z",
               "EditorCaption": ""
@@ -45,40 +45,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TimeRecorder.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecorder.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecorder.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecorder.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecorder.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecorder.cs",
               "RelativeToolTip": "Records\\TimeRecorder.cs",
               "ViewState": "AgIAAJoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T05:42:46.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T05:42:46.979Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TimeRecord.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecord.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecord.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecord.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecord.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Records\\TimeRecord.cs",
               "RelativeToolTip": "Records\\TimeRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T05:41:57.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T05:41:57.076Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T05:17:36.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T05:17:36.598Z"
             }
           ]
         }

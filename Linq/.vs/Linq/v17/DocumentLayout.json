@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Linq\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\Linq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BF1EA40-6361-4A0D-A56D-8F8BF0887EBE}|Linq.csproj|d:\\github\\c_class\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BF1EA40-6361-4A0D-A56D-8F8BF0887EBE}|Linq.csproj|d:\\dev\\github\\c_class\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF1EA40-6361-4A0D-A56D-8F8BF0887EBE}|Linq.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Linq\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Linq\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Linq\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Linq\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T14:29:26.973Z",
               "EditorCaption": ""

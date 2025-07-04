@@ -51,9 +51,17 @@ public class TimeRecordsManager
         // records 리스트가 최대 기록 수를 초과하는 경우, 기존 기록을 정렬하여 가장 낮은 기록을 제거
 
         // Sort로 정렬
-        records.Sort( (x, y) => x.PlayCount == y.PlayCount ? x.PlayTime.CompareTo(y.PlayTime) : x.PlayCount.CompareTo(y.PlayCount) );
+        records.Sort( (x, y) => x.PlayCount == y.PlayCount ? ( x.PlayTime == y.PlayTime ? string.Compare(x.PlayerName, y.PlayerName) 
+        : x.PlayTime.CompareTo(y.PlayTime) ) : x.PlayCount.CompareTo(y.PlayCount) );
 
         // Linq를 사용하여 정렬
+        // Prderby를 사용하여 정렬
+        // ThenBy를 사용하여 추가 정렬
+        // 1. PlayCount 오름차순
+        // 2. PlayTime 오름차순
+        // 3. PlayerName 오름차순
+        // 4. 랭커 이름이 같으면 알파벳 순서 정렬
+
         records = records
             .OrderBy(r => r.PlayCount)
             .ThenBy(r => r.PlayTime)

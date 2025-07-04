@@ -11,6 +11,7 @@ using System.Collections.Generic; // List<T> 사용을 위해 추가
 // GroupBy() : 요소를 특정 키를 기준으로 그룹화합니다.
 // OrderBy() : 요소를 오름차순으로 정렬합니다.
 // OrderByDescending() : 요소를 내림차순으로 정렬합니다.
+// ThenBy() : 첫 번째 정렬 기준으로 정렬된 요소를 두 번째 기준으로 추가 정렬합니다.
 // Average() : 숫자 컬렉션의 평균을 계산합니다.
 // Count() : 컬렉션의 요소 개수를 계산합니다.
 // SelectMany() : 다중 컬렉션을 단일 컬렉션으로 평탄화합니다.

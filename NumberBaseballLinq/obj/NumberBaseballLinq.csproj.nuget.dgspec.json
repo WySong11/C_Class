@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj",
         "projectName": "NumberBaseballLinq",
-        "projectPath": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\NumberBaseballLinq.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\C_Class\\NumberBaseballLinq\\obj\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballLinq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
