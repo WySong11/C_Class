@@ -1,0 +1,14 @@
+D:\GitHub\C_Class\LoadCSV\bin\Debug\net8.0\LoadCSV.exe
+D:\GitHub\C_Class\LoadCSV\bin\Debug\net8.0\LoadCSV.deps.json
+D:\GitHub\C_Class\LoadCSV\bin\Debug\net8.0\LoadCSV.runtimeconfig.json
+D:\GitHub\C_Class\LoadCSV\bin\Debug\net8.0\LoadCSV.dll
+D:\GitHub\C_Class\LoadCSV\bin\Debug\net8.0\LoadCSV.pdb
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.AssemblyInfoInputs.cache
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.AssemblyInfo.cs
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.csproj.CoreCompileInputs.cache
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.dll
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\refint\LoadCSV.dll
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.pdb
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\LoadCSV.genruntimeconfig.cache
+D:\GitHub\C_Class\LoadCSV\obj\Debug\net8.0\ref\LoadCSV.dll
