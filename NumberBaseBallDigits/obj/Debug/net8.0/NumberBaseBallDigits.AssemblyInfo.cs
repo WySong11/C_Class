@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberBaseBallDigits")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f548ed9868ed5cb253f78640eed2896369b573")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e6e6937df5d19ac3e2b572a5f5c7dcd6f8ef608")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberBaseBallDigits")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberBaseBallDigits")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

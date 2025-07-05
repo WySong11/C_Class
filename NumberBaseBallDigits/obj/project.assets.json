@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\teras\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
+      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
       "projectName": "NumberBaseBallDigits",
-      "projectPath": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
-      "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\C_Class\\NumberBaseBallDigits\\obj\\",
+      "projectPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseBallDigits\\NumberBaseBallDigits.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseBallDigits\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
