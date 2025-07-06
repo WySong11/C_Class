@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameData.cs",
-              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\GameData.cs",
-              "RelativeDocumentMoniker": "GameData.cs",
-              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\GameData.cs",
-              "RelativeToolTip": "GameData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:30:23.874Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -55,8 +42,32 @@
               "RelativeToolTip": "CSVManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:06:19.961Z",
+              "WhenOpened": "2025-07-05T11:06:19.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwBsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T10:55:03.055Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\GameData.cs",
+              "RelativeDocumentMoniker": "GameData.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\GameData.cs",
+              "RelativeToolTip": "GameData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T11:30:23.874Z"
             },
             {
               "$type": "Document",
@@ -68,8 +79,7 @@
               "RelativeToolTip": "GameDataManager.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowDIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T00:31:13.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T00:31:13.685Z"
             },
             {
               "$type": "Document",
@@ -81,21 +91,7 @@
               "RelativeToolTip": "JSONManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:06:30.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T10:55:03.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T11:06:30.483Z"
             }
           ]
         }

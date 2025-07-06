@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\CSVtoJSON\bin\Release\net8.0\CSVtoJSON.exe
+D:\Dev\GitHub\C_Class\CSVtoJSON\bin\Release\net8.0\CSVtoJSON.deps.json
+D:\Dev\GitHub\C_Class\CSVtoJSON\bin\Release\net8.0\CSVtoJSON.runtimeconfig.json
+D:\Dev\GitHub\C_Class\CSVtoJSON\bin\Release\net8.0\CSVtoJSON.dll
+D:\Dev\GitHub\C_Class\CSVtoJSON\bin\Release\net8.0\CSVtoJSON.pdb
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.sourcelink.json
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.dll
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\refint\CSVtoJSON.dll
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.pdb
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\CSVtoJSON.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\CSVtoJSON\obj\Release\net8.0\ref\CSVtoJSON.dll
