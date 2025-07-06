@@ -1,4 +1,6 @@
-﻿
+﻿using System;
+using static System.Console;
+
 public class Program
 {
     static void Main(string[] args)
@@ -34,13 +36,13 @@ public class Program
         {
             // 플레이어 데이터를 JSON 파일에 저장합니다.
             GameDataManager.Instance.SaveSaveDataListToJSON();
-            Console.WriteLine("플레이어 데이터가 저장되었습니다.");
+            WriteLine("플레이어 데이터가 저장되었습니다.");
         }        
     }
 
     private static string PromptPlayerName()
     {
-        Console.WriteLine("\n이름을 입력하세요 : ");
+        WriteLine("\n이름을 입력하세요 : ");
         string? playerName = Console.ReadLine();
         playerName = string.IsNullOrWhiteSpace(playerName) ? "Player" : playerName;
         return playerName;
@@ -48,7 +50,7 @@ public class Program
 
     private static int PromptPlayerLevel()
     {
-        Console.WriteLine("\n레벨을 입력하세요 : ");
+        WriteLine("\n레벨을 입력하세요 : ");
         string? input = Console.ReadLine();
         if (int.TryParse(input, out int level) && level > 0)
         {
@@ -63,7 +65,7 @@ public class Program
 
     private static bool PromptYesNo(string message)
     {
-        Console.WriteLine(message + " (y/n): ");
+        WriteLine(message + " (y/n): ");
         string? input = Console.ReadLine()?.Trim().ToLower();
         return input == "y" || input == "yes";
     }
