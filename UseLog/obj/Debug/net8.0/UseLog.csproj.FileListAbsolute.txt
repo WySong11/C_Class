@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\UseLog\bin\Debug\net8.0\UseLog.exe
+D:\Dev\GitHub\C_Class\UseLog\bin\Debug\net8.0\UseLog.deps.json
+D:\Dev\GitHub\C_Class\UseLog\bin\Debug\net8.0\UseLog.runtimeconfig.json
+D:\Dev\GitHub\C_Class\UseLog\bin\Debug\net8.0\UseLog.dll
+D:\Dev\GitHub\C_Class\UseLog\bin\Debug\net8.0\UseLog.pdb
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.sourcelink.json
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.dll
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\refint\UseLog.dll
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.pdb
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\UseLog.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\UseLog\obj\Debug\net8.0\ref\UseLog.dll
