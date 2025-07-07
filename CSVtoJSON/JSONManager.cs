@@ -57,6 +57,13 @@ public sealed class JSONManager
     // Write<T>: 제네릭 타입으로 객체를 JSON 파일에 저장합니다.
     public void Write<T>(string filePath, T data, JsonSerializerOptions? options = null, Encoding? encoding = null)
     {
+        // 디렉토리가 존재하지 않으면 생성합니다.
+        string? dirPath = Path.GetDirectoryName(filePath);
+        if (dirPath != null && !Directory.Exists(dirPath))
+        {
+            Directory.CreateDirectory(dirPath);
+        }
+
         encoding ??= Encoding.UTF8;
         string json = JsonSerializer.Serialize(data, options);
         using var writer = new StreamWriter(filePath, false, encoding);

@@ -57,6 +57,13 @@ public sealed class CSVManager
     // CSV 파일 쓰기: 각 행을 string[]로 받아 파일에 저장, 구분자 지정 가능
     public void Write(string filePath, IEnumerable<string[]> rows, Encoding? encoding = null, char delimiter = ',')
     {
+        // 디렉토리가 존재하지 않으면 생성합니다.
+        string? dirPath = Path.GetDirectoryName(filePath);
+        if (dirPath != null && !Directory.Exists(dirPath))
+        {
+            Directory.CreateDirectory(dirPath);
+        }
+
         encoding ??= Encoding.UTF8;
 
         using var writer = new StreamWriter(filePath, false, encoding);
