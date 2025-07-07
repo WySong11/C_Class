@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\jsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:jsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\jsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:jsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:csvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|d:\\dev\\github\\c_class\\csvtojson\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5572A989-980A-4AD8-9524-34CB41324E82}|CSVtoJSON.csproj|solutionrelative:gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,36 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CSVManager.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\CSVManager.cs",
               "RelativeDocumentMoniker": "CSVManager.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\CSVManager.cs",
               "RelativeToolTip": "CSVManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:06:19.961Z"
+              "WhenOpened": "2025-07-05T11:06:19.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAYwBsAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T10:55:03.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameData.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\GameData.cs",
               "RelativeDocumentMoniker": "GameData.cs",
@@ -79,17 +80,18 @@
               "RelativeToolTip": "GameDataManager.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowDIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T00:31:13.685Z"
+              "WhenOpened": "2025-07-06T00:31:13.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "JSONManager.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\JSONManager.cs",
               "RelativeDocumentMoniker": "JSONManager.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSON\\JSONManager.cs",
               "RelativeToolTip": "JSONManager.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwEIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T11:06:30.483Z",
               "EditorCaption": ""

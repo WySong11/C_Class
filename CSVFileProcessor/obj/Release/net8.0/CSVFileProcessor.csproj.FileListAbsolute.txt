@@ -1,0 +1,12 @@
+D:\Dev\GitHub\C_Class\CSVFileProcessor\bin\Release\net8.0\CSVFileProcessor.deps.json
+D:\Dev\GitHub\C_Class\CSVFileProcessor\bin\Release\net8.0\CSVFileProcessor.dll
+D:\Dev\GitHub\C_Class\CSVFileProcessor\bin\Release\net8.0\CSVFileProcessor.pdb
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.sourcelink.json
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.dll
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\refint\CSVFileProcessor.dll
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\CSVFileProcessor.pdb
+D:\Dev\GitHub\C_Class\CSVFileProcessor\obj\Release\net8.0\ref\CSVFileProcessor.dll

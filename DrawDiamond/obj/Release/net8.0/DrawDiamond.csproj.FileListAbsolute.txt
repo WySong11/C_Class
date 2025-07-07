@@ -1,0 +1,12 @@
+D:\Dev\GitHub\C_Class\DrawDiamond\bin\Release\net8.0\DrawDiamond.deps.json
+D:\Dev\GitHub\C_Class\DrawDiamond\bin\Release\net8.0\DrawDiamond.dll
+D:\Dev\GitHub\C_Class\DrawDiamond\bin\Release\net8.0\DrawDiamond.pdb
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.sourcelink.json
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.dll
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\refint\DrawDiamond.dll
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\DrawDiamond.pdb
+D:\Dev\GitHub\C_Class\DrawDiamond\obj\Release\net8.0\ref\DrawDiamond.dll

@@ -1,0 +1,12 @@
+D:\Dev\GitHub\C_Class\JSONFileProcessor\bin\Release\net8.0\JSONFileProcessor.deps.json
+D:\Dev\GitHub\C_Class\JSONFileProcessor\bin\Release\net8.0\JSONFileProcessor.dll
+D:\Dev\GitHub\C_Class\JSONFileProcessor\bin\Release\net8.0\JSONFileProcessor.pdb
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.sourcelink.json
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.dll
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\refint\JSONFileProcessor.dll
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\JSONFileProcessor.pdb
+D:\Dev\GitHub\C_Class\JSONFileProcessor\obj\Release\net8.0\ref\JSONFileProcessor.dll
