@@ -25,16 +25,16 @@ namespace UseLog
             Trace.AutoFlush = true;
             Trace.WriteLine("파일로 저장되는 로그입니다. 1");
 
-
-            var writer = new StreamWriter("log.txt", append: true);
-            Trace.Listeners.Add(new TextWriterTraceListener(writer));
+            // 기존 로그에 추가됨.
+            var writer1 = new StreamWriter("log.txt", append: true);
+            Trace.Listeners.Add(new TextWriterTraceListener(writer1));
             Trace.AutoFlush = true;
             Trace.WriteLine("파일로 저장되는 로그입니다. 2");
 
 
             // 기존 로그를 덮어쓰려면 StreamWriter의 append를 false로 설정
-            var writer = new StreamWriter("log.txt", append: false);
-            Trace.Listeners.Add(new TextWriterTraceListener(writer));
+            var writer2 = new StreamWriter("log.txt", append: false);
+            Trace.Listeners.Add(new TextWriterTraceListener(writer2));
             Trace.AutoFlush = true;
             Trace.WriteLine("파일로 저장되는 로그입니다. 3");
         }
