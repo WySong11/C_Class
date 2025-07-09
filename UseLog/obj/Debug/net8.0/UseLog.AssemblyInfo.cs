@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UseLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ff29cd5a6c36a19e3aa1efe1c585fc03a05180")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0843cef7d9571e456e3da2457e2b655db4bd1409")]
 [assembly: System.Reflection.AssemblyProductAttribute("UseLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UseLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
