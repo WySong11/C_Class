@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballiterator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|d:\\dev\\github\\c_class\\numberbaseballiterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|d:\\dev\\github\\c_class\\numberbaseballiterator\\numberbaseballiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|solutionrelative:numberbaseballiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|d:\\dev\\github\\c_class\\numberbaseballiterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B0540A-AB98-46F9-9920-930A18ABEF50}|NumberBaseballiterator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NumberBaseballiterator.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballiterator\\NumberBaseballiterator.cs",
               "RelativeDocumentMoniker": "NumberBaseballiterator.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballiterator\\NumberBaseballiterator.cs",
               "RelativeToolTip": "NumberBaseballiterator.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAwwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T11:29:38.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberBaseballiterator\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

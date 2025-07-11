@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\github\\c_class\\binarytreetraversal\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\dev\\github\\c_class\\binarytreetraversal\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|solutionrelative:binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\github\\c_class\\binarytreetraversal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\dev\\github\\c_class\\binarytreetraversal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\github\\c_class\\binarytreetraversal\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|d:\\dev\\github\\c_class\\binarytreetraversal\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{345FCF1E-73AE-4BA5-9F8E-72CCDC61C7AE}|BinaryTreeTraversal.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,19 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Node.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\Node.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\Node.cs",
               "RelativeDocumentMoniker": "Node.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\Node.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\Node.cs",
               "RelativeToolTip": "Node.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BinaryTree.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\BinaryTree.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\BinaryTree.cs",
               "RelativeDocumentMoniker": "BinaryTree.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\BinaryTree.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\BinaryTree.cs",
               "RelativeToolTip": "BinaryTree.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswBgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T11:59:28.52Z",
               "EditorCaption": ""
@@ -57,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\BinaryTreeTraversal\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\BinaryTreeTraversal\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwBoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

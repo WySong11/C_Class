@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinaryTreeTraversal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+918b85d8734d97d8ade6964d7c51ba656a585efc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edfed0fd2c8d8a4222dcf3bc18d2fb9d71ae2d31")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinaryTreeTraversal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinaryTreeTraversal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:numberbaseball\\numberbaseballdigits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\dev\\github\\c_class\\numberbaseballstructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\dev\\github\\c_class\\numberbaseballstructure\\records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:records\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\bin\\Debug\\net8.0\\Records\\records.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\Records\\records.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|d:\\dev\\github\\c_class\\numberbaseballstructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3CF370-B79E-42F2-BE24-504E005982E3}|NumberbaseballStructure.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,14 +44,14 @@
               "RelativeDocumentMoniker": "NumberBaseball\\NumberBaseballDigits.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\NumberBaseball\\NumberBaseballDigits.cs",
               "RelativeToolTip": "NumberBaseball\\NumberBaseballDigits.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAA/wHMAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwHMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T12:04:15.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "records.json",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\bin\\Debug\\net8.0\\Records\\records.json",
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\Records\\records.json",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TimeRecorder.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecorder.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecorder.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TimeRecordsManager.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecordsManager.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecordsManager.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TimeRecord.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\Records\\TimeRecord.cs",
               "RelativeDocumentMoniker": "Records\\TimeRecord.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\NumberbaseballStructure\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -108,7 +108,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:09:26.055Z"
+              "WhenOpened": "2025-06-28T11:09:26.055Z",
+              "EditorCaption": ""
             }
           ]
         }

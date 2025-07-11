@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberBaseballLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd359c0c8abad435338197b56800822bb954ca42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edfed0fd2c8d8a4222dcf3bc18d2fb9d71ae2d31")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberBaseballLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberBaseballLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
