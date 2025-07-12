@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\CSVtoJSONuseDLL.csproj",
-      "projectName": "CSVtoJSONuseDLL",
-      "projectPath": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\CSVtoJSONuseDLL.csproj",
+      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\WordGame\\WordGame.csproj",
+      "projectName": "WordGame",
+      "projectPath": "D:\\Dev\\GitHub\\C_Class\\WordGame\\WordGame.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\obj\\",
+      "outputPath": "D:\\Dev\\GitHub\\C_Class\\WordGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

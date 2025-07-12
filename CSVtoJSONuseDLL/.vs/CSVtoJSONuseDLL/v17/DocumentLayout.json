@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|d:\\dev\\github\\c_class\\csvtojsonusedll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|d:\\dev\\github\\c_class\\csvtojsonusedll\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|solutionrelative:gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|d:\\dev\\github\\c_class\\csvtojsonusedll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1743C1-CCCA-4A1B-8950-4C9C21A0AEF3}|CSVtoJSONuseDLL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameDataManager.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\GameDataManager.cs",
               "RelativeDocumentMoniker": "GameDataManager.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\GameDataManager.cs",
               "RelativeToolTip": "GameDataManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T13:40:02.575Z"
+              "WhenOpened": "2025-07-07T13:40:02.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\CSVtoJSONuseDLL\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T13:37:23.888Z",
               "EditorCaption": ""
