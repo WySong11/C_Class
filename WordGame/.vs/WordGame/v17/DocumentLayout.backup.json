@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|solutionrelative:wordgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|d:\\dev\\github\\c_class\\wordgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|d:\\dev\\github\\c_class\\wordgame\\gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|solutionrelative:gamedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|d:\\dev\\github\\c_class\\wordgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CC0B07E-A985-4A98-ABEB-24BC72A31F7F}|WordGame.csproj|d:\\dev\\github\\c_class\\wordgame\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "WordGame.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\WordGame\\WordGame.cs*",
               "RelativeToolTip": "WordGame.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAtwGMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T14:10:16.155Z",
               "EditorCaption": ""
@@ -49,32 +49,33 @@
               "RelativeDocumentMoniker": "GameData.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\WordGame\\GameData.cs",
               "RelativeToolTip": "GameData.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswBkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwCwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T12:32:13.886Z"
+              "WhenOpened": "2025-07-12T12:32:13.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameDataManager.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\WordGame\\GameDataManager.cs",
               "RelativeDocumentMoniker": "GameDataManager.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\WordGame\\GameDataManager.cs",
               "RelativeToolTip": "GameDataManager.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAhwF4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T12:31:34.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\WordGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\WordGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T12:24:41.646Z",
               "EditorCaption": ""

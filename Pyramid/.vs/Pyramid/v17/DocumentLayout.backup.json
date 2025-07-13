@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Pyramid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAywBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:46:24.6Z",
               "EditorCaption": ""
@@ -91,18 +91,17 @@
               "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:45:31.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T07:45:31.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Pyramid.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeToolTip": "Pyramid\\Pyramid.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:39:43.864Z",
               "EditorCaption": ""
@@ -121,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestInterface.cs",
               "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeDocumentMoniker": "Test\\TestInterface.cs",
@@ -129,8 +128,7 @@
               "RelativeToolTip": "Test\\TestInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:19:26.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T15:19:26.555Z"
             }
           ]
         },
@@ -146,7 +144,7 @@
               "RelativeDocumentMoniker": "Test\\TestDelegate.cs",
               "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
               "RelativeToolTip": "Test\\TestDelegate.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAmwH0AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T15:17:36.842Z",
               "EditorCaption": ""

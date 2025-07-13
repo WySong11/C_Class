@@ -50,7 +50,7 @@ public class GameDataManager
         string? dirPath = AppDomain.CurrentDomain.BaseDirectory;
 
         var rows = _csvManager.Read(dirPath + filePath, null, ',');
-        var gameDataList = new List<GameData>();
+        _gameDataList.Clear(); // 기존 데이터를 초기화합니다.
 
         // 첫 번째 행은 헤더이므로 건너뜁니다.
         for (int i = 1; i < rows.Count; i++)
@@ -58,14 +58,14 @@ public class GameDataManager
             var row = rows[i];
             if (row.Length >= 4)
             {
-                gameDataList.Add(new GameData
+                _gameDataList.Add(new GameData
                 {
                     Word = row[0],
                     Hints = new List<string> { row[1], row[2], row[3] },
                 });
             }
         }
-        return gameDataList;
+        return _gameDataList;
     }
 
     // JSON 파일에서 게임 데이터를 저장하는 메서드

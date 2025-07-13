@@ -26,6 +26,7 @@ public class WordGame
         int HP = GameDataManager.Instance.GetMaxHP();
 
         ShowHint(HindCount++, gamedata);
+        ShowHp(HP);
 
         while (HP > 0)
         {
@@ -56,9 +57,17 @@ public class WordGame
             // 힌트라는 단어가 입력되면 힌트 기능을 실행합니다.
             if (word.Equals("힌트", StringComparison.OrdinalIgnoreCase))
             {
-                ShowHint(HindCount++, gamedata);
-                HP -= 2;
-                continue;
+                if( ShowHint(HindCount++, gamedata) )
+                {
+                     HP -= 2; // 힌트를 사용하면 HP가 2 감소합니다.
+                    ShowHp(HP);
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("\n힌트를 더 이상 사용할 수 없습니다.\n");
+                    continue;
+                }
             }
 
             if (word.Equals(Answer, StringComparison.OrdinalIgnoreCase))
@@ -67,6 +76,7 @@ public class WordGame
             }
 
             HP--;
+            ShowHp(HP);
         }
 
         if (HP <= 0)
@@ -81,8 +91,9 @@ public class WordGame
             string playerName = PromptPlayerName();
 
             // 게임을 종료하고 결과를 저장합니다.
-            SaveData saveData = new SaveData(playerName, GameDataManager.Instance.GetMaxHP() - HP, Answer);
+            SaveData saveData = new SaveData(playerName, HP, Answer);
             GameDataManager.Instance.AddSaveData(saveData);
+            GameDataManager.Instance.PrintGameDataList();
         }
 
         Console.WriteLine("\n게임을 계속하시겠습니까? (y/n)");
@@ -90,6 +101,7 @@ public class WordGame
         if (continueGame?.ToLower() == "y")
         {
             // 게임을 다시 시작합니다.
+            Console.Clear();
             StartGame();
         }
     }
@@ -109,20 +121,30 @@ public class WordGame
         return string.IsNullOrWhiteSpace(word) ? "default" : word;
     }
 
-    private void ShowHint(int hintCount, GameData gameData)
+    private bool ShowHint(int hintCount, GameData gameData)
     {
         if (gameData.Hints == null )
         {
             Console.WriteLine("\n힌트가 없습니다.\n");
-            return;
+            return false;
         }
 
         if ( hintCount >= gameData.Hints.Count)
         {
             Console.WriteLine("\n모든 힌트를 사용했습니다.\n");
-            return;
+            return false;
         }
 
         Console.WriteLine($"\n힌트 {hintCount + 1}: {gameData.Hints[hintCount]}\n");
+        return true;
+    }
+
+    private void ShowHp(int hp)
+    {
+        Console.WriteLine($"남은 HP: {new string('*', hp)}");
+        if (hp <= 0)
+        {
+            Console.WriteLine("HP가 모두 소진되었습니다.");
+        }
     }
 }
