@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestThread\bin\Debug\net8.0\TestThread.exe
+D:\Dev\GitHub\C_Class\TestThread\bin\Debug\net8.0\TestThread.deps.json
+D:\Dev\GitHub\C_Class\TestThread\bin\Debug\net8.0\TestThread.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestThread\bin\Debug\net8.0\TestThread.dll
+D:\Dev\GitHub\C_Class\TestThread\bin\Debug\net8.0\TestThread.pdb
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.sourcelink.json
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.dll
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\refint\TestThread.dll
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.pdb
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\TestThread.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestThread\obj\Debug\net8.0\ref\TestThread.dll
