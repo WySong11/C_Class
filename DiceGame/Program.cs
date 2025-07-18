@@ -7,7 +7,7 @@ namespace DiceGame
         static void Main(string[] args)
         {
             DiceGame diceGame = new DiceGame();
-            diceGame.StartGameAsync();
+            diceGame.StartGame();
         }
     }
 }

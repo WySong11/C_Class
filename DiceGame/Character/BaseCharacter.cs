@@ -82,7 +82,7 @@ namespace DiceGame.Character
             // 예시로, 레벨에 따라 공격력과 체력을 증가시키는 간단한 로직을 추가합니다.
             Health += level * 10; // 레벨당 체력 10 증가
             AttackPower += level * 5; // 레벨당 공격력 2 증가
-            AttackSpeed += level * 200; // 레벨당 공격 속도 5 감소 (더 느리게 공격)
+            AttackSpeed += level * 300; // 레벨당 공격 속도 300 감소 (더 느리게 공격)
             
             Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
         }

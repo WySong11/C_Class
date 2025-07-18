@@ -14,7 +14,7 @@ namespace DiceGame.Character
         /// <summary>
         /// 기본 생성자. 이름, 체력, 공격력을 기본값으로 초기화
         /// </summary>
-        public EnemyCharacter() : base("Enemy", 100, 10, 1000)
+        public EnemyCharacter() : base("Enemy", 100, 7, 1000)
         {   
         }
 

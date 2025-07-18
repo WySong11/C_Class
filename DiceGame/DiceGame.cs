@@ -127,7 +127,7 @@ namespace DiceGame
                 else
                 {
                     // 한 번의 라운드마다 약간의 텀을 둠 (가독성)
-                    Thread.Sleep(300);
+                    Thread.Sleep(100);
                 }
             }
 
@@ -157,6 +157,9 @@ namespace DiceGame
             _playerCharacter.SetLevelData(PromptLevel("Enter your character's level (1-10): "));
             _enemyCharacter.SetLevelData(PromptLevel("Enter the enemy's level (1-10): "));
 
+            int playerHealth = _playerCharacter?.Health ?? 0;
+            int enemyHealth = _enemyCharacter?.Health ?? 0;
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\n{_playerCharacter.Name} vs {_enemyCharacter.Name}");
             Console.WriteLine($"\n{_playerCharacter.Name} Health: {_playerCharacter.Health}, Attack Power: {_playerCharacter.AttackPower}, Attack Speed: {_playerCharacter.AttackSpeed}ms");
@@ -176,11 +179,17 @@ namespace DiceGame
             {
                 lock (_lock)
                 {
-                    // 상태 출력
-                    Console.ForegroundColor = ConsoleColor.Green;                    
-                    Console.WriteLine($"\n{_playerCharacter.Name} -> {_playerCharacter.Health} vs {_enemyCharacter.Health} <- {_enemyCharacter.Name}");
+                    // 상태가 변경되었는지 확인
+                    if (playerHealth != _playerCharacter?.Health || enemyHealth != _enemyCharacter?.Health)
+                    {
+                        playerHealth = _playerCharacter?.Health ?? 0;
+                        enemyHealth = _enemyCharacter?.Health ?? 0;
+                        // 상태 출력
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"\n{_playerCharacter.Name} -> {_playerCharacter.Health} vs {_enemyCharacter.Health} <- {_enemyCharacter.Name}");
+                    }
                 }
-                Thread.Sleep(500);
+                Thread.Sleep(100);
             }
 
             // 두 스레드가 모두 종료될 때까지 대기
@@ -265,7 +274,7 @@ namespace DiceGame
 
             _playerCharacter.SetLevelData(PromptLevel("Enter your character's level (1-10): "));
             _enemyCharacter.SetLevelData(PromptLevel("Enter the enemy's level (1-10): "));
-            
+
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\n{_playerCharacter.Name} vs {_enemyCharacter.Name}");
             Console.WriteLine($"\n{_playerCharacter.Name} Health: {_playerCharacter.Health}, Attack Power: {_playerCharacter.AttackPower}, Attack Speed: {_playerCharacter.AttackSpeed}ms");
@@ -277,16 +286,25 @@ namespace DiceGame
             var playerTask = PlayerAttackLoopAsync();
             var enemyTask = EnemyAttackLoopAsync();
 
+            int playerHealth = _playerCharacter?.Health ?? 0;
+            int enemyHealth = _enemyCharacter?.Health ?? 0;
+
             // 상태 출력 루프 (메인 스레드)
             while (!_gameOver)
             {
                 lock (_lock)
                 {
-                    // 상태 출력
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"\n{_playerCharacter.Name} -> {_playerCharacter.Health} vs {_enemyCharacter.Health} <- {_enemyCharacter.Name}");
+                    // 상태가 변경되었는지 확인
+                    if (playerHealth != _playerCharacter?.Health || enemyHealth != _enemyCharacter?.Health)
+                    {
+                        playerHealth = _playerCharacter?.Health ?? 0;
+                        enemyHealth = _enemyCharacter?.Health ?? 0;
+                        // 상태 출력
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"\n{_playerCharacter.Name} -> {_playerCharacter.Health} vs {_enemyCharacter.Health} <- {_enemyCharacter.Name}");
+                    }
                 }
-                Thread.Sleep(500);
+                Thread.Sleep(100);
             }
 
             // 두 Task가 모두 끝날 때까지 대기
