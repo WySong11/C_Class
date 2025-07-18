@@ -71,8 +71,9 @@ namespace DiceGame
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine();
 
-                    _enemyCharacter.TakeDamage(_playerCharacter.AttackPower);
-                    Console.WriteLine($"{_playerCharacter.Name} attacks {_enemyCharacter.Name} for {_playerCharacter.AttackPower} damage!");
+                    int attackPower = _playerCharacter?.GetAttackPower() ?? 0;
+                    _enemyCharacter.TakeDamage(attackPower);
+                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter.Name} for {attackPower} damage!");
                     playerNextAttack = now.AddMilliseconds(_playerCharacter.AttackSpeed);
                     playerAttacked = true;
 
@@ -93,8 +94,9 @@ namespace DiceGame
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine();
 
-                    _playerCharacter.TakeDamage(_enemyCharacter.AttackPower);
-                    Console.WriteLine($"{_enemyCharacter.Name} attacks {_playerCharacter.Name} for {_enemyCharacter.AttackPower} damage!");
+                    int attackPower = _enemyCharacter?.GetAttackPower() ?? 0;
+                    _playerCharacter.TakeDamage(attackPower);
+                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter.Name} for {attackPower} damage!");
                     enemyNextAttack = now.AddMilliseconds(_enemyCharacter.AttackSpeed);
                     enemyAttacked = true;
 
@@ -206,10 +208,13 @@ namespace DiceGame
                 lock (_lock)
                 {
                     if (_gameOver) return;
+
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    _enemyCharacter?.TakeDamage(_playerCharacter?.AttackPower ?? 0);
-                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter?.Name} for {_playerCharacter?.AttackPower} damage!");
+
+                    int attackPower = _playerCharacter?.GetAttackPower() ?? 0;
+                    _enemyCharacter?.TakeDamage(attackPower);
+                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter?.Name} for {attackPower} damage!");
                     if (_enemyCharacter != null && _enemyCharacter.Health <= 0)
                     {
                         Console.WriteLine($"\n{_enemyCharacter.Name} has been defeated!\n");
@@ -230,10 +235,13 @@ namespace DiceGame
                 lock (_lock)
                 {
                     if (_gameOver) return;
+
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    _playerCharacter?.TakeDamage(_enemyCharacter?.AttackPower ?? 0);
-                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter?.Name} for {_enemyCharacter?.AttackPower} damage!");
+
+                    int attackPower = _enemyCharacter?.GetAttackPower() ?? 0;
+                    _playerCharacter?.TakeDamage(attackPower);
+                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter?.Name} for {attackPower} damage!");
                     if (_playerCharacter != null && _playerCharacter.Health <= 0)
                     {
                         Console.WriteLine($"\n{_playerCharacter.Name} has been defeated!\n");
@@ -305,10 +313,13 @@ namespace DiceGame
                 lock (_lock)
                 {
                     if (_gameOver) return;
+
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    _enemyCharacter?.TakeDamage(_playerCharacter?.AttackPower ?? 0);
-                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter?.Name} for {_playerCharacter?.AttackPower} damage!");
+
+                    int attackPower = _playerCharacter?.GetAttackPower() ?? 0;
+                    _enemyCharacter?.TakeDamage(attackPower);
+                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter?.Name} for {attackPower} damage!");
                     if (_enemyCharacter != null && _enemyCharacter.Health <= 0)
                     {
                         Console.WriteLine($"\n{_enemyCharacter.Name} has been defeated!\n");
@@ -329,10 +340,13 @@ namespace DiceGame
                 lock (_lock)
                 {
                     if (_gameOver) return;
+
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    _playerCharacter?.TakeDamage(_enemyCharacter?.AttackPower ?? 0);
-                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter?.Name} for {_enemyCharacter?.AttackPower} damage!");
+
+                    int attackPower = _enemyCharacter?.GetAttackPower() ?? 0;
+                    _playerCharacter?.TakeDamage(attackPower);
+                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter?.Name} for {attackPower} damage!");
                     if (_playerCharacter != null && _playerCharacter.Health <= 0)
                     {
                         Console.WriteLine($"\n{_playerCharacter.Name} has been defeated!\n");
