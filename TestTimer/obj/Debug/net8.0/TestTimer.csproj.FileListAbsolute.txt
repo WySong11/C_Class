@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestTimer\bin\Debug\net8.0\TestTimer.exe
+D:\Dev\GitHub\C_Class\TestTimer\bin\Debug\net8.0\TestTimer.deps.json
+D:\Dev\GitHub\C_Class\TestTimer\bin\Debug\net8.0\TestTimer.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestTimer\bin\Debug\net8.0\TestTimer.dll
+D:\Dev\GitHub\C_Class\TestTimer\bin\Debug\net8.0\TestTimer.pdb
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.sourcelink.json
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.dll
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\refint\TestTimer.dll
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.pdb
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\TestTimer.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestTimer\obj\Debug\net8.0\ref\TestTimer.dll
