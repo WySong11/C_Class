@@ -14,7 +14,7 @@ namespace DiceGame.Character
         /// <summary>
         /// 기본 생성자. 이름, 체력, 공격력을 기본값으로 초기화
         /// </summary>
-        public EnemyCharacter() : base("Enemy", 100, 10)
+        public EnemyCharacter() : base("Enemy", 100, 10, 1000)
         {   
         }
 
@@ -31,7 +31,8 @@ namespace DiceGame.Character
         /// <param name="name">적 이름</param>
         /// <param name="health">초기 체력</param>
         /// <param name="attackPower">초기 공격력</param>
-        public EnemyCharacter(string name, int health, int attackPower) : base(name, health, attackPower)
+        /// <param name="attackSpeed">초기 공격 속도 (밀리초 단위)</param>"
+        public EnemyCharacter(string name, int health, int attackPower, double attackSpeed) : base(name, health, attackPower, attackSpeed)
         {
         }
 

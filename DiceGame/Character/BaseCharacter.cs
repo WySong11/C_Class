@@ -39,13 +39,19 @@ namespace DiceGame.Character
         public int AttackPower { get; set; }
 
         /// <summary>
+        /// 캐 릭터의 공격 속도 (밀리초 단위)
+        /// </summary>
+        public double AttackSpeed { get; set; }
+
+        /// <summary>
         /// 기본 생성자. 속성을 기본값으로 초기화
         /// </summary>
         public BaseCharacter()
         {
             Name = string.Empty;
-            Health = 0;
-            AttackPower = 0;
+            Health = 10;
+            AttackPower = 10;
+            AttackSpeed = 100;
         }
 
         /// <summary>
@@ -61,11 +67,24 @@ namespace DiceGame.Character
         /// <param name="name">캐릭터 이름</param>
         /// <param name="health">초기 체력</param>
         /// <param name="attackPower">초기 공격력</param>
-        public BaseCharacter(string name, int health, int attackPower)
+        /// <param name="attackSpeed">초기 공격 속도 (밀리초 단위)</param>
+        public BaseCharacter(string name, int health, int attackPower, double attackSpeed)
         {
             Name = name;
             Health = health;
             AttackPower = attackPower;
+            AttackSpeed = attackSpeed;
+        }
+
+        public void SetLevelData(int level)
+        {
+            // 레벨에 따라 캐릭터의 속성을 설정하는 로직을 구현할 수 있습니다.
+            // 예시로, 레벨에 따라 공격력과 체력을 증가시키는 간단한 로직을 추가합니다.
+            Health += level * 10; // 레벨당 체력 10 증가
+            AttackPower += level * 5; // 레벨당 공격력 2 증가
+            AttackSpeed += level * 50; // 레벨당 공격 속도 5 감소 (더 느리게 공격)
+            
+            Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
         }
 
         /// <summary>
@@ -85,7 +104,7 @@ namespace DiceGame.Character
         /// <param name="target">공격 대상 캐릭터</param>
         public void Attack(BaseCharacter target)
         {
-            target.Health -= AttackPower;
+            target.TakeDamage(AttackPower);
             Console.WriteLine($"{Name} attacks {target.Name} for {AttackPower} damage!");
         }
 
@@ -96,6 +115,11 @@ namespace DiceGame.Character
         public bool IsAlive()
         {
             return Health > 0;
+        }
+
+        public int GetAttackPower()
+        {
+            return Random.Shared.Next(AttackPower - 5, AttackPower + 5); // 공격력에 약간의 변동을 줌
         }
     }
 }
