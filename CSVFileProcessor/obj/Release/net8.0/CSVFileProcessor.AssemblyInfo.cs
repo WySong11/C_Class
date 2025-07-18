@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSVFileProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be1a3968286540094d91d99777c52c8d489ef4eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5a8608cb5e433df38a84910527f9666793a3a75")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSVFileProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSVFileProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
