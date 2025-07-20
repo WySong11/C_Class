@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace DiceGameUseTimer
 {
+    // EventArgs는 C#에서 이벤트를 처리할 때 사용하는 기본 클래스
+    // 이벤트 발생 시 전달할 추가 정보를 담는 클래스를 상속받아 사용
+    // 이벤트 핸들러 메서드에서 EventArgs를 통해 이벤트 발생 정보를 전달할 수 있음
+    // 예를 들어, 공격 이벤트 발생 시 공격자, 대상, 데미지 정보를 담는 클래스를 정의할 수 있음
+
     /// <summary>
     /// 공격 이벤트 발생 시 전달되는 정보(공격자, 대상, 데미지)를 담는 클래스
     /// </summary>
@@ -27,6 +32,9 @@ namespace DiceGameUseTimer
         /// <summary>
         /// 생성자: 공격자ID, 대상ID, 데미지 전달
         /// </summary>
+        /// <param name="attackerID">공격자 ID</param>
+        /// <param name="targetID">공격 대상 ID</param>
+        /// <param name="damage">공격 데미지</param>
         public AttackEventArgs(int attackerID, int targetID, int damage)
         {
             Damage = damage;
@@ -51,6 +59,8 @@ namespace DiceGameUseTimer
         /// <summary>
         /// 생성자: 캐릭터ID, 체력 전달
         /// </summary>
+        /// <param name="characterID">체력이 변한 캐릭터의 ID</param>
+        /// <param name="health">변경된 체력 값</param>
         public HealthChangedEventArgs(int characterID, int health)
         {
             Health = health;
@@ -74,14 +84,16 @@ namespace DiceGameUseTimer
         private bool _gameOver = false;
 
         /// <summary>
-        /// 게임을 시작하고, 캐릭터 생성, 이벤트 등록, 전투를 진행하는 메서드
+        /// 게임을 시작하고, 캐릭터 생성, 이벤트 등록, 전투를 진행하는 비동기 메서드
         /// </summary>
-        public void StartGameEvent()
+        public async Task StartGameEventAsync()
         {
             Console.Clear();
             _gameOver = false;
+            _characters.Clear();
 
-            _characters.Clear(); // 기존 캐릭터 목록 초기화            
+            // TaskCompletionSource를 통해 게임 종료까지 비동기 대기
+            var tcs = new TaskCompletionSource();
 
             // 플레이어와 적 캐릭터 생성 및 초기화
             PlayerCharacter _playerCharacter = new PlayerCharacter();
@@ -105,6 +117,7 @@ namespace DiceGameUseTimer
                 // 공격 이벤트 핸들러 등록
                 character.AddOnAttackEvent(attackEvent =>
                 {
+                    // 게임이 종료되지 않은 경우에만 처리
                     if (!_gameOver)
                     {
                         // 공격자와 대상 캐릭터를 ID로 찾음
@@ -117,7 +130,6 @@ namespace DiceGameUseTimer
                                 Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Attacker not found for ID {target.ID}");
                                 return;
                             }
-
                             Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {attecker.Name} attacks {target.Name} ({attackEvent.Damage})");
                             // 대상에게 데미지 적용
                             target.TakeDamage(attackEvent.Damage);
@@ -128,8 +140,10 @@ namespace DiceGameUseTimer
                 // 체력 변화 이벤트 핸들러 등록
                 character.AddOnHealthChangedEvent(healthEvent =>
                 {
+                    // 게임이 종료되지 않은 경우에만 처리
                     if (!_gameOver)
                     {
+                        // 체력이 변한 캐릭터를 ID로 찾음
                         var target = _characters.Find(c => c.ID == healthEvent.CharacterID);
 
                         if (target == null)
@@ -140,6 +154,7 @@ namespace DiceGameUseTimer
 
                         Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {target.Name} HealthChanged {healthEvent.Health}");
 
+                        // 체력 변화 정보 출력
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"\n{target.Name} -> {target.Health}");
                         Console.WriteLine(new string('-', 50));
@@ -149,7 +164,8 @@ namespace DiceGameUseTimer
                         {
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine($"\n{target?.Name} 죽었습니다!\n");
-                            EndGame();
+                            EndGame();         // 게임 종료 처리
+                            tcs.TrySetResult(); // TaskCompletionSource로 대기 중인 Task 완료
                         }
                     }
                 });
@@ -170,18 +186,16 @@ namespace DiceGameUseTimer
                 character.StartAutoAttackTimer();
             }
 
-            // 게임이 끝날 때까지 대기 (busy-wait, 개선 필요)
-            while (_gameOver == false)
-            {
-                // 타이머 기반 이벤트가 게임 종료를 처리할 때까지 대기
-            }
+            // busy-wait 루프 대신 비동기 대기
+            await tcs.Task;
 
             Console.ForegroundColor = ConsoleColor.White;
 
             // 게임 종료 후 재시작 여부 확인
             if (PromptContinue("게임을 다시 시작하시겠습니까? (y/yes 또는 Enter 키를 누르세요): "))
             {
-                StartGameEvent(); // 재귀 호출로 게임 재시작
+                // 재귀적으로 게임을 다시 시작 (비동기)
+                await StartGameEventAsync();
             }
             else
             {
@@ -196,10 +210,11 @@ namespace DiceGameUseTimer
         {
             _gameOver = true;
 
+            // 모든 캐릭터의 자동 공격 타이머와 이벤트 핸들러 해제
             foreach (var character in _characters)
             {
                 character.StopAutoAttackTimer(); // 자동 공격 타이머 중지
-                character.ClearAllEvents(); // 모든 이벤트 핸들러 제거
+                character.ClearAllEvents();      // 모든 이벤트 핸들러 제거
             }
         }
 
