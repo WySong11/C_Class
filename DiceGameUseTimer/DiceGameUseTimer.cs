@@ -62,12 +62,9 @@ namespace DiceGameUseTimer
                     Console.WriteLine($"\n{_playerCharacter?.Name} -> {_playerCharacter?.Health} vs {_enemyCharacter?.Health} <- {_enemyCharacter?.Name}");
                     Console.WriteLine(new string('-', 50));
 
-                    if (health <= 0)
+                    if (health <= 0 && !_gameOver)
                     {
-                        _playerCharacter?.StopAutoAttack();
-                        _enemyCharacter?.StopAutoAttack();
-
-                        _gameOver = true; // 게임 종료 플래그 설정
+                        EndGame();
                     }
                 }
             });
@@ -124,10 +121,9 @@ namespace DiceGameUseTimer
                         _playerCharacter.TakeDamage(damage);
                 });
 
-            // 공격 타이머는 한 번만 시작하면 되므로, while 루프에서 반복 호출하지 않도록 수정
             while (_gameOver == false)
             {
-
+             
             }
 
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -145,7 +141,7 @@ namespace DiceGameUseTimer
                 Console.WriteLine($"\n{_enemyCharacter?.Name} 승리했습니다!\n");
             }
 
-            if(PromptContinue("게임을 다시 시작하시겠습니까? (y/yes 또는 Enter 키를 누르세요): "))
+            if (PromptContinue("게임을 다시 시작하시겠습니까? (y/yes 또는 Enter 키를 누르세요): "))
             {
                 StartGameEvent(); // 재귀 호출로 게임 재시작
             }
@@ -153,6 +149,13 @@ namespace DiceGameUseTimer
             {
                 Console.WriteLine("게임을 종료합니다.");
             }
+        }
+
+        private void EndGame()
+        {
+            _playerCharacter?.StopAutoAttack();
+            _enemyCharacter?.StopAutoAttack();
+            _gameOver = true;
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

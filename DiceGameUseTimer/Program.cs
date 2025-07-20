@@ -1,4 +1,6 @@
-﻿namespace DiceGameUseTimer
+﻿using System;
+
+namespace DiceGameUseTimer
 {
     public class Program
     {
