@@ -128,18 +128,18 @@ namespace DiceGameUseTimer
                 // 체력 변화 이벤트 핸들러 등록
                 character.AddOnHealthChangedEvent(healthEvent =>
                 {
-                    var target = _characters.Find(c => c.ID == healthEvent.CharacterID);
-
-                    if (target == null)
-                    {
-                        Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Character not found for ID {healthEvent.CharacterID}");
-                        return;
-                    }
-
-                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {target.Name} HealthChanged {healthEvent.Health}");
-
                     if (!_gameOver)
                     {
+                        var target = _characters.Find(c => c.ID == healthEvent.CharacterID);
+
+                        if (target == null)
+                        {
+                            Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Character not found for ID {healthEvent.CharacterID}");
+                            return;
+                        }
+
+                        Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {target.Name} HealthChanged {healthEvent.Health}");
+
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"\n{target.Name} -> {target.Health}");
                         Console.WriteLine(new string('-', 50));
