@@ -242,4 +242,22 @@ namespace DiceGameUseTimer
         /// <param name="action">공격 이벤트 발생 시 실행할 델리게이트</param>
         public void AddOnAttackEvent(Action<AttackEventArgs> action)
         {
-            if
+            if (action != null)
+            {
+                OnAttackEvent += action;
+            }
+        }
+
+        /// <summary>
+        /// 체력 변화 이벤트 구독자 추가
+        /// </summary>
+        /// <param name="action">체력 변화 이벤트 발생 시 실행할 델리게이트</param>
+        public void AddOnHealthChangedEvent(Action<HealthChangedEventArgs> action)
+        {
+            if (action != null)
+            {
+                OnHealthChangedEvent += action;
+            }
+        }
+    }
+}

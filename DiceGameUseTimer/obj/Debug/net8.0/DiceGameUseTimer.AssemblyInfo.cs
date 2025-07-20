@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiceGameUseTimer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c959d8fa2dbedc05b0fd5edee129a7925f0b9192")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa8dfa25e181b63014a6100ffb988336ae524c36")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiceGameUseTimer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiceGameUseTimer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
