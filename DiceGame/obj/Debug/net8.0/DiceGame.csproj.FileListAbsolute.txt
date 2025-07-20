@@ -17,3 +17,22 @@ D:\Dev\GitHub\C_Class\DiceGame\bin\Debug\net8.0\CSVFileProcessor.dll
 D:\Dev\GitHub\C_Class\DiceGame\bin\Debug\net8.0\JSONFileProcessor.dll
 D:\Dev\GitHub\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.csproj.AssemblyReference.cache
 D:\Dev\GitHub\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.csproj.Up2Date
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\DiceGame.exe
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\DiceGame.deps.json
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\DiceGame.runtimeconfig.json
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\DiceGame.dll
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\DiceGame.pdb
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\CSVFileProcessor.dll
+C:\새 폴더\C_Class\DiceGame\bin\Debug\net8.0\JSONFileProcessor.dll
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.csproj.AssemblyReference.cache
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.AssemblyInfoInputs.cache
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.AssemblyInfo.cs
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.csproj.CoreCompileInputs.cache
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.sourcelink.json
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.csproj.Up2Date
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.dll
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\refint\DiceGame.dll
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.pdb
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\DiceGame.genruntimeconfig.cache
+C:\새 폴더\C_Class\DiceGame\obj\Debug\net8.0\ref\DiceGame.dll

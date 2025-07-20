@@ -1,7 +1,10 @@
 ﻿using DiceGame.Character;
 using System;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading; // 스레드 및 Task 사용을 위한 네임스페이스
+using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace DiceGame
 {
@@ -33,6 +36,130 @@ namespace DiceGame
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        public void StartGameEvent()
+        {
+            Console.Clear();
+
+            // 플레이어와 적 캐릭터 생성 및 초기화
+            _playerCharacter = new PlayerCharacter();
+            _enemyCharacter = new EnemyCharacter();
+
+            // 레벨 입력 및 능력치 설정
+            _playerCharacter.SetLevelData(PromptLevel("플레이어 레벨을 입력하세요 (1-10): "));
+            _enemyCharacter.SetLevelData(PromptLevel("적 레벨을 입력하세요. (1-10): "));
+
+            _playerCharacter.AddOnAttackEvent( (attackPower) =>
+            {
+                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _playerCharacter.AddOnAttackEvent {attackPower}");
+
+                // _enemyCharacter가 null이 아니고 살아있을 때만 데미지 적용
+                if (_enemyCharacter != null && _enemyCharacter.IsAlive())
+                    _enemyCharacter.TakeDamage(attackPower);
+            });
+
+            _enemyCharacter.AddOnAttackEvent( (attackPower) =>
+            {
+                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _enemyCharacter.AddOnAttackEvent {attackPower}");
+
+                // _playerCharacter가 null이 아니고 살아있을 때만 데미지 적용
+                if (_playerCharacter != null && _playerCharacter.IsAlive())
+                    _playerCharacter.TakeDamage(attackPower);
+            });
+
+            _playerCharacter.AddOnHealthChangedEvent((health) =>
+            {
+                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _playerCharacter.AddOnHealthChangedEvent {health}\n");
+
+                if(_gameOver == false)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"\n{_playerCharacter?.Name} -> {_playerCharacter?.Health} vs {_enemyCharacter?.Health} <- {_enemyCharacter?.Name}");
+                    Console.WriteLine(new string('-', 50));
+
+                    if (health <= 0)
+                    {
+                        _playerCharacter?.StopAutoAttack();
+                        _enemyCharacter?.StopAutoAttack();
+
+                        _gameOver = true; // 게임 종료 플래그 설정
+                    }
+                }                
+            });
+
+            _enemyCharacter.AddOnHealthChangedEvent((health) =>
+            {
+                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _enemyCharacter.AddOnHealthChangedEvent {health}\n");
+
+                if (_gameOver == false)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"\n{_playerCharacter?.Name} -> {_playerCharacter?.Health} vs {_enemyCharacter?.Health} <- {_enemyCharacter?.Name}");
+                    Console.WriteLine(new string('-', 50));
+
+                    if (health <= 0)
+                    {
+                        // 게임 종료 시 자동 공격 중지
+                        _playerCharacter?.StopAutoAttack();
+                        _enemyCharacter?.StopAutoAttack();
+
+                        _gameOver = true; // 게임 종료 플래그 설정
+                    }
+                }
+            });
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"\n{_playerCharacter.Name} vs {_enemyCharacter.Name}");
+            Console.WriteLine($"\n{_playerCharacter.Name} 체력: {_playerCharacter.Health}, 공격력: {_playerCharacter.AttackPower}, 공격 속도: {_playerCharacter.AttackSpeed}ms");
+            Console.WriteLine($"\n{_enemyCharacter.Name} 체력: {_enemyCharacter.Health}, 공격력: {_enemyCharacter.AttackPower}, 공격 속도: {_enemyCharacter.AttackSpeed}ms\n");            
+            Console.WriteLine(new string('-', 50));
+
+            Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - _playerCharacter.StartAutoAttack");
+
+            // 플레이어와 적 캐릭터의 공격을 각각 한 번만 시작하도록 수정
+            _playerCharacter.StartAutoAttackTimer(
+                damage =>
+                {
+                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _enemyCharacter.TakeDamage {damage}");
+
+                    // _enemyCharacter가 null이 아니고 살아있을 때만 데미지 적용
+                    if (_enemyCharacter != null && _enemyCharacter.IsAlive())
+                        _enemyCharacter.TakeDamage(damage);
+                });
+
+            Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - _enemyCharacter.StartAutoAttack");
+
+            _enemyCharacter.StartAutoAttackTimer(
+                damage =>
+                {
+                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log -  _playerCharacter.TakeDamage {damage}");
+
+                    // _playerCharacter가 null이 아니고 살아있을 때만 데미지 적용
+                    if (_playerCharacter != null && _playerCharacter.IsAlive())
+                        _playerCharacter.TakeDamage(damage);
+                });           
+
+            // 공격 타이머는 한 번만 시작하면 되므로, while 루프에서 반복 호출하지 않도록 수정
+            while (_gameOver == false)
+            {
+               
+            }
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            if ( _playerCharacter?.IsAlive() == false && _enemyCharacter?.IsAlive() == false)
+            {
+                Console.WriteLine("\n플레이어와 적 모두 쓰러졌습니다. 무승부입니다!\n");
+            }
+            else if (_playerCharacter?.IsAlive() == true)
+            {
+                Console.WriteLine($"\n{_playerCharacter?.Name} 승리했습니다!\n");
+            }
+            else
+            {
+                Console.WriteLine($"\n{_enemyCharacter?.Name} 승리했습니다!\n");
+            }
+        }
+
         /// <summary>
         /// 동기 방식의 게임 루프. 플레이어와 적이 공격 속도에 맞춰 번갈아가며 공격
         /// </summary>
@@ -45,8 +172,8 @@ namespace DiceGame
             _enemyCharacter = new EnemyCharacter();
 
             // 레벨 입력 및 능력치 설정
-            _playerCharacter.SetLevelData(PromptLevel("Enter your character's level (1-10): "));
-            _enemyCharacter.SetLevelData(PromptLevel("Enter the enemy's level (1-10): "));
+            _playerCharacter.SetLevelData(PromptLevel("플레이어 레벨을 입력하세요 (1-10): "));
+            _enemyCharacter.SetLevelData(PromptLevel("적 레벨을 입력하세요. (1-10): "));
 
             // 각 캐릭터의 다음 공격 시각을 추적
             DateTime playerNextAttack = DateTime.Now;
@@ -54,8 +181,8 @@ namespace DiceGame
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\n{_playerCharacter.Name} vs {_enemyCharacter.Name}");
-            Console.WriteLine($"\n{_playerCharacter.Name} Health: {_playerCharacter.Health}, Attack Power: {_playerCharacter.AttackPower}, Attack Speed: {_playerCharacter.AttackSpeed}ms");
-            Console.WriteLine($"\n{_enemyCharacter.Name} Health: {_enemyCharacter.Health}, Attack Power: {_enemyCharacter.AttackPower}, Attack Speed: {_enemyCharacter.AttackSpeed}ms\n");
+            Console.WriteLine($"\n{_playerCharacter.Name} 체력: {_playerCharacter.Health}, 공격력: {_playerCharacter.AttackPower}, 공격 속도: {_playerCharacter.AttackSpeed}ms");
+            Console.WriteLine($"\n{_enemyCharacter.Name} 체력: {_enemyCharacter.Health}, 공격력: {_enemyCharacter.AttackPower}, 공격 속도: {_enemyCharacter.AttackSpeed}ms\n");
 
             // 둘 중 한 명의 체력이 0 이하가 될 때까지 반복
             while (_playerCharacter.Health > 0 && _enemyCharacter.Health > 0)
@@ -73,7 +200,7 @@ namespace DiceGame
 
                     int attackPower = _playerCharacter?.GetAttackPower() ?? 0;
                     _enemyCharacter.TakeDamage(attackPower);
-                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter.Name} for {attackPower} damage!");
+                    Console.WriteLine($"{_playerCharacter?.Name} 공격해서 {_enemyCharacter.Name} 에게 {attackPower} 데미지 입힘!");
                     playerNextAttack = now.AddMilliseconds(_playerCharacter.AttackSpeed);
                     playerAttacked = true;
 
@@ -83,7 +210,7 @@ namespace DiceGame
 
                     if (_enemyCharacter.Health <= 0)
                     {
-                        Console.WriteLine($"\n{_enemyCharacter.Name} has been defeated!\n");
+                        Console.WriteLine($"\n{_playerCharacter.Name} 승리했습니다!\n");
                         break;
                     }
                 }
@@ -96,7 +223,7 @@ namespace DiceGame
 
                     int attackPower = _enemyCharacter?.GetAttackPower() ?? 0;
                     _playerCharacter.TakeDamage(attackPower);
-                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter.Name} for {attackPower} damage!");
+                    Console.WriteLine($"{_enemyCharacter?.Name} 공격해서 {_playerCharacter.Name} 에게 {attackPower} 데미지 입힘!");
                     enemyNextAttack = now.AddMilliseconds(_enemyCharacter.AttackSpeed);
                     enemyAttacked = true;
 
@@ -106,7 +233,7 @@ namespace DiceGame
 
                     if (_playerCharacter.Health <= 0)
                     {
-                        Console.WriteLine($"\n{_playerCharacter.Name} has been defeated!\n");
+                        Console.WriteLine($"\n{_enemyCharacter.Name} 승리했습니다!\n");
                         break;
                     }
                 }
@@ -132,13 +259,13 @@ namespace DiceGame
             }
 
             // 게임 종료 후 재시작 여부 확인
-            if (PromptContinue("Do you want to continue? (y/n) : "))
+            if (PromptContinue("계속하시겠습니까? (y/n) : "))
             {
                 StartGame();
             }
             else
             {
-                Console.WriteLine("Game ended.");
+                Console.WriteLine("게임 끝.");
             }
         }
 
@@ -265,7 +392,7 @@ namespace DiceGame
         /// <summary>
         /// Task/async를 이용한 비동기 전투 루프. 플레이어와 적의 공격이 각각 비동기 Task로 동작
         /// </summary>
-        public void StartGameAsync()
+        public async Task StartGameAsync()
         {
             Console.Clear();
 
@@ -282,95 +409,18 @@ namespace DiceGame
 
             _gameOver = false;
 
-            // 비동기 공격 루프 시작
-            var playerTask = PlayerAttackLoopAsync();
-            var enemyTask = EnemyAttackLoopAsync();
-
-            int playerHealth = _playerCharacter?.Health ?? 0;
-            int enemyHealth = _enemyCharacter?.Health ?? 0;
-
-            // 상태 출력 루프 (메인 스레드)
-            while (!_gameOver)
-            {
-                lock (_lock)
-                {
-                    // 상태가 변경되었는지 확인
-                    if (playerHealth != _playerCharacter?.Health || enemyHealth != _enemyCharacter?.Health)
-                    {
-                        playerHealth = _playerCharacter?.Health ?? 0;
-                        enemyHealth = _enemyCharacter?.Health ?? 0;
-                        // 상태 출력
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine($"\n{_playerCharacter.Name} -> {_playerCharacter.Health} vs {_enemyCharacter.Health} <- {_enemyCharacter.Name}");
-                    }
-                }
-                Thread.Sleep(100);
-            }
-
-            // 두 Task가 모두 끝날 때까지 대기
-            Task.WaitAll(playerTask, enemyTask);
+            // 예시: 플레이어와 적 각각의 공격 Task 실행
+            var playerTask = _playerCharacter.StartAutoAttackAsync(() => _enemyCharacter, () => _gameOver);
+            var enemyTask = _enemyCharacter.StartAutoAttackAsync(() => _playerCharacter, () => _gameOver);
+            await Task.WhenAny(playerTask, enemyTask);
 
             if (PromptContinue("Do you want to continue? (y/n) : "))
             {
-                StartGameAsync();
+                await StartGameAsync();
             }
             else
             {
                 Console.WriteLine("Game ended.");
-            }
-        }
-
-        /// <summary>
-        /// 플레이어의 공격을 담당하는 비동기 Task 루프
-        /// </summary>
-        private async Task PlayerAttackLoopAsync()
-        {
-            while (!_gameOver)
-            {
-                await Task.Delay((int)(_playerCharacter?.AttackSpeed ?? 1000));
-                lock (_lock)
-                {
-                    if (_gameOver) return;
-
-                    Console.WriteLine();
-                    Console.ForegroundColor = ConsoleColor.Blue;
-
-                    int attackPower = _playerCharacter?.GetAttackPower() ?? 0;
-                    _enemyCharacter?.TakeDamage(attackPower);
-                    Console.WriteLine($"{_playerCharacter?.Name} attacks {_enemyCharacter?.Name} for {attackPower} damage!");
-                    if (_enemyCharacter != null && _enemyCharacter.Health <= 0)
-                    {
-                        Console.WriteLine($"\n{_enemyCharacter.Name} has been defeated!\n");
-                        _gameOver = true;
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// 적의 공격을 담당하는 비동기 Task 루프
-        /// </summary>
-        private async Task EnemyAttackLoopAsync()
-        {
-            while (!_gameOver)
-            {
-                await Task.Delay((int)(_enemyCharacter?.AttackSpeed ?? 1000));
-                lock (_lock)
-                {
-                    if (_gameOver) return;
-
-                    Console.WriteLine();
-                    Console.ForegroundColor = ConsoleColor.Red;
-
-                    int attackPower = _enemyCharacter?.GetAttackPower() ?? 0;
-                    _playerCharacter?.TakeDamage(attackPower);
-                    Console.WriteLine($"{_enemyCharacter?.Name} attacks {_playerCharacter?.Name} for {attackPower} damage!");
-                    if (_playerCharacter != null && _playerCharacter.Health <= 0)
-                    {
-                        Console.WriteLine($"\n{_playerCharacter.Name} has been defeated!\n");
-                        _gameOver = true;
-                    }
-                }
             }
         }
 
