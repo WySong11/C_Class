@@ -83,6 +83,10 @@ namespace DiceGameUseTimer
         /// </summary>
         private bool _gameOver = false;
 
+        // async/await: 선언적으로 비동기를 다루는 방식
+        // 자동으로 Task를 반환해줘서 코드가 깔끔해지고 가독성이 높아짐
+        // await를 통해 비동기 작업의 결과를 기다리면서도 스레드를 차단하지 않음
+
         /// <summary>
         /// 게임을 시작하고, 캐릭터 생성, 이벤트 등록, 전투를 진행하는 비동기 메서드
         /// </summary>
@@ -91,6 +95,13 @@ namespace DiceGameUseTimer
             Console.Clear();
             _gameOver = false;
             _characters.Clear();
+
+            // C#에서 비동기 프로그래밍을 할 때, 직접 Task를 만들고 제어할 수 있게 해주는 도구
+            // 일반적으로 async/await를 사용하면 Task가 자동으로 생기지만,
+            // 때때로 비동기 흐름을 사용자 정의해서 컨트롤하고 싶을 때 씀.
+            // 주로 비동기 메서드를 작성할 때 사용돼.
+            // 직접 Task를 생성하고 언제 완료되는지 결정할 수 있어
+            // 이 예제에서는 게임의 전투가 끝날 때까지 기다리는 동안 다른 작업을 수행할 수 있도록 함
 
             // TaskCompletionSource를 통해 게임 종료까지 비동기 대기
             var tcs = new TaskCompletionSource();
