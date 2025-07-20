@@ -11,7 +11,7 @@ namespace DiceGameUseTimer
         /// <summary>
         /// 기본 생성자, 플레이어 캐릭터의 기본 속성을 설정합니다.
         /// </summary>
-        public PlayerCharacter() : base("Player", 80, 10, 1000)
+        public PlayerCharacter() : base(1000, "Player", 80, 10, 1000)
         {
         }
 
@@ -22,7 +22,7 @@ namespace DiceGameUseTimer
         /// <param name="health">초기 체력</param>
         /// <param name="attackPower">초기 공격력</param>
         /// <param name="attackSpeed">초기 공격 속도 (밀리초 단위)</param>"
-        public PlayerCharacter(string name, int health, int attackPower, double attackSpeed) : base(name, health, attackPower, attackSpeed)
+        public PlayerCharacter(int id, string name, int health, int attackPower, double attackSpeed) : base(id, name, health, attackPower, attackSpeed)
         {
         }
 

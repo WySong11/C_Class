@@ -22,27 +22,37 @@ namespace DiceGameUseTimer
     public class BaseCharacter : IAttackable
     {
         /// <summary>
+        /// 캐릭터의 고유 ID
+        /// </summary>
+        public int ID { get; private set; } = 0;
+
+        /// <summary>
         /// 캐릭터 이름
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
         /// <summary>
         /// 캐릭터의 현재 체력
         /// </summary>
-        public int Health { get; set; }
+        public int Health { get; private set; }
 
         /// <summary>
         /// 캐릭터의 공격력
         /// </summary>
-        public int AttackPower { get; set; }
+        public int AttackPower { get; private set; }
 
         /// <summary>
         /// 캐릭터의 공격 속도 (밀리초 단위)
         /// </summary>
-        public double AttackSpeed { get; set; }
+        public double AttackSpeed { get; private set; }
 
-        private event Action<int>? OnAttackEvent;
-        private event Action<int>? OnHealthChangedEvent;
+        /// <summary>
+        /// 목표 ID (적 캐릭터의 경우 공격 대상 ID)
+        /// <summary>
+        public int TargetID { get; private set; } = 0;
+
+        private event Action<AttackEventArgs>? OnAttackEvent;
+        private event Action<HealthChangedEventArgs>? OnHealthChangedEvent;
 
         private Timer? _autoAttackTimer;
 
@@ -51,10 +61,12 @@ namespace DiceGameUseTimer
         /// </summary>
         public BaseCharacter()
         {
+            ID = 0;
             Name = string.Empty;
             Health = 10;
             AttackPower = 10;
             AttackSpeed = 100;
+            TargetID = 0;
         }
 
         /// <summary>
@@ -71,12 +83,14 @@ namespace DiceGameUseTimer
         /// <param name="health">초기 체력</param>
         /// <param name="attackPower">초기 공격력</param>
         /// <param name="attackSpeed">초기 공격 속도 (밀리초 단위)</param>
-        public BaseCharacter(string name, int health, int attackPower, double attackSpeed)
+        public BaseCharacter(int id, string name, int health, int attackPower, double attackSpeed)
         {
+            ID = id;
             Name = name;
             Health = health;
             AttackPower = attackPower;
             AttackSpeed = attackSpeed;
+            TargetID = 0; // 기본값으로 0 설정
         }
 
         public void SetLevelData(int level)
@@ -87,6 +101,12 @@ namespace DiceGameUseTimer
             AttackSpeed += level * 300; // 레벨당 공격 속도 300 증가 (더 느리게 공격)
 
             Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
+        }
+
+        public void SetTargetID(int targetID)
+        {
+            TargetID = targetID;
+            Console.WriteLine($"{Name} 의 공격 대상이 {TargetID} 로 설정되었습니다.");
         }
 
         /// <summary>
@@ -102,14 +122,13 @@ namespace DiceGameUseTimer
             Console.WriteLine($"{Name} 이 {amount} 공격받았습니다! 남은 체력 : {Health}");
 
             // 체력 변경 이벤트 발생
-            OnHealthChangedEvent?.Invoke(Health);
+            OnHealthChangedEvent?.Invoke(new HealthChangedEventArgs(ID, Health));
         }
 
         /// <summary>
         /// 공격 속도에 맞춰 캐릭터가 계속 공격을 반복하는 메서드 (Timer 기반, 스레드 직접 사용하지 않음)
         /// </summary>
-        /// <param name="takeDamage">공격력이 전달되는 델리게이트 (상대방의 TakeDamage 등)</param>
-        public void StartAutoAttackTimer(Action<int> takeDamage)
+        public void StartAutoAttackTimer()
         {
             // 이미 타이머가 동작 중이면 중복 실행 방지
             if (_autoAttackTimer != null)
@@ -124,18 +143,27 @@ namespace DiceGameUseTimer
                 if (!IsAlive())
                 {
                     Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - IsAlive == false - {Name}");
-                    StopAutoAttack();
+                    StopAutoAttackTimer();
                     return;
                 }
 
-                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - GetAttackPower - {Name}");
-
-                int att = GetAttackPower();
+                int damage = GetAttackPower();
 
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"{Name} 이 {att} 공격했습니다.\n");
+                Console.WriteLine($"{Name} 이 {damage} 공격했습니다.\n");
 
-                OnAttackEvent?.Invoke(att);
+                // 공격 대상이 지정되어 있으면 공격
+                if (TargetID > 0)
+                {
+                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID > 0 - {Name}");
+                }
+                else
+                {
+                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID == 0 - {Name}");
+                }
+
+                // 공격 이벤트 발생
+                OnAttackEvent?.Invoke(new AttackEventArgs(ID, TargetID, damage));
 
             }, null, (int)AttackSpeed, (int)AttackSpeed); // AttackSpeed 후 첫 실행, AttackSpeed 간격 반복
         }
@@ -143,10 +171,22 @@ namespace DiceGameUseTimer
         /// <summary>
         /// 자동 공격을 중지하는 메서드
         /// </summary>
-        public void StopAutoAttack()
+        public void StopAutoAttackTimer()
         {
             _autoAttackTimer?.Dispose();
             _autoAttackTimer = null;
+        }
+
+        public void ResetAutoAttackTimer()
+        {
+            StopAutoAttackTimer();
+            StartAutoAttackTimer();
+        }
+
+        public void ClearAllEvents()
+        {
+            OnAttackEvent = null;
+            OnHealthChangedEvent = null;
         }
 
         /// <summary>
@@ -167,7 +207,7 @@ namespace DiceGameUseTimer
             return Math.Max(1, random.Next((int)min, (int)max + 1));
         }
 
-        public void AddOnAttackEvent(Action<int> action)
+        public void AddOnAttackEvent(Action<AttackEventArgs> action)
         {
             if (action != null)
             {
@@ -175,7 +215,7 @@ namespace DiceGameUseTimer
             }
         }
 
-        public void AddOnHealthChangedEvent(Action<int> action)
+        public void AddOnHealthChangedEvent(Action<HealthChangedEventArgs> action)
         {
             if (action != null)
             {
