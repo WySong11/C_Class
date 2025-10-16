@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestDataType\TestDataType\bin\Debug\net8.0\TestDataType.exe
+C:\Users\ooSong\c#\TestDataType\TestDataType\bin\Debug\net8.0\TestDataType.deps.json
+C:\Users\ooSong\c#\TestDataType\TestDataType\bin\Debug\net8.0\TestDataType.runtimeconfig.json
+C:\Users\ooSong\c#\TestDataType\TestDataType\bin\Debug\net8.0\TestDataType.dll
+C:\Users\ooSong\c#\TestDataType\TestDataType\bin\Debug\net8.0\TestDataType.pdb
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.dll
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\refint\TestDataType.dll
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.pdb
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\TestDataType.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestDataType\TestDataType\obj\Debug\net8.0\ref\TestDataType.dll
