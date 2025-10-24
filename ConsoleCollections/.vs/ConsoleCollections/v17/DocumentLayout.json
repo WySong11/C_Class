@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F68D02-E6BF-4BFA-838E-03496B10BF9B}|CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj|d:\\dev\\github\\c_class\\consolecollections\\collectionsgeneric_exercises\\collectionsgeneric_exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F68D02-E6BF-4BFA-838E-03496B10BF9B}|CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj|solutionrelative:collectionsgeneric_exercises\\collectionsgeneric_exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08FFC13-01D4-4A42-A5AF-EF195AA25A30}|CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj|d:\\dev\\github\\c_class\\consolecollections\\collectionsgeneric_solutions\\collectionsgeneric_solutions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08FFC13-01D4-4A42-A5AF-EF195AA25A30}|CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj|solutionrelative:collectionsgeneric_solutions\\collectionsgeneric_solutions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DC4777-A4C9-4125-9686-E6148EA11430}|collectionsVSgeneric\\collectionsVSgeneric.csproj|d:\\dev\\github\\c_class\\consolecollections\\collectionsvsgeneric\\collectionsvsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DC4777-A4C9-4125-9686-E6148EA11430}|collectionsVSgeneric\\collectionsVSgeneric.csproj|solutionrelative:collectionsvsgeneric\\collectionsvsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FCE0F8-8FB8-487F-8BAC-214E5AE799D3}|ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.csproj|d:\\dev\\github\\c_class\\consolecollections\\consolecollectionsgeneric\\consolecollectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FCE0F8-8FB8-487F-8BAC-214E5AE799D3}|ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.csproj|solutionrelative:consolecollectionsgeneric\\consolecollectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollectionsGeneric_Solutions.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.cs",
+              "RelativeDocumentMoniker": "CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.cs",
+              "RelativeToolTip": "CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:37:37.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionsGeneric_Exercises.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.cs",
+              "RelativeDocumentMoniker": "CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.cs",
+              "RelativeToolTip": "CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:35:39.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "collectionsVSgeneric.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\collectionsVSgeneric\\collectionsVSgeneric.cs",
+              "RelativeDocumentMoniker": "collectionsVSgeneric\\collectionsVSgeneric.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\collectionsVSgeneric\\collectionsVSgeneric.cs",
+              "RelativeToolTip": "collectionsVSgeneric\\collectionsVSgeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:18:12.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsoleCollectionsGeneric.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "RelativeDocumentMoniker": "ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "RelativeToolTip": "ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:17:06.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

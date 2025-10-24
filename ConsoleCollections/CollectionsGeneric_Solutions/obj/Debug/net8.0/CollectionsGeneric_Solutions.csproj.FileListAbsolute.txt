@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.sourcelink.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\bin\Debug\net8.0\CollectionsGeneric_Solutions.exe
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\bin\Debug\net8.0\CollectionsGeneric_Solutions.deps.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\bin\Debug\net8.0\CollectionsGeneric_Solutions.runtimeconfig.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\bin\Debug\net8.0\CollectionsGeneric_Solutions.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\bin\Debug\net8.0\CollectionsGeneric_Solutions.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\refint\CollectionsGeneric_Solutions.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\CollectionsGeneric_Solutions.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\CollectionsGeneric_Solutions\obj\Debug\net8.0\ref\CollectionsGeneric_Solutions.dll

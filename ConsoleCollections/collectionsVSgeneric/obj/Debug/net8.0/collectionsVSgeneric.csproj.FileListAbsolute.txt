@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\bin\Debug\net8.0\collectionsVSgeneric.exe
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\bin\Debug\net8.0\collectionsVSgeneric.deps.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\bin\Debug\net8.0\collectionsVSgeneric.runtimeconfig.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\bin\Debug\net8.0\collectionsVSgeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\bin\Debug\net8.0\collectionsVSgeneric.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.sourcelink.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\refint\collectionsVSgeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\collectionsVSgeneric.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\collectionsVSgeneric\obj\Debug\net8.0\ref\collectionsVSgeneric.dll

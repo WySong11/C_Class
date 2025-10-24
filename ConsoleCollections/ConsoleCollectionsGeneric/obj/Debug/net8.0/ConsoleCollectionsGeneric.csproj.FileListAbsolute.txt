@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\bin\Debug\net8.0\ConsoleCollectionsGeneric.exe
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\bin\Debug\net8.0\ConsoleCollectionsGeneric.deps.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\bin\Debug\net8.0\ConsoleCollectionsGeneric.runtimeconfig.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\bin\Debug\net8.0\ConsoleCollectionsGeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\bin\Debug\net8.0\ConsoleCollectionsGeneric.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.sourcelink.json
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\refint\ConsoleCollectionsGeneric.dll
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.pdb
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ConsoleCollectionsGeneric.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\ConsoleCollections\ConsoleCollectionsGeneric\obj\Debug\net8.0\ref\ConsoleCollectionsGeneric.dll
