@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiamondUseDLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d43a604b2f787beb915bdb9f648456b04d13ec1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aeb6e6baf0df030fdd04c8522c8554d58190a68")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiamondUseDLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiamondUseDLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

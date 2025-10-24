@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\bin\Debug\net8.0\TestCalculate.exe
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\bin\Debug\net8.0\TestCalculate.deps.json
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\bin\Debug\net8.0\TestCalculate.runtimeconfig.json
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\bin\Debug\net8.0\TestCalculate.dll
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\bin\Debug\net8.0\TestCalculate.pdb
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.dll
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\refint\TestCalculate.dll
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.pdb
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\ref\TestCalculate.dll

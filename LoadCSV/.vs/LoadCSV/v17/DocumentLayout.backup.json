@@ -30,8 +30,7 @@
               "RelativeToolTip": "bin\\Debug\\net8.0\\test.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-07-04T13:37:23.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T13:37:23.199Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\LoadCSV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAswAsBAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAiwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T12:01:50.501Z",
               "EditorCaption": ""

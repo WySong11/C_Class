@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestPractice\TestPractice\bin\Debug\net8.0\TestPractice.exe
+C:\Users\ooSong\c#\TestPractice\TestPractice\bin\Debug\net8.0\TestPractice.deps.json
+C:\Users\ooSong\c#\TestPractice\TestPractice\bin\Debug\net8.0\TestPractice.runtimeconfig.json
+C:\Users\ooSong\c#\TestPractice\TestPractice\bin\Debug\net8.0\TestPractice.dll
+C:\Users\ooSong\c#\TestPractice\TestPractice\bin\Debug\net8.0\TestPractice.pdb
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.dll
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\refint\TestPractice.dll
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.pdb
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\TestPractice.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestPractice\TestPractice\obj\Debug\net8.0\ref\TestPractice.dll

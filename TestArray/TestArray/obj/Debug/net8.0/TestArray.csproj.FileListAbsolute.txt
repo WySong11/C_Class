@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestArray\TestArray\bin\Debug\net8.0\TestArray.exe
+C:\Users\ooSong\c#\TestArray\TestArray\bin\Debug\net8.0\TestArray.deps.json
+C:\Users\ooSong\c#\TestArray\TestArray\bin\Debug\net8.0\TestArray.runtimeconfig.json
+C:\Users\ooSong\c#\TestArray\TestArray\bin\Debug\net8.0\TestArray.dll
+C:\Users\ooSong\c#\TestArray\TestArray\bin\Debug\net8.0\TestArray.pdb
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.dll
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\refint\TestArray.dll
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.pdb
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\TestArray.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestArray\TestArray\obj\Debug\net8.0\ref\TestArray.dll

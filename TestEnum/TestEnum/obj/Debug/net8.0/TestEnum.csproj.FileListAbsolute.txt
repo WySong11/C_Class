@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestEnum\TestEnum\bin\Debug\net8.0\TestEnum.exe
+C:\Users\ooSong\c#\TestEnum\TestEnum\bin\Debug\net8.0\TestEnum.deps.json
+C:\Users\ooSong\c#\TestEnum\TestEnum\bin\Debug\net8.0\TestEnum.runtimeconfig.json
+C:\Users\ooSong\c#\TestEnum\TestEnum\bin\Debug\net8.0\TestEnum.dll
+C:\Users\ooSong\c#\TestEnum\TestEnum\bin\Debug\net8.0\TestEnum.pdb
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.dll
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\refint\TestEnum.dll
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.pdb
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\TestEnum.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestEnum\TestEnum\obj\Debug\net8.0\ref\TestEnum.dll

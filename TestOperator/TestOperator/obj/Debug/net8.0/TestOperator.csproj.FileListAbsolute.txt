@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestOperator\TestOperator\bin\Debug\net8.0\TestOperator.exe
+C:\Users\ooSong\c#\TestOperator\TestOperator\bin\Debug\net8.0\TestOperator.deps.json
+C:\Users\ooSong\c#\TestOperator\TestOperator\bin\Debug\net8.0\TestOperator.runtimeconfig.json
+C:\Users\ooSong\c#\TestOperator\TestOperator\bin\Debug\net8.0\TestOperator.dll
+C:\Users\ooSong\c#\TestOperator\TestOperator\bin\Debug\net8.0\TestOperator.pdb
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.dll
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\refint\TestOperator.dll
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.pdb
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\TestOperator.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestOperator\TestOperator\obj\Debug\net8.0\ref\TestOperator.dll

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestMethod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2EE761-686E-4974-9158-16A9C529F395}|TestMethod\\TestMethod.csproj|c:\\users\\oosong\\c#\\testmethod\\testmethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2EE761-686E-4974-9158-16A9C529F395}|TestMethod\\TestMethod.csproj|solutionrelative:testmethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2EE761-686E-4974-9158-16A9C529F395}|TestMethod\\TestMethod.csproj|c:\\users\\oosong\\c#\\testmethod\\testmethod\\testmethod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BE2EE761-686E-4974-9158-16A9C529F395}|TestMethod\\TestMethod.csproj|solutionrelative:testmethod\\testmethod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestMethod",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestMethod\\TestMethod\\TestMethod.csproj",
+              "RelativeDocumentMoniker": "TestMethod\\TestMethod.csproj",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestMethod\\TestMethod\\TestMethod.csproj",
+              "RelativeToolTip": "TestMethod\\TestMethod.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-23T08:45:58.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestMethod\\TestMethod\\Program.cs",
+              "RelativeDocumentMoniker": "TestMethod\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestMethod\\TestMethod\\Program.cs",
+              "RelativeToolTip": "TestMethod\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:42:14.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

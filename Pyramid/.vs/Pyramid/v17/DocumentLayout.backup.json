@@ -1,38 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\C_Class\\Pyramid\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:test\\testinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:common\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\basepyrramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\github\\c_class\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BasePyrramid.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\BasePyrramid.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\BasePyrramid.cs",
               "RelativeToolTip": "Pyramid\\BasePyrramid.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,11 +54,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Enum.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
               "RelativeDocumentMoniker": "Common\\Enum.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Common\\Enum.cs",
               "RelativeToolTip": "Common\\Enum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,49 +66,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIAywBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:46:24.6Z",
+              "WhenOpened": "2025-06-09T07:46:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HalfPyramid.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "RelativeDocumentMoniker": "Pyramid\\HalfPyramid.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
+              "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T07:45:31.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HalfPyramid.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
-              "RelativeDocumentMoniker": "Pyramid\\HalfPyramid.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
-              "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Pyramid.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
+              "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
+              "RelativeToolTip": "Pyramid\\Pyramid.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:45:31.777Z"
+              "WhenOpened": "2025-06-09T07:39:43.864Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Pyramid.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
-              "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
-              "RelativeToolTip": "Pyramid\\Pyramid.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAD8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:39:43.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Pyramid.csproj",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
               "RelativeDocumentMoniker": "Pyramid.csproj",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid.csproj",
               "RelativeToolTip": "Pyramid.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -122,32 +117,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TestInterface.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeDocumentMoniker": "Test\\TestInterface.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Test\\TestInterface.cs",
               "RelativeToolTip": "Test\\TestInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T15:19:26.555Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 325,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestDelegate.cs",
-              "DocumentMoniker": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
-              "RelativeDocumentMoniker": "Test\\TestDelegate.cs",
-              "ToolTip": "D:\\GitHub\\C_Class\\Pyramid\\Test\\TestDelegate.cs",
-              "RelativeToolTip": "Test\\TestDelegate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:17:36.842Z",
-              "EditorCaption": ""
             }
           ]
         }
