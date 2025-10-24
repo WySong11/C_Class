@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestDataType\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCADEC5B-E3FE-4790-9A8D-1FFDFE28754C}|TestDataType\\TestDataType.csproj|c:\\users\\oosong\\c#\\testdatatype\\testdatatype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCADEC5B-E3FE-4790-9A8D-1FFDFE28754C}|TestDataType\\TestDataType.csproj|solutionrelative:testdatatype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestDataType\\TestDataType\\Program.cs",
+              "RelativeDocumentMoniker": "TestDataType\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestDataType\\TestDataType\\Program.cs",
+              "RelativeToolTip": "TestDataType\\Program.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAQwI4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:09:35.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
