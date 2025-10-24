@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj",
+      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj",
       "projectName": "CollectionsGeneric_Exercises",
-      "projectPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj",
+      "projectPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Exercises\\CollectionsGeneric_Exercises.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Exercises\\obj\\",
+      "outputPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Exercises\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

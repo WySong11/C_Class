@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj",
         "projectName": "CollectionsGeneric_Solutions",
-        "projectPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Solutions\\CollectionsGeneric_Solutions.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\CollectionsGeneric_Solutions\\obj\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\CollectionsGeneric_Solutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

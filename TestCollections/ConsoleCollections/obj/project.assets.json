@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\ConsoleCollections\\ConsoleCollections.csproj",
+      "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.csproj",
       "projectName": "ConsoleCollections",
-      "projectPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\ConsoleCollections\\ConsoleCollections.csproj",
+      "projectPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\GitHub\\C_Class\\ConsoleCollections\\ConsoleCollections\\obj\\",
+      "outputPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\ConsoleCollections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
