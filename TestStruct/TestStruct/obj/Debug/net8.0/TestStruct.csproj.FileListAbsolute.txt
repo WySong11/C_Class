@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\bin\Debug\net8.0\TestStruct.exe
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\bin\Debug\net8.0\TestStruct.deps.json
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\bin\Debug\net8.0\TestStruct.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\bin\Debug\net8.0\TestStruct.dll
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\bin\Debug\net8.0\TestStruct.pdb
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.sourcelink.json
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.dll
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\refint\TestStruct.dll
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.pdb
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\TestStruct.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestStruct\TestStruct\obj\Debug\net8.0\ref\TestStruct.dll
