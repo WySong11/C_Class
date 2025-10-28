@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\bin\Debug\net8.0\CalculateParse.exe
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\bin\Debug\net8.0\CalculateParse.deps.json
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\bin\Debug\net8.0\CalculateParse.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\bin\Debug\net8.0\CalculateParse.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\bin\Debug\net8.0\CalculateParse.pdb
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.sourcelink.json
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\refint\CalculateParse.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.pdb
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\CalculateParse.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CalculateParse\obj\Debug\net8.0\ref\CalculateParse.dll

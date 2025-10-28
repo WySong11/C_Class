@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestCalculate\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9338411E-E3C7-4893-B760-A7E0320AEFBD}|TestCalculate\\TestCalculate.csproj|c:\\users\\oosong\\c#\\testcalculate\\testcalculate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|d:\\dev\\github\\c_class\\testcalculate\\calculateparse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|solutionrelative:calculateparse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58983C88-0D39-4A5A-927F-3C406801DF81}|CaluculateLogList\\CaluculateLogList.csproj|d:\\dev\\github\\c_class\\testcalculate\\caluculateloglist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58983C88-0D39-4A5A-927F-3C406801DF81}|CaluculateLogList\\CaluculateLogList.csproj|solutionrelative:caluculateloglist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9338411E-E3C7-4893-B760-A7E0320AEFBD}|TestCalculate\\TestCalculate.csproj|d:\\dev\\github\\c_class\\testcalculate\\testcalculate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9338411E-E3C7-4893-B760-A7E0320AEFBD}|TestCalculate\\TestCalculate.csproj|solutionrelative:testcalculate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,13 +26,45 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\CaluculateLogList\\Program.cs",
+              "RelativeDocumentMoniker": "CaluculateLogList\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\CaluculateLogList\\Program.cs",
+              "RelativeToolTip": "CaluculateLogList\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T01:26:24.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\CalculateParse\\Program.cs",
+              "RelativeDocumentMoniker": "CalculateParse\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\CalculateParse\\Program.cs",
+              "RelativeToolTip": "CalculateParse\\Program.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAIwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T01:39:26.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\Program.cs",
               "RelativeDocumentMoniker": "TestCalculate\\Program.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\Program.cs*",
-              "RelativeToolTip": "TestCalculate\\Program.cs*",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGoAAAANAAAAAAAAAA==",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\Program.cs",
+              "RelativeToolTip": "TestCalculate\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T08:53:21.314Z",
               "EditorCaption": ""

@@ -12,3 +12,11 @@ C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\refint\TestCalcu
 C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.pdb
 C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.genruntimeconfig.cache
 C:\Users\ooSong\c#\TestCalculate\TestCalculate\obj\Debug\net8.0\ref\TestCalculate.dll
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.sourcelink.json
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.dll
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\refint\TestCalculate.dll
+D:\Dev\GitHub\C_Class\TestCalculate\TestCalculate\obj\Debug\net8.0\TestCalculate.pdb

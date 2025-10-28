@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\TestCalculate.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\TestCalculate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\TestCalculate.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\TestCalculate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\TestCalculate.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\TestCalculate.csproj",
         "projectName": "TestCalculate",
-        "projectPath": "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\TestCalculate.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ooSong\\c#\\TestCalculate\\TestCalculate\\obj\\",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\TestCalculate.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\TestCalculate\\TestCalculate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

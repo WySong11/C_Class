@@ -18,25 +18,25 @@ namespace TestCalculate
             {
                 // 1) 첫 번째 숫자 입력 받기
                 Console.Write("첫 번째 숫자: ");
-                string aStr = Console.ReadLine();
+                string? aStr = Console.ReadLine();
 
                 // 사용자가 아무 것도 입력하지 않으면 종료 (빈 입력 처리)
                 if (string.IsNullOrWhiteSpace(aStr)) break;
 
                 // 2) 연산자 입력 받기
                 Console.Write("연산자 (+ - * / % ^ 또는 pow): ");
-                string opStr = Console.ReadLine();
+                string? opStr = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(opStr)) break;
 
                 // 3) 두 번째 숫자 입력 받기
                 Console.Write("두 번째 숫자: ");
-                string bStr = Console.ReadLine();
+                string? bStr = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(bStr)) break;
 
                 // TryCalculate를 호출하여 계산 시도
                 // 성공하면 result에 결과가 담기고 true 반환
                 // 실패하면 error에 오류 메시지 담기고 false 반환
-                if (TryCalculate(aStr, opStr, bStr, out double result, out string error))
+                if (TryCalculate(aStr, opStr, bStr, out double result, out string? error))
                 {
                     Console.WriteLine($"결과: {result}");
                 }
@@ -54,7 +54,7 @@ namespace TestCalculate
         // 재사용 가능한 계산 로직 (입력 문자열 -> 결과)
         // 반환값: 계산 성공하면 true, 실패하면 false
         // out 매개변수: result(계산 결과), error(오류 메시지)
-        public static bool TryCalculate(string aStr, string opStr, string bStr, out double result, out string error)
+        public static bool TryCalculate(string aStr, string opStr, string bStr, out double result, out string? error)
         {
             // 초기값 설정
             result = 0;
@@ -91,11 +91,6 @@ namespace TestCalculate
             // 편의를 위해 연산자 문자의 첫 글자만 사용
             // 예: "pow" -> 'p' 이므로 default로 빠지지만 문자열 전체를 체크하는 로직도 하단에 있음
             char token = op.Length > 0 ? op[0] : '\0';
-
-            if (token == '+')
-            {
-                return a + b;
-            }
 
             // 연산자에 따라 분기 처리
             switch (token)

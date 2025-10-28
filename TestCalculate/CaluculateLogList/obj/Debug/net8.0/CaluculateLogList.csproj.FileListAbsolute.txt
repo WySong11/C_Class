@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.sourcelink.json
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\bin\Debug\net8.0\CaluculateLogList.exe
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\bin\Debug\net8.0\CaluculateLogList.deps.json
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\bin\Debug\net8.0\CaluculateLogList.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\bin\Debug\net8.0\CaluculateLogList.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\bin\Debug\net8.0\CaluculateLogList.pdb
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\refint\CaluculateLogList.dll
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.pdb
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\CaluculateLogList.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestCalculate\CaluculateLogList\obj\Debug\net8.0\ref\CaluculateLogList.dll
