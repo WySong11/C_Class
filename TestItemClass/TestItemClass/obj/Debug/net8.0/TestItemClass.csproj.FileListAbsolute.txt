@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\bin\Debug\net8.0\TestItemClass.exe
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\bin\Debug\net8.0\TestItemClass.deps.json
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\bin\Debug\net8.0\TestItemClass.runtimeconfig.json
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\bin\Debug\net8.0\TestItemClass.dll
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\bin\Debug\net8.0\TestItemClass.pdb
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.dll
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\refint\TestItemClass.dll
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.pdb
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\TestItemClass.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestItemClass\TestItemClass\obj\Debug\net8.0\ref\TestItemClass.dll

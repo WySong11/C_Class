@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\bin\Debug\net8.0\TestAsIs.exe
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\bin\Debug\net8.0\TestAsIs.deps.json
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\bin\Debug\net8.0\TestAsIs.runtimeconfig.json
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\bin\Debug\net8.0\TestAsIs.dll
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\bin\Debug\net8.0\TestAsIs.pdb
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.dll
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\refint\TestAsIs.dll
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.pdb
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\TestAsIs.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestAsIs\TestAsIs\obj\Debug\net8.0\ref\TestAsIs.dll

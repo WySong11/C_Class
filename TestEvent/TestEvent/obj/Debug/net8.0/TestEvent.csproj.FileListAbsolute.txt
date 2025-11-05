@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestEvent\TestEvent\bin\Debug\net8.0\TestEvent.exe
+C:\Users\ooSong\c#\TestEvent\TestEvent\bin\Debug\net8.0\TestEvent.deps.json
+C:\Users\ooSong\c#\TestEvent\TestEvent\bin\Debug\net8.0\TestEvent.runtimeconfig.json
+C:\Users\ooSong\c#\TestEvent\TestEvent\bin\Debug\net8.0\TestEvent.dll
+C:\Users\ooSong\c#\TestEvent\TestEvent\bin\Debug\net8.0\TestEvent.pdb
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.dll
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\refint\TestEvent.dll
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.pdb
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\TestEvent.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestEvent\TestEvent\obj\Debug\net8.0\ref\TestEvent.dll

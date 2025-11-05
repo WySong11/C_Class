@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\bin\Debug\net8.0\TestBaseClass.exe
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\bin\Debug\net8.0\TestBaseClass.deps.json
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\bin\Debug\net8.0\TestBaseClass.runtimeconfig.json
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\bin\Debug\net8.0\TestBaseClass.dll
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\bin\Debug\net8.0\TestBaseClass.pdb
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.dll
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\refint\TestBaseClass.dll
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.pdb
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\TestBaseClass.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestBaseClass\TestBaseClass\obj\Debug\net8.0\ref\TestBaseClass.dll

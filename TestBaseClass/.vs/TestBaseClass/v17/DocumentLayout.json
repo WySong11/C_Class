@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestBaseClass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\animalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\animalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\dogclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\dogclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\catclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\catclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalClass.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
+              "RelativeDocumentMoniker": "TestBaseClass\\AnimalClass.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
+              "RelativeToolTip": "TestBaseClass\\AnimalClass.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T10:00:45.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\Program.cs",
+              "RelativeDocumentMoniker": "TestBaseClass\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\Program.cs",
+              "RelativeToolTip": "TestBaseClass\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:46:50.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatClass.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\CatClass.cs",
+              "RelativeDocumentMoniker": "TestBaseClass\\CatClass.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\CatClass.cs",
+              "RelativeToolTip": "TestBaseClass\\CatClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T10:11:39.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DogClass.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\DogClass.cs",
+              "RelativeDocumentMoniker": "TestBaseClass\\DogClass.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\DogClass.cs",
+              "RelativeToolTip": "TestBaseClass\\DogClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T10:02:29.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
