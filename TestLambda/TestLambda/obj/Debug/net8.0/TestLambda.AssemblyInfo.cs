@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestLambda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ec75d4e895c8e72d165de6a6d347633a7eaab3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestLambda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestLambda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

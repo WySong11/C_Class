@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\PracticeLinq\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|c:\\users\\oosong\\c#\\practicelinq\\practicelinq\\lambdaexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|d:\\dev\\github\\c_class\\practicelinq\\practicelinq\\lambdaexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|solutionrelative:practicelinq\\lambdaexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|c:\\users\\oosong\\c#\\practicelinq\\practicelinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|d:\\dev\\github\\c_class\\practicelinq\\practicelinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|solutionrelative:practicelinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|c:\\users\\oosong\\c#\\practicelinq\\practicelinq\\queryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|d:\\dev\\github\\c_class\\practicelinq\\practicelinq\\queryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347E0869-2487-4313-949F-88782FC9CBF5}|PracticeLinq\\PracticeLinq.csproj|solutionrelative:practicelinq\\queryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LambdaExercises.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\LambdaExercises.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\LambdaExercises.cs",
               "RelativeDocumentMoniker": "PracticeLinq\\LambdaExercises.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\LambdaExercises.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\LambdaExercises.cs",
               "RelativeToolTip": "PracticeLinq\\LambdaExercises.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwEgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T08:55:16.255Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "QueryClass.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\QueryClass.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\QueryClass.cs",
               "RelativeDocumentMoniker": "PracticeLinq\\QueryClass.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\QueryClass.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\QueryClass.cs",
               "RelativeToolTip": "PracticeLinq\\QueryClass.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAuwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:41:39.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T08:41:39.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\Program.cs",
               "RelativeDocumentMoniker": "PracticeLinq\\Program.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\PracticeLinq\\PracticeLinq\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\PracticeLinq\\PracticeLinq\\Program.cs",
               "RelativeToolTip": "PracticeLinq\\Program.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAuwFcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T08:36:46.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T08:36:46.772Z"
             }
           ]
         }

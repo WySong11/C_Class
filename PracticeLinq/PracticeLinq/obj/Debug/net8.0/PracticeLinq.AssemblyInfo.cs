@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ec75d4e895c8e72d165de6a6d347633a7eaab3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

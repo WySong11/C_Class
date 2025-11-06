@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestExercises\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestExercises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C915CC7-8157-4325-88A6-DC4B3798F99C}|TestExercises\\TestExercises.csproj|c:\\users\\oosong\\c#\\testexercises\\testexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C915CC7-8157-4325-88A6-DC4B3798F99C}|TestExercises\\TestExercises.csproj|d:\\dev\\github\\c_class\\testexercises\\testexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C915CC7-8157-4325-88A6-DC4B3798F99C}|TestExercises\\TestExercises.csproj|solutionrelative:testexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestExercises\\TestExercises\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestExercises\\TestExercises\\Program.cs",
               "RelativeDocumentMoniker": "TestExercises\\Program.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestExercises\\TestExercises\\Program.cs*",
-              "RelativeToolTip": "TestExercises\\Program.cs*",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA0wBUAAAAqAAAAAAAAAA==",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestExercises\\TestExercises\\Program.cs",
+              "RelativeToolTip": "TestExercises\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T09:57:23.386Z",
               "EditorCaption": ""

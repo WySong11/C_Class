@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\bin\Debug\net8.0\TestExercises.exe
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\bin\Debug\net8.0\TestExercises.deps.json
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\bin\Debug\net8.0\TestExercises.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\bin\Debug\net8.0\TestExercises.dll
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\bin\Debug\net8.0\TestExercises.pdb
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.sourcelink.json
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.dll
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\refint\TestExercises.dll
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.pdb
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\TestExercises.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestExercises\TestExercises\obj\Debug\net8.0\ref\TestExercises.dll
