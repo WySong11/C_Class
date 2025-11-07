@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PracticeDelegateLambdaLinqTryCatch/1.0.0": {
+        "runtime": {
+          "PracticeDelegateLambdaLinqTryCatch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PracticeDelegateLambdaLinqTryCatch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
