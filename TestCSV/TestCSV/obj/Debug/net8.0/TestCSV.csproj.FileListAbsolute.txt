@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestCSV\TestCSV\bin\Debug\net8.0\TestCSV.exe
+C:\Users\ooSong\c#\TestCSV\TestCSV\bin\Debug\net8.0\TestCSV.deps.json
+C:\Users\ooSong\c#\TestCSV\TestCSV\bin\Debug\net8.0\TestCSV.runtimeconfig.json
+C:\Users\ooSong\c#\TestCSV\TestCSV\bin\Debug\net8.0\TestCSV.dll
+C:\Users\ooSong\c#\TestCSV\TestCSV\bin\Debug\net8.0\TestCSV.pdb
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.dll
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\refint\TestCSV.dll
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.pdb
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\TestCSV.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestCSV\TestCSV\obj\Debug\net8.0\ref\TestCSV.dll

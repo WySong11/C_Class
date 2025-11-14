@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestCSV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|c:\\users\\oosong\\c#\\testcsv\\testcsv\\testcsvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|solutionrelative:testcsv\\testcsvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|c:\\users\\oosong\\c#\\testcsv\\testcsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|solutionrelative:testcsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|c:\\users\\oosong\\c#\\testcsv\\testcsv\\csvexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855F366B-B2B2-48DB-A364-412DD677A41A}|TestCSV\\TestCSV.csproj|solutionrelative:testcsv\\csvexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestCSVHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\TestCSVHelper.cs",
+              "RelativeDocumentMoniker": "TestCSV\\TestCSVHelper.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\TestCSVHelper.cs",
+              "RelativeToolTip": "TestCSV\\TestCSVHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwG0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:07:26.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\Program.cs",
+              "RelativeDocumentMoniker": "TestCSV\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\Program.cs",
+              "RelativeToolTip": "TestCSV\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAA0wGYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:50:05.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "74565845-947e-4608-a0da-ca3abee42acc",
+        "Display": 1,
+        "X": 25,
+        "Y": 21,
+        "Width": 1817,
+        "Height": 925,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CSVExercise.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\CSVExercise.cs",
+              "RelativeDocumentMoniker": "TestCSV\\CSVExercise.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestCSV\\TestCSV\\CSVExercise.cs",
+              "RelativeToolTip": "TestCSV\\CSVExercise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:38:17.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

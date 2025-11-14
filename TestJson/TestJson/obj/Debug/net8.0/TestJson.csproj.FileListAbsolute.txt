@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestJson\TestJson\bin\Debug\net8.0\TestJson.exe
+C:\Users\ooSong\c#\TestJson\TestJson\bin\Debug\net8.0\TestJson.deps.json
+C:\Users\ooSong\c#\TestJson\TestJson\bin\Debug\net8.0\TestJson.runtimeconfig.json
+C:\Users\ooSong\c#\TestJson\TestJson\bin\Debug\net8.0\TestJson.dll
+C:\Users\ooSong\c#\TestJson\TestJson\bin\Debug\net8.0\TestJson.pdb
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.dll
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\refint\TestJson.dll
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.pdb
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\TestJson.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestJson\TestJson\obj\Debug\net8.0\ref\TestJson.dll

@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestFileIO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E63F81-B96A-47F4-9439-65927A596DCD}|TestFileIO\\TestFileIO.csproj|c:\\users\\oosong\\c#\\testfileio\\testfileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E63F81-B96A-47F4-9439-65927A596DCD}|TestFileIO\\TestFileIO.csproj|solutionrelative:testfileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E63F81-B96A-47F4-9439-65927A596DCD}|TestFileIO\\TestFileIO.csproj|c:\\users\\oosong\\c#\\testfileio\\testfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E63F81-B96A-47F4-9439-65927A596DCD}|TestFileIO\\TestFileIO.csproj|solutionrelative:testfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestFileIO\\TestFileIO\\Program.cs",
+              "RelativeDocumentMoniker": "TestFileIO\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestFileIO\\TestFileIO\\Program.cs",
+              "RelativeToolTip": "TestFileIO\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwIoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T09:30:36.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileReadWrite.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestFileIO\\TestFileIO\\FileReadWrite.cs",
+              "RelativeDocumentMoniker": "TestFileIO\\FileReadWrite.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestFileIO\\TestFileIO\\FileReadWrite.cs",
+              "RelativeToolTip": "TestFileIO\\FileReadWrite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:43:28.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

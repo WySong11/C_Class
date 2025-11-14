@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "John Doe",
+    "Age": 20,
+    "StudentID": "S1001"
+  },
+  {
+    "Name": "Jane Smith",
+    "Age": 22,
+    "StudentID": "S1002"
+  },
+  {
+    "Name": "Sam Brown",
+    "Age": 21,
+    "StudentID": "S1003"
+  }
+]

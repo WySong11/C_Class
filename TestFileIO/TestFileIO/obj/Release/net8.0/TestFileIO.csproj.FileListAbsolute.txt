@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\bin\Release\net8.0\TestFileIO.exe
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\bin\Release\net8.0\TestFileIO.deps.json
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\bin\Release\net8.0\TestFileIO.runtimeconfig.json
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\bin\Release\net8.0\TestFileIO.dll
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\bin\Release\net8.0\TestFileIO.pdb
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.dll
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\refint\TestFileIO.dll
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.pdb
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\TestFileIO.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestFileIO\TestFileIO\obj\Release\net8.0\ref\TestFileIO.dll
