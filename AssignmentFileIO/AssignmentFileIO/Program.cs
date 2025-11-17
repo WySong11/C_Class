@@ -48,6 +48,16 @@ public class Program
                     break;
 
                 case 4:
+                    DeletePlayerData();
+                    WriteLine("Player data deleted");
+                    break;
+
+                case 5:
+                    SortPlayerDataByLevel();
+                    WriteLine("Player data sorted by level.");
+                    break;
+
+                case 6:
                     exit = false;
                     break;
 
@@ -71,7 +81,9 @@ public class Program
         WriteLine("1. Create Player Data");
         WriteLine("2. View Player Data");
         WriteLine("3. Save Player Data");
-        WriteLine("4. Exit");
+        WriteLine("4. Delete Player Data");
+        WriteLine("5. Sort Player Data By Level");
+        WriteLine("6. Exit");
         Write("Select Menu: ");
         int menu = int.Parse(ReadLine() ?? "4");
         WriteLine();
@@ -113,4 +125,32 @@ public class Program
         SaveLoadJson.SaveList<PlayerData>(playerDataList);
     }
 
+    static public void DeletePlayerData()
+    {
+        Write("Enter player name to delete: ");
+        string name = ReadLine() ?? "Unknown";
+
+        if(name.Equals("Unknown"))
+        {
+            WriteLine("Invalid player name.");
+            return;
+        }        
+
+        int removeIndex = playerDataList.FindIndex(player => player.Name.Equals(name));
+
+        if (removeIndex != -1)
+        {
+            playerDataList.RemoveAt(removeIndex);
+            WriteLine($"Player data for '{name}' deleted.");
+        }
+        else
+        {
+            WriteLine($"Player data for '{name}' not found.");
+        }
+    }
+
+    static void SortPlayerDataByLevel()
+    {
+        playerDataList.Sort((p1, p2) => p1.Level.CompareTo(p2.Level));
+    }
 }
