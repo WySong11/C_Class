@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Downloads\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Downloads\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj",
         "projectName": "AssignmentFileIO",
-        "projectPath": "C:\\Users\\user\\Downloads\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\AssignmentFileIO.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\C_Class-20ea6329a4de2c0d39eceb856b39466475b8b962\\AssignmentFileIO\\AssignmentFileIO\\obj\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
