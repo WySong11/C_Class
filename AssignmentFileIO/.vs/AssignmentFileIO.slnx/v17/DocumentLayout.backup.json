@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|d:\\dev\\github\\c_class\\assignmentfileio\\assignmentfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|solutionrelative:assignmentfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|d:\\dev\\github\\c_class\\assignmentfileio\\assignmentfileio\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|solutionrelative:assignmentfileio\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|d:\\dev\\github\\c_class\\assignmentfileio\\assignmentfileio\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CC92DA1-D096-3841-D4F4-4DC4B3AE7F38}|AssignmentFileIO\\AssignmentFileIO.csproj|solutionrelative:assignmentfileio\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentFileIO\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\Program.cs",
+              "RelativeToolTip": "AssignmentFileIO\\Program.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAADwv9kAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:55:22.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\PlayerData.cs",
+              "RelativeDocumentMoniker": "AssignmentFileIO\\PlayerData.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\PlayerData.cs",
+              "RelativeToolTip": "AssignmentFileIO\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:55:21.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LevelData.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\AssignmentFileIO\\AssignmentFileIO\\LevelData.cs",
               "RelativeDocumentMoniker": "AssignmentFileIO\\LevelData.cs",

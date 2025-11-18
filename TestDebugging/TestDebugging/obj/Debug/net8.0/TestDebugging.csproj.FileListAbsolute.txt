@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\bin\Debug\net8.0\TestDebugging.exe
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\bin\Debug\net8.0\TestDebugging.deps.json
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\bin\Debug\net8.0\TestDebugging.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\bin\Debug\net8.0\TestDebugging.dll
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\bin\Debug\net8.0\TestDebugging.pdb
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.sourcelink.json
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.dll
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\refint\TestDebugging.dll
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.pdb
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\TestDebugging.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestDebugging\TestDebugging\obj\Debug\net8.0\ref\TestDebugging.dll

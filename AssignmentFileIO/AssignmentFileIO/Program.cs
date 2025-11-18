@@ -85,7 +85,13 @@ public class Program
         WriteLine("5. Sort Player Data By Level");
         WriteLine("6. Exit");
         Write("Select Menu: ");
-        int menu = int.Parse(ReadLine() ?? "4");
+
+        if( !int.TryParse(ReadLine(), out int menu) )
+        {
+            WriteLine();
+            return 0;
+        }
+        
         WriteLine();
         return menu;
     }
@@ -128,6 +134,9 @@ public class Program
     static public void DeletePlayerData()
     {
         Write("Enter player name to delete: ");
+
+        // ?? : null 병합 연산자 사용
+        // ReadLine()이 null을 반환할 경우 "Unknown"으로 대체
         string name = ReadLine() ?? "Unknown";
 
         if(name.Equals("Unknown"))
@@ -149,8 +158,63 @@ public class Program
         }
     }
 
-    static void SortPlayerDataByLevel()
+    static void SortPlayerDataByLevel(bool inCrease = false)
     {
-        playerDataList.Sort((p1, p2) => p1.Level.CompareTo(p2.Level));
+        // Lambda expression to sort playerDataList by Level property
+        // p1 and p2 represent two PlayerData objects being compared
+        playerDataList.Sort((p1, p2) =>
+        {
+            if (inCrease)
+                return p1.Level.CompareTo(p2.Level);
+            else
+                return p2.Level.CompareTo(p1.Level);
+            
+        });        
+    }
+
+    static void EditPlayerData()
+    {
+        Write("Enter player name to edit: ");
+        string name = ReadLine() ?? "";
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            WriteLine("Invalid name.");
+            return;
+        }
+
+        int index = playerDataList.FindIndex(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+        if (index == -1)
+        {
+            WriteLine($"Player '{name}' not found.");
+            return;
+        }
+
+        var player = playerDataList[index];
+        WriteLine($"Editing: Name: {player.Name}, Level: {player.Level}, Exp: {player.Exp}");
+
+        Write("New name (leave empty to keep): ");
+        string newName = ReadLine() ?? "";
+        if (!string.IsNullOrWhiteSpace(newName))
+        {
+            player.Name = newName;
+        }
+
+        Write("New exp (leave empty to keep): ");
+        string expInput = ReadLine() ?? "";
+        if (!string.IsNullOrWhiteSpace(expInput))
+        {
+            if (int.TryParse(expInput, out int newExp) && newExp >= 0)
+            {
+                player.Exp = newExp;
+                player.Level = GetLevelFromExp(newExp);
+            }
+            else
+            {
+                WriteLine("Invalid exp value. Keeping previous exp.");
+            }
+        }
+
+        playerDataList[index] = player;
+        WriteLine("Player updated.");
     }
 }
