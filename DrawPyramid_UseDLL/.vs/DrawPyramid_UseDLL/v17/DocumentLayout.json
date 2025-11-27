@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\DrawPyramid_UseDLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{773F33AA-E576-4AD1-8580-C30FF2BE970C}|DrawPyramid_UseDLL\\DrawPyramid_UseDLL.csproj|d:\\dev\\github\\c_class\\drawpyramid_usedll\\drawpyramid_usedll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773F33AA-E576-4AD1-8580-C30FF2BE970C}|DrawPyramid_UseDLL\\DrawPyramid_UseDLL.csproj|solutionrelative:drawpyramid_usedll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DrawPyramid_UseDLL\\DrawPyramid_UseDLL\\Program.cs",
+              "RelativeDocumentMoniker": "DrawPyramid_UseDLL\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DrawPyramid_UseDLL\\DrawPyramid_UseDLL\\Program.cs",
+              "RelativeToolTip": "DrawPyramid_UseDLL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:01:07.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
