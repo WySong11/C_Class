@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\bin\Debug\net8.0\AssignmentHorseGame.exe
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\bin\Debug\net8.0\AssignmentHorseGame.deps.json
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\bin\Debug\net8.0\AssignmentHorseGame.runtimeconfig.json
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\bin\Debug\net8.0\AssignmentHorseGame.dll
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\bin\Debug\net8.0\AssignmentHorseGame.pdb
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.AssemblyInfo.cs
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.dll
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\refint\AssignmentHorseGame.dll
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.pdb
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\AssignmentHorseGame.genruntimeconfig.cache
+C:\Users\ooSong\c#\AssignmentHorseGame\AssignmentHorseGame\obj\Debug\net8.0\ref\AssignmentHorseGame.dll

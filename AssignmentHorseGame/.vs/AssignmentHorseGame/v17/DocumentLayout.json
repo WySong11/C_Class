@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\AssignmentHorseGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D77AF6E5-B418-424B-BFED-64E7369DBB61}|AssignmentHorseGame\\AssignmentHorseGame.csproj|c:\\users\\oosong\\c#\\assignmenthorsegame\\assignmenthorsegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77AF6E5-B418-424B-BFED-64E7369DBB61}|AssignmentHorseGame\\AssignmentHorseGame.csproj|solutionrelative:assignmenthorsegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77AF6E5-B418-424B-BFED-64E7369DBB61}|AssignmentHorseGame\\AssignmentHorseGame.csproj|c:\\users\\oosong\\c#\\assignmenthorsegame\\assignmenthorsegame\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77AF6E5-B418-424B-BFED-64E7369DBB61}|AssignmentHorseGame\\AssignmentHorseGame.csproj|solutionrelative:assignmenthorsegame\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 235,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\AssignmentHorseGame\\AssignmentHorseGame\\Test.cs",
+              "RelativeDocumentMoniker": "AssignmentHorseGame\\Test.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\AssignmentHorseGame\\AssignmentHorseGame\\Test.cs",
+              "RelativeToolTip": "AssignmentHorseGame\\Test.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:49:28.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\AssignmentHorseGame\\AssignmentHorseGame\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentHorseGame\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\AssignmentHorseGame\\AssignmentHorseGame\\Program.cs",
+              "RelativeToolTip": "AssignmentHorseGame\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:45:03.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

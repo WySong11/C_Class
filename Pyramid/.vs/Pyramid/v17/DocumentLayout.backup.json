@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|solutionrelative:pyramid\\halfpyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C4F1EC-8F6C-4641-8C75-53776A3A2110}|Pyramid.csproj|d:\\dev\\github\\c_class\\pyramid\\pyramid.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -78,28 +78,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HalfPyramid.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\HalfPyramid.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\HalfPyramid.cs",
               "RelativeToolTip": "Pyramid\\HalfPyramid.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T07:45:31.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Pyramid.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeDocumentMoniker": "Pyramid\\Pyramid.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Pyramid\\Pyramid\\Pyramid.cs",
               "RelativeToolTip": "Pyramid\\Pyramid.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAIA9wEQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T07:39:43.864Z"
+              "WhenOpened": "2025-06-09T07:39:43.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

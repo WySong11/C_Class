@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\bin\Debug\net8.0\AssignmentSkill.exe
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\bin\Debug\net8.0\AssignmentSkill.deps.json
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\bin\Debug\net8.0\AssignmentSkill.runtimeconfig.json
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\bin\Debug\net8.0\AssignmentSkill.dll
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\bin\Debug\net8.0\AssignmentSkill.pdb
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.AssemblyInfo.cs
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.dll
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\refint\AssignmentSkill.dll
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.pdb
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\AssignmentSkill.genruntimeconfig.cache
+C:\Users\ooSong\c#\AssignmentSkill\AssignmentSkill\obj\Debug\net8.0\ref\AssignmentSkill.dll

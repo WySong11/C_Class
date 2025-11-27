@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssignmentFileIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d929d2c28be15da93c77047bcccb5ba14d4d3a8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef0ac42d7f8e15441d73fc38e358791805a3e4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssignmentFileIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssignmentFileIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

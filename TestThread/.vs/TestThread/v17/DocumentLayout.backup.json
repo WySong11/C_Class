@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestThread\\",
+  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestThread\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{934D181D-0041-42BC-9B49-53216C3C8153}|TestThread.csproj|d:\\dev\\github\\c_class\\testthread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934D181D-0041-42BC-9B49-53216C3C8153}|TestThread.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8563E120-DB1F-4467-9588-117EB55B2FF3}|TestThread\\TestThread.csproj|c:\\users\\oosong\\c#\\testthread\\testthread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8563E120-DB1F-4467-9588-117EB55B2FF3}|TestThread\\TestThread.csproj|solutionrelative:testthread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestThread\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestThread\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAeAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestThread\\TestThread\\Program.cs",
+              "RelativeDocumentMoniker": "TestThread\\Program.cs",
+              "ToolTip": "C:\\Users\\ooSong\\c#\\TestThread\\TestThread\\Program.cs",
+              "RelativeToolTip": "TestThread\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T04:41:46.292Z",
+              "WhenOpened": "2025-11-25T10:19:35.457Z",
               "EditorCaption": ""
             }
           ]

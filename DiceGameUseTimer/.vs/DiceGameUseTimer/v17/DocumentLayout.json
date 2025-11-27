@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimer\\basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimer\\dicegameusetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:dicegameusetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimer\\basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimer\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DiceGameUseTimer.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\DiceGameUseTimer.cs",
               "RelativeDocumentMoniker": "DiceGameUseTimer.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\DiceGameUseTimer.cs",
               "RelativeToolTip": "DiceGameUseTimer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAApwIAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAkwIAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T12:22:59.141Z",
               "EditorCaption": ""
@@ -55,7 +55,8 @@
               "RelativeToolTip": "EnemyCharacter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:55:54.528Z"
+              "WhenOpened": "2025-07-20T08:55:54.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,32 +68,34 @@
               "RelativeToolTip": "PlayerCharacter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:55:40.977Z"
+              "WhenOpened": "2025-07-20T08:55:40.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BaseCharacter.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\BaseCharacter.cs",
               "RelativeDocumentMoniker": "BaseCharacter.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\BaseCharacter.cs",
               "RelativeToolTip": "BaseCharacter.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAApwMMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T08:53:17.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:48:35.829Z"
+              "WhenOpened": "2025-07-20T08:48:35.829Z",
+              "EditorCaption": ""
             }
           ]
         }

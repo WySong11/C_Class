@@ -1,0 +1,12 @@
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\bin\Release\net8.0\ClassLibrary_PrintStar.deps.json
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\bin\Release\net8.0\ClassLibrary_PrintStar.dll
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\bin\Release\net8.0\ClassLibrary_PrintStar.pdb
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.sourcelink.json
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.dll
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\refint\ClassLibrary_PrintStar.dll
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ClassLibrary_PrintStar.pdb
+D:\Dev\GitHub\C_Class\ClassLibrary_PrintStar\ClassLibrary_PrintStar\obj\Release\net8.0\ref\ClassLibrary_PrintStar.dll

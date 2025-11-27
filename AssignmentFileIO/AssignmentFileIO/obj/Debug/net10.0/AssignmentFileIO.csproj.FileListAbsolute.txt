@@ -13,3 +13,17 @@ D:\Dev\GitHub\C_Class\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\refint
 D:\Dev\GitHub\C_Class\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.pdb
 D:\Dev\GitHub\C_Class\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.genruntimeconfig.cache
 D:\Dev\GitHub\C_Class\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\ref\AssignmentFileIO.dll
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\bin\Debug\net10.0\AssignmentFileIO.exe
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\bin\Debug\net10.0\AssignmentFileIO.deps.json
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\bin\Debug\net10.0\AssignmentFileIO.runtimeconfig.json
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\bin\Debug\net10.0\AssignmentFileIO.dll
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\bin\Debug\net10.0\AssignmentFileIO.pdb
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.AssemblyInfo.cs
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.dll
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\refint\AssignmentFileIO.dll
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.pdb
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\AssignmentFileIO.genruntimeconfig.cache
+C:\Users\ooSong\c#\AssignmentFileIO\AssignmentFileIO\obj\Debug\net10.0\ref\AssignmentFileIO.dll

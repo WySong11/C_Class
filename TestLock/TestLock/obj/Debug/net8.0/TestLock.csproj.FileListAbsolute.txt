@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestLock\TestLock\bin\Debug\net8.0\TestLock.exe
+C:\Users\ooSong\c#\TestLock\TestLock\bin\Debug\net8.0\TestLock.deps.json
+C:\Users\ooSong\c#\TestLock\TestLock\bin\Debug\net8.0\TestLock.runtimeconfig.json
+C:\Users\ooSong\c#\TestLock\TestLock\bin\Debug\net8.0\TestLock.dll
+C:\Users\ooSong\c#\TestLock\TestLock\bin\Debug\net8.0\TestLock.pdb
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.dll
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\refint\TestLock.dll
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.pdb
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\TestLock.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestLock\TestLock\obj\Debug\net8.0\ref\TestLock.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\ClassLibrary_PrintStar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2C44CF-DD3F-49E7-A435-971061DDEF1B}|ClassLibrary_PrintStar\\ClassLibrary_PrintStar.csproj|d:\\dev\\github\\c_class\\classlibrary_printstar\\classlibrary_printstar\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2C44CF-DD3F-49E7-A435-971061DDEF1B}|ClassLibrary_PrintStar\\ClassLibrary_PrintStar.csproj|solutionrelative:classlibrary_printstar\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\ClassLibrary_PrintStar\\ClassLibrary_PrintStar\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary_PrintStar\\Class1.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\ClassLibrary_PrintStar\\ClassLibrary_PrintStar\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary_PrintStar\\Class1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:44:13.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

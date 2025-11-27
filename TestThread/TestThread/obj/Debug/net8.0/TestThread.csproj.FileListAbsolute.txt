@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestThread\TestThread\bin\Debug\net8.0\TestThread.exe
+C:\Users\ooSong\c#\TestThread\TestThread\bin\Debug\net8.0\TestThread.deps.json
+C:\Users\ooSong\c#\TestThread\TestThread\bin\Debug\net8.0\TestThread.runtimeconfig.json
+C:\Users\ooSong\c#\TestThread\TestThread\bin\Debug\net8.0\TestThread.dll
+C:\Users\ooSong\c#\TestThread\TestThread\bin\Debug\net8.0\TestThread.pdb
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.dll
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\refint\TestThread.dll
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.pdb
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\TestThread.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestThread\TestThread\obj\Debug\net8.0\ref\TestThread.dll
