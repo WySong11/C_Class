@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\bin\Debug\net8.0\TypingPracticeGame_CsvJson.exe
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\bin\Debug\net8.0\TypingPracticeGame_CsvJson.deps.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\bin\Debug\net8.0\TypingPracticeGame_CsvJson.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\bin\Debug\net8.0\TypingPracticeGame_CsvJson.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\bin\Debug\net8.0\TypingPracticeGame_CsvJson.pdb
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.sourcelink.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\refint\TypingPracticeGame_CsvJson.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.pdb
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\TypingPracticeGame_CsvJson.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame_CsvJson\TypingPracticeGame_CsvJson\obj\Debug\net8.0\ref\TypingPracticeGame_CsvJson.dll

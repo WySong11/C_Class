@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TypingPracticeGame_CsvJson/1.0.0": {
+        "runtime": {
+          "TypingPracticeGame_CsvJson.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TypingPracticeGame_CsvJson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
