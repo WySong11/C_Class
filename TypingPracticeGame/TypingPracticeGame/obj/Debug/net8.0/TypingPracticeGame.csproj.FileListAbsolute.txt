@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\bin\Debug\net8.0\TypingPracticeGame.exe
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\bin\Debug\net8.0\TypingPracticeGame.deps.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\bin\Debug\net8.0\TypingPracticeGame.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\bin\Debug\net8.0\TypingPracticeGame.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\bin\Debug\net8.0\TypingPracticeGame.pdb
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.sourcelink.json
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\refint\TypingPracticeGame.dll
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.pdb
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\TypingPracticeGame.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TypingPracticeGame\TypingPracticeGame\obj\Debug\net8.0\ref\TypingPracticeGame.dll

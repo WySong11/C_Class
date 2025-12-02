@@ -1,0 +1,30 @@
+--------------------------------------------------
+[2025-12-02 13:54:58] Log - Game Start: Player vs Enemy
+[2025-12-02 13:54:58] Log - Player: Player, Health: 90, Attack Power: 15, Attack Speed: 1300ms
+[2025-12-02 13:54:58] Log - Enemy: Enemy, Health: 130, Attack Power: 22, Attack Speed: 1950ms
+--------------------------------------------------
+[2025-12-02 13:54:59] Log - Player attacks Enemy (18)
+[2025-12-02 13:54:59] Log - Enemy HealthChanged 112
+[2025-12-02 13:55:00] Log - Enemy attacks Player (23)
+[2025-12-02 13:55:00] Log - Player HealthChanged 67
+[2025-12-02 13:55:01] Log - Player attacks Enemy (16)
+[2025-12-02 13:55:01] Log - Enemy HealthChanged 96
+[2025-12-02 13:55:02] Log - Enemy attacks Player (16)
+[2025-12-02 13:55:02] Log - Player attacks Enemy (17)
+[2025-12-02 13:55:02] Log - Player HealthChanged 51
+[2025-12-02 13:55:02] Log - Enemy HealthChanged 79
+[2025-12-02 13:55:03] Log - Player attacks Enemy (12)
+[2025-12-02 13:55:03] Log - Enemy HealthChanged 67
+[2025-12-02 13:55:04] Log - Enemy attacks Player (19)
+[2025-12-02 13:55:04] Log - Player HealthChanged 32
+[2025-12-02 13:55:05] Log - Player attacks Enemy (14)
+[2025-12-02 13:55:05] Log - Enemy HealthChanged 53
+[2025-12-02 13:55:06] Log - Enemy attacks Player (15)
+[2025-12-02 13:55:06] Log - Player attacks Enemy (18)
+[2025-12-02 13:55:06] Log - Player HealthChanged 17
+[2025-12-02 13:55:06] Log - Enemy HealthChanged 35
+[2025-12-02 13:55:07] Log - Player attacks Enemy (13)
+[2025-12-02 13:55:07] Log - Enemy HealthChanged 22
+[2025-12-02 13:55:08] Log - Enemy attacks Player (20)
+[2025-12-02 13:55:08] Log - Player HealthChanged 0
+[2025-12-02 13:55:08] Log - Game Over: Player has been defeated.

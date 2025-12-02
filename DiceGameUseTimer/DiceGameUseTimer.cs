@@ -83,6 +83,10 @@ namespace DiceGameUseTimer
         /// </summary>
         private bool _gameOver = false;
 
+        private List<string> m_logMessages = new List<string>();
+
+        private const string LogFilePath = "game_log.txt";
+
         // async/await: 선언적으로 비동기를 다루는 방식
         // 자동으로 Task를 반환해줘서 코드가 깔끔해지고 가독성이 높아짐
         // await를 통해 비동기 작업의 결과를 기다리면서도 스레드를 차단하지 않음
@@ -141,7 +145,11 @@ namespace DiceGameUseTimer
                                 Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Attacker not found for ID {target.ID}");
                                 return;
                             }
-                            Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {attecker.Name} attacks {target.Name} ({attackEvent.Damage})");
+
+                            string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {attecker.Name} attacks {target.Name} ({attackEvent.Damage})";
+                            m_logMessages.Add(logMessage);
+                            Debug.WriteLine(logMessage);
+
                             // 대상에게 데미지 적용
                             target.TakeDamage(attackEvent.Damage);
                         }
@@ -162,8 +170,9 @@ namespace DiceGameUseTimer
                             Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Character not found for ID {healthEvent.CharacterID}");
                             return;
                         }
-
-                        Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {target.Name} HealthChanged {healthEvent.Health}");
+                        string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - {target.Name} HealthChanged {healthEvent.Health}";
+                        m_logMessages.Add(logMessage);
+                        Debug.WriteLine(logMessage);
 
                         // 체력 변화 정보 출력
                         Console.ForegroundColor = ConsoleColor.Green;
@@ -175,6 +184,10 @@ namespace DiceGameUseTimer
                         {
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine($"\n{target?.Name} 죽었습니다!\n");
+
+                            string endLogMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Game Over: {target.Name} has been defeated.";
+                            m_logMessages.Add(endLogMessage);
+
                             EndGame();         // 게임 종료 처리
                             tcs.TrySetResult(); // TaskCompletionSource로 대기 중인 Task 완료
                         }
@@ -186,6 +199,19 @@ namespace DiceGameUseTimer
 
             // 게임 시작 시 캐릭터 정보 출력
             Console.ForegroundColor = ConsoleColor.Yellow;
+
+            m_logMessages.Add(new string('-', 50));
+
+            string startLogMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Game Start: {_playerCharacter.Name} vs {_enemyCharacter.Name}";
+            m_logMessages.Add(startLogMessage);
+
+            string playerInfo = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Player: {_playerCharacter.Name}, Health: {_playerCharacter.Health}, Attack Power: {_playerCharacter.AttackPower}, Attack Speed: {_playerCharacter.AttackSpeed}ms";
+            m_logMessages.Add(playerInfo);
+
+            string enemyInfo = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Enemy: {_enemyCharacter.Name}, Health: {_enemyCharacter.Health}, Attack Power: {_enemyCharacter.AttackPower}, Attack Speed: {_enemyCharacter.AttackSpeed}ms";
+            m_logMessages.Add(enemyInfo);
+            m_logMessages.Add(new string('-', 50));
+
             Console.WriteLine($"\n{_playerCharacter.Name} vs {_enemyCharacter.Name}");
             Console.WriteLine($"\n{_playerCharacter.Name} 체력: {_playerCharacter.Health}, 공격력: {_playerCharacter.AttackPower}, 공격 속도: {_playerCharacter.AttackSpeed}ms");
             Console.WriteLine($"\n{_enemyCharacter.Name} 체력: {_enemyCharacter.Health}, 공격력: {_enemyCharacter.AttackPower}, 공격 속도: {_enemyCharacter.AttackSpeed}ms\n");
@@ -201,6 +227,8 @@ namespace DiceGameUseTimer
             await tcs.Task;
 
             Console.ForegroundColor = ConsoleColor.White;
+
+            SaveLogs();
 
             // 게임 종료 후 재시작 여부 확인
             if (PromptContinue("게임을 다시 시작하시겠습니까? (y/yes 또는 Enter 키를 누르세요): "))
@@ -267,6 +295,21 @@ namespace DiceGameUseTimer
                 return false; // 기본값으로 false 반환
             }
             return input.Trim().ToLower() == "y" || input.Trim().ToLower() == "yes";
+        }
+
+        void SaveLogs()
+        {
+            try
+            {
+                // 로그 메시지를 파일에 저장
+                // AppendAllLines은 파일이 없으면 새로 만들고, 있으면 이어쓰기
+                System.IO.File.AppendAllLines(LogFilePath, m_logMessages);
+                m_logMessages.Clear();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - Failed to save logs: {ex.Message}");
+            }
         }
     }
 }

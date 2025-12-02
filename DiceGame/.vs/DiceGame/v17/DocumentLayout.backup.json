@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|d:\\dev\\github\\c_class\\dicegame\\dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|solutionrelative:dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|d:\\dev\\github\\c_class\\dicegame\\character\\basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|solutionrelative:character\\basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|d:\\dev\\github\\c_class\\dicegame\\dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|solutionrelative:dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33F81DBC-8E3C-4D4C-906D-D282EE504B07}|DiceGame.csproj|d:\\dev\\github\\c_class\\dicegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -62,12 +62,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DiceGame.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\DiceGame.cs",
               "RelativeDocumentMoniker": "DiceGame.cs",
-              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\DiceGame.cs*",
-              "RelativeToolTip": "DiceGame.cs*",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\DiceGame.cs",
+              "RelativeToolTip": "DiceGame.cs",
               "ViewState": "AgIAABUBAAAAAAAAAAAWwC0BAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T11:51:24.178Z",
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BaseCharacter.cs",
               "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\Character\\BaseCharacter.cs",
               "RelativeDocumentMoniker": "Character\\BaseCharacter.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGame\\Character\\BaseCharacter.cs",
               "RelativeToolTip": "Character\\BaseCharacter.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAMwJkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAhwKoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T08:26:44.382Z",
               "EditorCaption": ""
