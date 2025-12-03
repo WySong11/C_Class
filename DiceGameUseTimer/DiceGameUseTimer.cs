@@ -164,12 +164,12 @@ namespace DiceGameUseTimer
                         }
 
                         // 체력 변화 정보 출력
-                        string logMessage = $"{target?.Name} 체력 변화: {target?.Health}\n";
+                        string logMessage = $"{target?.Name} 체력 변화: {target?.Stats.Health}\n";
 
                         SaveLog.WriteLog(ConsoleColor.Green, logMessage);
 
                         // 게임 종료 조건 체크: 체력이 0 이하가 되면 게임 종료
-                        if (target.Health <= 0)
+                        if (target.Stats.Health <= 0)
                         {
                             string endLogMessage = $"\n{target?.Name} 죽었습니다!\n";
                             SaveLog.WriteLog(ConsoleColor.Blue, endLogMessage);
@@ -178,27 +178,25 @@ namespace DiceGameUseTimer
                             tcs.TrySetResult(); // TaskCompletionSource로 대기 중인 Task 완료
                         }
                     }
-                });
+                });  
             }
 
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             // 게임 시작 시 캐릭터 정보 출력
             string startLogMessage = $"게임 시작: {_playerCharacter.Name} vs {_enemyCharacter.Name}";
-            string playerStatsLogMessage = $"{_playerCharacter.Name} 체력: {_playerCharacter.Health}, 공격력: {_playerCharacter.AttackPower}, 공격 속도: {_playerCharacter.AttackSpeed}ms";
-            string enemyStatsLogMessage = $"{_enemyCharacter.Name} 체력: {_enemyCharacter.Health}, 공격력: {_enemyCharacter.AttackPower}, 공격 속도: {_enemyCharacter.AttackSpeed}ms";
-            string separatorLogMessage = new string('-', 50);
-
             SaveLog.WriteLog(ConsoleColor.Yellow, startLogMessage);
-            SaveLog.WriteLog(ConsoleColor.Yellow, playerStatsLogMessage);
-            SaveLog.WriteLog(ConsoleColor.Yellow, enemyStatsLogMessage);
-            SaveLog.WriteLog(ConsoleColor.White, separatorLogMessage);
 
             // 모든 캐릭터의 자동 공격 타이머 시작
             foreach (var character in _characters)
             {
                 character.StartAutoAttackTimer();
+
+                string StatsLogMessage = $"{character.Name} 체력: {character.Stats.Health}, 공격력: {character.Stats.AttackPower}, 공격 속도: {character.Stats.AttackSpeed}ms";
+                SaveLog.WriteLog(ConsoleColor.Yellow, StatsLogMessage);
             }
+
+            SaveLog.WriteLog(ConsoleColor.Yellow, new string('-', 50));
 
             // busy-wait 루프 대신 비동기 대기
             await tcs.Task;

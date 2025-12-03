@@ -5,6 +5,27 @@ using System.Threading;
 namespace DiceGameUseTimer
 {
     /// <summary>
+    /// 캐릭터의 능력치 묶음(체력, 최대체력, 공격력, 공격속도)
+    /// </summary>
+    public class CharacterStats
+    {
+        public int Health;
+        public int MaxHealth;
+        public int AttackPower;
+        public double AttackSpeed;
+
+        public CharacterStats() { }
+
+        public CharacterStats(int health, int maxHealth, int attackPower, double attackSpeed)
+        {
+            Health = health;
+            MaxHealth = maxHealth;
+            AttackPower = attackPower;
+            AttackSpeed = attackSpeed;
+        }
+    }
+
+    /// <summary>
     /// 캐릭터가 공격을 받을 수 있음을 나타내는 인터페이스
     /// </summary>
     public interface IAttackable
@@ -33,19 +54,9 @@ namespace DiceGameUseTimer
         public string Name { get; private set; }
 
         /// <summary>
-        /// 캐릭터의 현재 체력
+        /// 캐릭터 능력치 묶음 (Health, MaxHealth, AttackPower, AttackSpeed)
         /// </summary>
-        public int Health { get; private set; }
-
-        /// <summary>
-        /// 캐릭터의 공격력
-        /// </summary>
-        public int AttackPower { get; private set; }
-
-        /// <summary>
-        /// 캐릭터의 공격 속도 (밀리초 단위, 값이 작을수록 빠름)
-        /// </summary>
-        public double AttackSpeed { get; private set; }
+        public CharacterStats Stats;
 
         /// <summary>
         /// 목표 ID (공격 대상의 ID, 0이면 대상 없음)
@@ -55,12 +66,12 @@ namespace DiceGameUseTimer
         /// <summary>
         /// 공격 이벤트 (공격 시 발생, 구독자에게 AttackEventArgs 전달)
         /// </summary>
-        private event Action<AttackEventArgs>? OnAttackEvent;
+        public event Action<AttackEventArgs>? OnAttackEvent;
 
         /// <summary>
         /// 체력 변화 이벤트 (체력 변경 시 발생, 구독자에게 HealthChangedEventArgs 전달)
         /// </summary>
-        private event Action<HealthChangedEventArgs>? OnHealthChangedEvent;
+        public event Action<HealthChangedEventArgs>? OnHealthChangedEvent;
 
         /// <summary>
         /// 자동 공격을 위한 타이머 (공격 주기마다 콜백 실행)
@@ -68,15 +79,14 @@ namespace DiceGameUseTimer
         private Timer? _autoAttackTimer;
 
         /// <summary>
-        /// 기본 생성자. 속성을 기본값으로 초기화
+        /// 기본 생성자. 능력치를 기본값으로 초기화
         /// </summary>
         public BaseCharacter()
         {
             ID = 0;
             Name = string.Empty;
-            Health = 10;
-            AttackPower = 10;
-            AttackSpeed = 100;
+            // 기본 능력치 설정: Health 10, MaxHealth 10, AttackPower 10, AttackSpeed 100ms
+            Stats = new CharacterStats(10, 10, 10, 100);
             TargetID = 0;
         }
 
@@ -99,9 +109,7 @@ namespace DiceGameUseTimer
         {
             ID = id;
             Name = name;
-            Health = health;
-            AttackPower = attackPower;
-            AttackSpeed = attackSpeed;
+            Stats = new CharacterStats(health, health, attackPower, attackSpeed);
             TargetID = 0; // 기본값
         }
 
@@ -111,12 +119,15 @@ namespace DiceGameUseTimer
         /// <param name="level">적용할 레벨(1~10)</param>
         public void SetLevelData(int level)
         {
-            // 레벨에 따라 체력, 공격력, 공격속도 증가
-            Health += level * 10; // 레벨당 체력 10 증가
-            AttackPower += level * 5; // 레벨당 공격력 5 증가
-            AttackSpeed += level * 300; // 레벨당 공격 속도 300ms 증가(공격이 느려짐)
+            if (Stats == null) Stats = new CharacterStats(10, 10, 10, 100);
 
-            //Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
+            // 레벨에 따라 체력, 공격력, 공격속도 증가
+            Stats.Health += level * 10;          // 레벨당 체력 10 증가
+            Stats.AttackPower += level * 5;      // 레벨당 공격력 5 증가
+            Stats.AttackSpeed += level * 300;    // 레벨당 공격 속도 300ms 증가(공격이 느려짐)
+
+            // 레벨 반영 후의 체력을 최대 체력으로 사용
+            Stats.MaxHealth = Stats.Health;
         }
 
         /// <summary>
@@ -126,7 +137,6 @@ namespace DiceGameUseTimer
         public void SetTargetID(int targetID)
         {
             TargetID = targetID;
-            //Console.WriteLine($"{Name} 의 공격 대상이 {TargetID} 로 설정되었습니다.");
         }
 
         /// <summary>
@@ -135,14 +145,76 @@ namespace DiceGameUseTimer
         /// <param name="amount">받는 데미지 양</param>
         public void TakeDamage(int amount)
         {
-            Health -= amount;
-            if (Health < 0) Health = 0; // 체력이 0 이하로 내려가지 않도록 보정
+            if (Stats == null) return;
 
-            string logMessage = $"{Name} 이 {amount} 공격받았습니다! 남은 체력 : {Health}\n";
+            Stats.Health -= amount;
+            if (Stats.Health < 0) Stats.Health = 0; // 체력이 0 이하로 내려가지 않도록 보정
+
+            string logMessage = $"{Name} 이 {amount} 공격받았습니다! 남은 체력 : {Stats.Health}\n";
             SaveLog.WriteLog(ConsoleColor.Cyan, logMessage);
 
             // 체력 변경 이벤트 발생 (구독자에게 알림)
-            OnHealthChangedEvent?.Invoke(new HealthChangedEventArgs(ID, Health));
+            OnHealthChangedEvent?.Invoke(new HealthChangedEventArgs(ID, Stats.Health));
+        }
+
+        /// <summary>
+        /// 퍼센트 기반 힐 (예: 0.2 = 최대 체력의 20%)
+        /// </summary>
+        /// <param name="percentage">0~1 사이 힐 비율</param>
+        protected void HealPercentage(double percentage)
+        {
+            if (Stats == null) return;
+            if (percentage <= 0) return;
+            if (Stats.MaxHealth <= 0) return;
+            if (!IsAlive()) return;
+
+            int healAmount = (int)(Stats.MaxHealth * percentage);
+            if (healAmount <= 0) healAmount = 1;
+
+            int before = Stats.Health;
+            Stats.Health += healAmount;
+            if (Stats.Health > Stats.MaxHealth) Stats.Health = Stats.MaxHealth;
+
+            int actualHeal = Stats.Health - before;
+
+            string logMessage = $"{Name} 이 {actualHeal} 만큼 회복했습니다! 현재 체력 : {Stats.Health}\n";
+            SaveLog.WriteLog(ConsoleColor.Green, logMessage);
+
+            OnHealthChangedEvent?.Invoke(new HealthChangedEventArgs(ID, Stats.Health));
+        }
+
+        /// <summary>
+        /// 공격 이벤트 + 로그를 공통으로 처리하는 메서드
+        /// (자식 클래스는 이 메서드를 호출만 하면 됨)
+        /// </summary>
+        /// <param name="damage">공격 데미지</param>
+        /// <param name="isSkill">스킬 공격 여부</param>
+        protected void RaiseAttack(int damage, bool isSkill)
+        {
+            if (!IsAlive()) return;
+
+            if (isSkill)
+            {
+                string skillLog = $"{Name} 의 스킬 발동! 스킬 데미지: {damage}\n";
+                SaveLog.WriteLog(ConsoleColor.Magenta, skillLog);
+            }
+            else
+            {
+                string logMessage = $"{Name} 이 {damage} 공격했습니다.\n";
+                SaveLog.WriteLog(ConsoleColor.Red, logMessage);
+            }
+
+            OnAttackEvent?.Invoke(new AttackEventArgs(ID, TargetID, damage));
+        }
+
+        /// <summary>
+        /// 자동 공격 한 틱에서 수행할 동작
+        /// (기본은 평타 한 번, 자식 클래스에서 override 해서 스킬/힐 구현)
+        /// </summary>
+        protected virtual void OnAutoAttackTick()
+        {
+            int damage = GetAttackPower();
+            RaiseAttack(damage, false);
         }
 
         /// <summary>
@@ -150,42 +222,29 @@ namespace DiceGameUseTimer
         /// </summary>
         public void StartAutoAttackTimer()
         {
+            if (Stats == null) return;
+
             // 이미 타이머가 동작 중이면 중복 실행 방지
             if (_autoAttackTimer != null)
                 return;
 
+            // 안전하게 attack speed를 정수로 변환
+            int interval = Math.Max(1, (int)Stats.AttackSpeed);
+
             // 첫 공격은 AttackSpeed만큼 대기 후 시작, 이후 AttackSpeed 간격으로 반복
             _autoAttackTimer = new Timer(_ =>
             {
-                //Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - _autoAttackTimer - {Name}");
-
                 // 캐릭터가 죽었으면 타이머 중지
                 if (!IsAlive())
                 {
-                    //Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - IsAlive == false - {Name}");
                     StopAutoAttackTimer();
                     return;
                 }
 
-                int damage = GetAttackPower();
+                // 한 틱의 자동 공격 동작
+                OnAutoAttackTick();
 
-                string logMessage = $"{Name} 이 {damage} 공격했습니다.\n";
-                SaveLog.WriteLog(ConsoleColor.Red, logMessage);
-
-                /*                // 공격 대상이 지정되어 있으면 공격 이벤트 발생
-                                if (TargetID > 0)
-                                {
-                                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID > 0 - {Name}");
-                                }
-                                else
-                                {
-                                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID == 0 - {Name}");
-                                }*/
-
-                // 공격 이벤트 발생 (구독자에게 알림)
-                OnAttackEvent?.Invoke(new AttackEventArgs(ID, TargetID, damage));
-
-            }, null, (int)AttackSpeed, (int)AttackSpeed); // AttackSpeed 후 첫 실행, AttackSpeed 간격 반복
+            }, null, interval, interval);
         }
 
         /// <summary>
@@ -221,7 +280,7 @@ namespace DiceGameUseTimer
         /// <returns>체력이 0보다 크면 true, 아니면 false</returns>
         public bool IsAlive()
         {
-            return Health > 0;
+            return Stats != null && Stats.Health > 0;
         }
 
         /// <summary>
@@ -230,8 +289,9 @@ namespace DiceGameUseTimer
         /// <returns>계산된 공격 데미지</returns>
         public int GetAttackPower()
         {
-            double min = AttackPower * 0.7;
-            double max = AttackPower * 1.3;
+            if (Stats == null) return 1;
+            double min = Stats.AttackPower * 0.7;
+            double max = Stats.AttackPower * 1.3;
             Random random = new Random(Guid.NewGuid().GetHashCode());
             return Math.Max(1, random.Next((int)min, (int)max + 1));
         }
@@ -248,10 +308,6 @@ namespace DiceGameUseTimer
             }
         }
 
-        /// <summary>
-        /// 체력 변화 이벤트 구독자 추가
-        /// </summary>
-        /// <param name="action">체력 변화 이벤트 발생 시 실행할 델리게이트</param>
         public void AddOnHealthChangedEvent(Action<HealthChangedEventArgs> action)
         {
             if (action != null)
