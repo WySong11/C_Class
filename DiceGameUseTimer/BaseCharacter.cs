@@ -116,7 +116,7 @@ namespace DiceGameUseTimer
             AttackPower += level * 5; // 레벨당 공격력 5 증가
             AttackSpeed += level * 300; // 레벨당 공격 속도 300ms 증가(공격이 느려짐)
 
-            Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
+            //Console.WriteLine($"\n{Name} has been leveled up to level {level}! New Health: {Health}, New Attack Power: {AttackPower}, New Attack Speed: {AttackSpeed} ms\n");
         }
 
         /// <summary>
@@ -126,7 +126,7 @@ namespace DiceGameUseTimer
         public void SetTargetID(int targetID)
         {
             TargetID = targetID;
-            Console.WriteLine($"{Name} 의 공격 대상이 {TargetID} 로 설정되었습니다.");
+            //Console.WriteLine($"{Name} 의 공격 대상이 {TargetID} 로 설정되었습니다.");
         }
 
         /// <summary>
@@ -138,8 +138,8 @@ namespace DiceGameUseTimer
             Health -= amount;
             if (Health < 0) Health = 0; // 체력이 0 이하로 내려가지 않도록 보정
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"{Name} 이 {amount} 공격받았습니다! 남은 체력 : {Health}");
+            string logMessage = $"{Name} 이 {amount} 공격받았습니다! 남은 체력 : {Health}\n";
+            SaveLog.WriteLog(ConsoleColor.Cyan, logMessage);
 
             // 체력 변경 이벤트 발생 (구독자에게 알림)
             OnHealthChangedEvent?.Invoke(new HealthChangedEventArgs(ID, Health));
@@ -157,30 +157,30 @@ namespace DiceGameUseTimer
             // 첫 공격은 AttackSpeed만큼 대기 후 시작, 이후 AttackSpeed 간격으로 반복
             _autoAttackTimer = new Timer(_ =>
             {
-                Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - _autoAttackTimer - {Name}");
+                //Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - _autoAttackTimer - {Name}");
 
                 // 캐릭터가 죽었으면 타이머 중지
                 if (!IsAlive())
                 {
-                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - IsAlive == false - {Name}");
+                    //Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - IsAlive == false - {Name}");
                     StopAutoAttackTimer();
                     return;
                 }
 
                 int damage = GetAttackPower();
 
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"{Name} 이 {damage} 공격했습니다.\n");
+                string logMessage = $"{Name} 이 {damage} 공격했습니다.\n";
+                SaveLog.WriteLog(ConsoleColor.Red, logMessage);
 
-                // 공격 대상이 지정되어 있으면 공격 이벤트 발생
-                if (TargetID > 0)
-                {
-                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID > 0 - {Name}");
-                }
-                else
-                {
-                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID == 0 - {Name}");
-                }
+                /*                // 공격 대상이 지정되어 있으면 공격 이벤트 발생
+                                if (TargetID > 0)
+                                {
+                                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID > 0 - {Name}");
+                                }
+                                else
+                                {
+                                    Debug.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Log - TargetID == 0 - {Name}");
+                                }*/
 
                 // 공격 이벤트 발생 (구독자에게 알림)
                 OnAttackEvent?.Invoke(new AttackEventArgs(ID, TargetID, damage));
