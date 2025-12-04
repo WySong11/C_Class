@@ -41,7 +41,7 @@ namespace DiceGameUseTimer
 
             _attackCount++;
 
-            if (skillReady && _attackCount >= 5)
+            if (IsHaveSkill && skillReady && _attackCount >= 5)
             {
                 // 스킬 발동
                 _attackCount = 0;

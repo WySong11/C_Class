@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\blowskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:blowskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\baseskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:baseskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\fireballskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:fireballskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:basecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\healskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:healskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\dicegameusetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:dicegameusetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\warriorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:warriorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\magecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:magecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\healerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:healerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|d:\\dev\\github\\c_class\\dicegameusetimerv2\\savelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC08B362-A598-4DF8-AD1E-C7A8A14F8BBE}|DiceGameUseTimer.csproj|solutionrelative:savelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FireballSkill.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\FireballSkill.cs",
+              "RelativeDocumentMoniker": "FireballSkill.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\FireballSkill.cs",
+              "RelativeToolTip": "FireballSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:00:41.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseSkill.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BaseSkill.cs",
+              "RelativeDocumentMoniker": "BaseSkill.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BaseSkill.cs",
+              "RelativeToolTip": "BaseSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:54:15.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaveLog.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\SaveLog.cs",
+              "RelativeDocumentMoniker": "SaveLog.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\SaveLog.cs",
+              "RelativeToolTip": "SaveLog.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:53:34.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiceGameUseTimer.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\DiceGameUseTimer.cs",
+              "RelativeDocumentMoniker": "DiceGameUseTimer.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\DiceGameUseTimer.cs",
+              "RelativeToolTip": "DiceGameUseTimer.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:29:13.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseCharacter.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BaseCharacter.cs",
+              "RelativeDocumentMoniker": "BaseCharacter.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BaseCharacter.cs",
+              "RelativeToolTip": "BaseCharacter.cs",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAAAK4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:53:17.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyCharacter.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\EnemyCharacter.cs",
+              "RelativeDocumentMoniker": "EnemyCharacter.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\EnemyCharacter.cs",
+              "RelativeToolTip": "EnemyCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:55:54.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlowSkill.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BlowSkill.cs",
+              "RelativeDocumentMoniker": "BlowSkill.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\BlowSkill.cs",
+              "RelativeToolTip": "BlowSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:02:22.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HealSkill.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\HealSkill.cs",
+              "RelativeDocumentMoniker": "HealSkill.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\HealSkill.cs",
+              "RelativeToolTip": "HealSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:00:58.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerCharacter.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\PlayerCharacter.cs",
+              "RelativeDocumentMoniker": "PlayerCharacter.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\PlayerCharacter.cs",
+              "RelativeToolTip": "PlayerCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:55:40.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WarriorCharacter.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\WarriorCharacter.cs",
+              "RelativeDocumentMoniker": "WarriorCharacter.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\WarriorCharacter.cs",
+              "RelativeToolTip": "WarriorCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:49:17.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MageCharacter.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\MageCharacter.cs",
+              "RelativeDocumentMoniker": "MageCharacter.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\MageCharacter.cs",
+              "RelativeToolTip": "MageCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:49:33.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HealerClass.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\HealerClass.cs",
+              "RelativeDocumentMoniker": "HealerClass.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\HealerClass.cs",
+              "RelativeToolTip": "HealerClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:49:54.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\DiceGameUseTimerV2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:48:35.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,7 @@ namespace DiceGameUseTimer
         /// </summary>
         protected override void OnAutoAttackTick()
         {
-            if (ShouldUseHealSkill())
+            if (IsHaveSkill == true && ShouldUseHealSkill())
             {
                 UseHealSkill();
                 return;
