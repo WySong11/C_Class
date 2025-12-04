@@ -4,14 +4,6 @@ using System.Threading;
 
 namespace DiceGameUseTimer
 {
-    public enum ClassType
-    {
-        None,
-        Warrior,
-        Mage,
-        Healer,
-    }
-
     /// <summary>
     /// 캐릭터의 능력치 묶음(체력, 최대체력, 공격력, 공격속도)
     /// </summary>
@@ -85,19 +77,6 @@ namespace DiceGameUseTimer
         /// 자동 공격을 위한 타이머 (공격 주기마다 콜백 실행)
         /// </summary>
         private Timer? _autoAttackTimer;
-
-        public BaseSkill? skill;
-
-        public ClassType classtype { private set; get; } = ClassType.None;
-
-        public bool IsHaveSkill
-        {
-            get
-            {
-                return skill != null;
-            }
-        }
-
 
         /// <summary>
         /// 기본 생성자. 능력치를 기본값으로 초기화
@@ -210,7 +189,7 @@ namespace DiceGameUseTimer
         /// </summary>
         /// <param name="damage">공격 데미지</param>
         /// <param name="isSkill">스킬 공격 여부</param>
-        protected void RaiseAttack(int damage, bool isSkill = false)
+        protected void RaiseAttack(int damage, bool isSkill)
         {
             if (!IsAlive()) return;
 
@@ -335,12 +314,6 @@ namespace DiceGameUseTimer
             {
                 OnHealthChangedEvent += action;
             }
-        }
-
-        public void SetClassType(ClassType classType, bool isHaveSkill)
-        {
-            classtype = classType;
-            IsHaveSkill = isHaveSkill;
         }
     }
 }
