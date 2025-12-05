@@ -1,4 +1,5 @@
 ﻿using DiceGameUseTimer;
+using System;
 using System.Reflection.Emit;
 
 public class HealerCharacter : BaseCharacter
@@ -13,5 +14,27 @@ public class HealerCharacter : BaseCharacter
         // skill = new HealSkill( ... );
 
         SetLevelData(level);
+    }
+
+    public override void UseSkill()
+    {
+        if (skill == null) return;
+
+        base.UseSkill();
+
+        // 스킬 종류에 따라 효과 분기
+        if (skill is HealSkill)
+        {
+            // 힐 스킬
+            SaveLog.WriteLog(ConsoleColor.Magenta, skill.UseSkillMessage());
+
+            // 예시로 최대 체력의 30% 회복
+            HealPercentage(0.3);
+            return;
+        }
+
+        // 혹시 다른 스킬 타입이 추가되었을 때 기본 처리
+        int defaultDamage = GetAttackPower();
+        RaiseAttack(defaultDamage, true);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DiceGameUseTimer;
+using System;
 
 public class WarriorCharacter : BaseCharacter
 {
@@ -12,5 +13,24 @@ public class WarriorCharacter : BaseCharacter
         // skill = new BlowSkill( ... );
 
         SetLevelData(level);
+    }
+
+    public override void UseSkill()
+    {
+        if (skill == null) return;
+
+        base.UseSkill();
+
+        if (skill is BlowSkill)
+        {
+            // 강타 스킬: 평타의 2배 데미지 예시
+            float damage = GetAttackPower() * 1.2f;
+            RaiseAttack((int)MathF.Ceiling(damage), true);   // true 이므로 RaiseAttack에서 스킬 로그 출력
+            return;
+        }
+
+        // 혹시 다른 스킬 타입이 추가되었을 때 기본 처리
+        int defaultDamage = GetAttackPower();
+        RaiseAttack(defaultDamage, true);
     }
 }

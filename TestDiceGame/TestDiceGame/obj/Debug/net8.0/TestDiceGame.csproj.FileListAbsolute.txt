@@ -1,0 +1,14 @@
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\bin\Debug\net8.0\TestDiceGame.exe
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\bin\Debug\net8.0\TestDiceGame.deps.json
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\bin\Debug\net8.0\TestDiceGame.runtimeconfig.json
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\bin\Debug\net8.0\TestDiceGame.dll
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\bin\Debug\net8.0\TestDiceGame.pdb
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.AssemblyInfo.cs
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.dll
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\refint\TestDiceGame.dll
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.pdb
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\TestDiceGame.genruntimeconfig.cache
+C:\Users\ooSong\c#\TestDiceGame\TestDiceGame\obj\Debug\net8.0\ref\TestDiceGame.dll

@@ -43,3 +43,17 @@ D:\Dev\GitHub\C_Class\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.dll
 D:\Dev\GitHub\C_Class\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.pdb
 D:\Dev\GitHub\C_Class\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.genruntimeconfig.cache
 D:\Dev\GitHub\C_Class\DiceGameUseTimerV3\obj\Debug\net8.0\ref\DiceGameUseTimer.dll
+C:\Users\ooSong\c#\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.exe
+C:\Users\ooSong\c#\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.deps.json
+C:\Users\ooSong\c#\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.runtimeconfig.json
+C:\Users\ooSong\c#\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.dll
+C:\Users\ooSong\c#\DiceGameUseTimerV3\bin\Debug\net8.0\DiceGameUseTimer.pdb
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.AssemblyInfoInputs.cache
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.AssemblyInfo.cs
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.csproj.CoreCompileInputs.cache
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.dll
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\refint\DiceGameUseTimer.dll
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.pdb
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\DiceGameUseTimer.genruntimeconfig.cache
+C:\Users\ooSong\c#\DiceGameUseTimerV3\obj\Debug\net8.0\ref\DiceGameUseTimer.dll

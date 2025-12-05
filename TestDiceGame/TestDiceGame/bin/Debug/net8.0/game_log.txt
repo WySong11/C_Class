@@ -1,0 +1,44 @@
+2025-12-05 오후 6:18:17: Player has been leveled up to level 1! New Health: 110, New Attack Power: 13, New Attack Speed: 1300 ms
+2025-12-05 오후 6:18:18: Enemy has been leveled up to level 1! New Health: 90, New Attack Power: 17, New Attack Speed: 1100 ms
+2025-12-05 오후 6:18:18: 캐릭터 생성: Player, 체력: 110, 공격력: 13, 공격 속도: 1300ms
+2025-12-05 오후 6:18:18: 캐릭터 생성: Enemy, 체력: 90, 공격력: 17, 공격 속도: 1100ms
+2025-12-05 오후 6:18:19: Enemy 이(가) 20 데미지를 입혔습니다!
+2025-12-05 오후 6:18:19: Player took 20 damage! Remaining Health: 90
+2025-12-05 오후 6:18:19: Player의 남은 체력: 90
+2025-12-05 오후 6:18:19: 강타 스킬 사용!
+
+2025-12-05 오후 6:18:19: Enemy took 10 damage! Remaining Health: 80
+2025-12-05 오후 6:18:19: Enemy의 남은 체력: 80
+2025-12-05 오후 6:18:20: Enemy 이(가) 17 데미지를 입혔습니다!
+2025-12-05 오후 6:18:20: Player took 17 damage! Remaining Health: 73
+2025-12-05 오후 6:18:20: Player의 남은 체력: 73
+2025-12-05 오후 6:18:20: Player 이(가) 14 데미지를 입혔습니다!
+2025-12-05 오후 6:18:20: Enemy took 14 damage! Remaining Health: 66
+2025-12-05 오후 6:18:20: Enemy의 남은 체력: 66
+2025-12-05 오후 6:18:21: Enemy 이(가) 19 데미지를 입혔습니다!
+2025-12-05 오후 6:18:21: Player took 19 damage! Remaining Health: 54
+2025-12-05 오후 6:18:21: Player의 남은 체력: 54
+2025-12-05 오후 6:18:22: Player 이(가) 9 데미지를 입혔습니다!
+2025-12-05 오후 6:18:22: Enemy took 9 damage! Remaining Health: 57
+2025-12-05 오후 6:18:22: Enemy의 남은 체력: 57
+2025-12-05 오후 6:18:22: Enemy 이(가) 14 데미지를 입혔습니다!
+2025-12-05 오후 6:18:22: Player took 14 damage! Remaining Health: 40
+2025-12-05 오후 6:18:22: Player의 남은 체력: 40
+2025-12-05 오후 6:18:23: Player 이(가) 15 데미지를 입혔습니다!
+2025-12-05 오후 6:18:23: Enemy took 15 damage! Remaining Health: 42
+2025-12-05 오후 6:18:23: Enemy의 남은 체력: 42
+2025-12-05 오후 6:18:23: 파이어볼 스킬 사용!
+
+2025-12-05 오후 6:18:23: Player took 16 damage! Remaining Health: 24
+2025-12-05 오후 6:18:23: Player의 남은 체력: 24
+2025-12-05 오후 6:18:24: 강타 스킬 사용!
+
+2025-12-05 오후 6:18:24: Enemy took 18 damage! Remaining Health: 24
+2025-12-05 오후 6:18:24: Enemy의 남은 체력: 24
+2025-12-05 오후 6:18:24: Enemy 이(가) 11 데미지를 입혔습니다!
+2025-12-05 오후 6:18:24: Player took 11 damage! Remaining Health: 13
+2025-12-05 오후 6:18:24: Player의 남은 체력: 13
+2025-12-05 오후 6:18:26: Enemy 이(가) 18 데미지를 입혔습니다!
+2025-12-05 오후 6:18:26: Player took 18 damage! Remaining Health: 0
+2025-12-05 오후 6:18:26: Player의 남은 체력: 0
+2025-12-05 오후 6:18:26: Player이(가) 사망했습니다.

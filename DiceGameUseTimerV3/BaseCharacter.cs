@@ -388,44 +388,14 @@ namespace DiceGameUseTimer
             }
         }
 
-        public void UseSkill()
+        public virtual void UseSkill()
         {
-            if (!IsSkillUable()) return;
-            if (skill == null) return;
-
             _lastSkillTime = DateTime.Now;
             _attackCountSinceLastSkill = 0;
 
-            // 스킬 종류에 따라 효과 분기
-            if (skill is HealSkill)
-            {
-                // 힐 스킬
-                SaveLog.WriteLog(ConsoleColor.Magenta, skill.UseSkillMessage());
-
-                // 예시로 최대 체력의 30% 회복
-                HealPercentage(0.3);
-                return;
-            }
-
-            if (skill is BlowSkill)
-            {
-                // 강타 스킬: 평타의 2배 데미지 예시
-                float damage = GetAttackPower() * 1.2f;
-                RaiseAttack( (int)MathF.Ceiling(damage) , true );   // true 이므로 RaiseAttack에서 스킬 로그 출력
-                return;
-            }
-
-            if (skill is FireballSkill)
-            {
-                // 파이어볼 스킬: 평타의 3배 데미지 예시
-                float damage = GetAttackPower() * 1.5f;
-                RaiseAttack( (int)MathF.Ceiling(damage) , true );
-                return;
-            }
-
             // 혹시 다른 스킬 타입이 추가되었을 때 기본 처리
-            int defaultDamage = GetAttackPower();
-            RaiseAttack(defaultDamage, true);
+/*            int defaultDamage = GetAttackPower();
+            RaiseAttack(defaultDamage, true);*/
         }
     }
 }
