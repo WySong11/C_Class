@@ -1,0 +1,4 @@
+﻿Class,Health,AttackPower,AttackSpeed,Skill,Condition,ConditionValue,CooldownSeconds,SkillMultiplier
+Warrior,1500,120,1000,Blow,Always,0,7,1.2
+Mage,1300,100,1500,Fireball,AttackCount,5,5,1.5
+Healer,1000,110,1200,Heal,HealthRatio,50,3,0.2

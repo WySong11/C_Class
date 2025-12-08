@@ -29,7 +29,7 @@ public class HealerCharacter : BaseCharacter
             SaveLog.WriteLog(ConsoleColor.Magenta, skill.UseSkillMessage());
 
             // 예시로 최대 체력의 30% 회복
-            HealPercentage(0.3);
+            HealPercentage(skill.SkillMultiplier);
             return;
         }
 
