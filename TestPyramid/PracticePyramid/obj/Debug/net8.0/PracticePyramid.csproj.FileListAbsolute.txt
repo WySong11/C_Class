@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\bin\Debug\net8.0\PracticePyramid.exe
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\bin\Debug\net8.0\PracticePyramid.deps.json
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\bin\Debug\net8.0\PracticePyramid.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\bin\Debug\net8.0\PracticePyramid.dll
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\bin\Debug\net8.0\PracticePyramid.pdb
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.sourcelink.json
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.dll
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\refint\PracticePyramid.dll
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.pdb
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\PracticePyramid.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestPyramid\PracticePyramid\obj\Debug\net8.0\ref\PracticePyramid.dll

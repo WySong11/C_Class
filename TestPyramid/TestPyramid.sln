@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPyramid", "TestPyramid\TestPyramid.csproj", "{C388395C-87B0-4541-AD3B-9BA86D88AB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePyramid", "PracticePyramid\PracticePyramid.csproj", "{A157265F-9823-4CEA-9EEC-8DEE005E962B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C388395C-87B0-4541-AD3B-9BA86D88AB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C388395C-87B0-4541-AD3B-9BA86D88AB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C388395C-87B0-4541-AD3B-9BA86D88AB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A157265F-9823-4CEA-9EEC-8DEE005E962B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A157265F-9823-4CEA-9EEC-8DEE005E962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A157265F-9823-4CEA-9EEC-8DEE005E962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A157265F-9823-4CEA-9EEC-8DEE005E962B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

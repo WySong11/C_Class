@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestPyramid\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestPyramid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C388395C-87B0-4541-AD3B-9BA86D88AB93}|TestPyramid\\TestPyramid.csproj|c:\\users\\oosong\\c#\\testpyramid\\testpyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C388395C-87B0-4541-AD3B-9BA86D88AB93}|TestPyramid\\TestPyramid.csproj|solutionrelative:testpyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A157265F-9823-4CEA-9EEC-8DEE005E962B}|PracticePyramid\\PracticePyramid.csproj|d:\\dev\\github\\c_class\\testpyramid\\practicepyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A157265F-9823-4CEA-9EEC-8DEE005E962B}|PracticePyramid\\PracticePyramid.csproj|solutionrelative:practicepyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestPyramid\\TestPyramid\\Program.cs",
-              "RelativeDocumentMoniker": "TestPyramid\\Program.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestPyramid\\TestPyramid\\Program.cs",
-              "RelativeToolTip": "TestPyramid\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA0wCIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestPyramid\\PracticePyramid\\Program.cs",
+              "RelativeDocumentMoniker": "PracticePyramid\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestPyramid\\PracticePyramid\\Program.cs",
+              "RelativeToolTip": "PracticePyramid\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwFgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:01:29.634Z",
+              "WhenOpened": "2026-01-19T10:06:01.229Z",
               "EditorCaption": ""
             }
           ]
