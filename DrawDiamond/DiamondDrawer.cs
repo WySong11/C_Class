@@ -17,7 +17,7 @@ namespace DrawDiamond
             int height = Input.GetHeight();
 
             WriteLine();
-            Output.PrintDiamondOneLoop(height);
+            Output.PrintDiamondLoop(height);
             WriteLine();
 
             if (Input.RestartProgram())

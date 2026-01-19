@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrawDiamond")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aeb6e6baf0df030fdd04c8522c8554d58190a68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c4db35c777d32e7fafb08af252002b4f9d44d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrawDiamond")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrawDiamond")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

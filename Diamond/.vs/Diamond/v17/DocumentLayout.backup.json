@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Output.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Diamond\\Output.cs",
               "RelativeToolTip": "Output.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:07:29.759Z",
               "EditorCaption": ""
@@ -45,10 +45,9 @@
               "RelativeDocumentMoniker": "Input.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Diamond\\Input.cs",
               "RelativeToolTip": "Input.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:07:13.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T11:07:13.429Z"
             },
             {
               "$type": "Document",
@@ -58,10 +57,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dev\\GitHub\\C_Class\\Diamond\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAywBgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T10:54:03.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T10:54:03.296Z"
             }
           ]
         }

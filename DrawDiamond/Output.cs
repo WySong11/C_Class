@@ -48,4 +48,22 @@ public class Output
             }
         }
     }
+
+    public static void PrintDiamondLoop(int height)
+    {
+        if (height < 1) return;
+        if (height % 2 == 0) height += 1;
+
+        int halfHeight = height / 2;
+        int center = halfHeight + 1;
+
+        for (int i = 1; i <= height; i++)
+        {
+            int spaces = Math.Abs(center - i);
+            int stars = height - 2 * spaces;
+
+            Console.Write(new string(' ', spaces));
+            Console.WriteLine(new string('*', stars));
+        }
+    }
 }
