@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.exe
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.deps.json
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.dll
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.pdb
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.sourcelink.json
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.dll
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\refint\LectureItemClass.dll
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.pdb
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\ref\LectureItemClass.dll

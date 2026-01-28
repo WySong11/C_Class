@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HalfPyramid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f93e4eea0e18d8d2696a02708764048b982a8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HalfPyramid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HalfPyramid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

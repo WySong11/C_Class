@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberBaseball", "NumberBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureClass", "LectureClass\LectureClass.csproj", "{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureItemClass", "LectureItemClass\LectureItemClass.csproj", "{77A8E112-FADA-42E7-994D-7F1C6BD66943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A8E112-FADA-42E7-994D-7F1C6BD66943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A8E112-FADA-42E7-994D-7F1C6BD66943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A8E112-FADA-42E7-994D-7F1C6BD66943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A8E112-FADA-42E7-994D-7F1C6BD66943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
