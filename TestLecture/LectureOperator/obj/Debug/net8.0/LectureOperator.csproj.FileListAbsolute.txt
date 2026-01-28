@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureOperator\bin\Debug\net8.0\LectureOperator.exe
+D:\ooSong\c#\TestLecture\LectureOperator\bin\Debug\net8.0\LectureOperator.deps.json
+D:\ooSong\c#\TestLecture\LectureOperator\bin\Debug\net8.0\LectureOperator.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureOperator\bin\Debug\net8.0\LectureOperator.dll
+D:\ooSong\c#\TestLecture\LectureOperator\bin\Debug\net8.0\LectureOperator.pdb
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.dll
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\refint\LectureOperator.dll
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.pdb
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\LectureOperator.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureOperator\obj\Debug\net8.0\ref\LectureOperator.dll

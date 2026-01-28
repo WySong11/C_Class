@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureConditional\bin\Debug\net8.0\LectureConditional.exe
+D:\ooSong\c#\TestLecture\LectureConditional\bin\Debug\net8.0\LectureConditional.deps.json
+D:\ooSong\c#\TestLecture\LectureConditional\bin\Debug\net8.0\LectureConditional.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureConditional\bin\Debug\net8.0\LectureConditional.dll
+D:\ooSong\c#\TestLecture\LectureConditional\bin\Debug\net8.0\LectureConditional.pdb
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.dll
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\refint\LectureConditional.dll
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.pdb
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\LectureConditional.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureConditional\obj\Debug\net8.0\ref\LectureConditional.dll

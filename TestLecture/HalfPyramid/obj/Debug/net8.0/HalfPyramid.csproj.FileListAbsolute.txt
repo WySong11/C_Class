@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\HalfPyramid\bin\Debug\net8.0\HalfPyramid.exe
+D:\ooSong\c#\TestLecture\HalfPyramid\bin\Debug\net8.0\HalfPyramid.deps.json
+D:\ooSong\c#\TestLecture\HalfPyramid\bin\Debug\net8.0\HalfPyramid.runtimeconfig.json
+D:\ooSong\c#\TestLecture\HalfPyramid\bin\Debug\net8.0\HalfPyramid.dll
+D:\ooSong\c#\TestLecture\HalfPyramid\bin\Debug\net8.0\HalfPyramid.pdb
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.dll
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\refint\HalfPyramid.dll
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.pdb
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\HalfPyramid.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\HalfPyramid\obj\Debug\net8.0\ref\HalfPyramid.dll

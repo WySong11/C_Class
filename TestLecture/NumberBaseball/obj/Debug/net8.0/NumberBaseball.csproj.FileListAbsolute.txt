@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\NumberBaseball\bin\Debug\net8.0\NumberBaseball.exe
+D:\ooSong\c#\TestLecture\NumberBaseball\bin\Debug\net8.0\NumberBaseball.deps.json
+D:\ooSong\c#\TestLecture\NumberBaseball\bin\Debug\net8.0\NumberBaseball.runtimeconfig.json
+D:\ooSong\c#\TestLecture\NumberBaseball\bin\Debug\net8.0\NumberBaseball.dll
+D:\ooSong\c#\TestLecture\NumberBaseball\bin\Debug\net8.0\NumberBaseball.pdb
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.dll
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\refint\NumberBaseball.dll
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.pdb
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\NumberBaseball.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\NumberBaseball\obj\Debug\net8.0\ref\NumberBaseball.dll

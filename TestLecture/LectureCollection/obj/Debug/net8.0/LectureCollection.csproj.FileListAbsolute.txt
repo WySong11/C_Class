@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureCollection\bin\Debug\net8.0\LectureCollection.exe
+D:\ooSong\c#\TestLecture\LectureCollection\bin\Debug\net8.0\LectureCollection.deps.json
+D:\ooSong\c#\TestLecture\LectureCollection\bin\Debug\net8.0\LectureCollection.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureCollection\bin\Debug\net8.0\LectureCollection.dll
+D:\ooSong\c#\TestLecture\LectureCollection\bin\Debug\net8.0\LectureCollection.pdb
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.dll
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\refint\LectureCollection.dll
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.pdb
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\LectureCollection.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureCollection\obj\Debug\net8.0\ref\LectureCollection.dll

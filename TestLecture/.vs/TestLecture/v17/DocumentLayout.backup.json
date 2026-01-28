@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ooSong\\c#\\TestLecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}|LectureClass\\LectureClass.csproj|d:\\oosong\\c#\\testlecture\\lectureclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0341DA0B-F55E-415E-ACC5-E53D74ABB8FD}|LectureClass\\LectureClass.csproj|solutionrelative:lectureclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|d:\\oosong\\c#\\testlecture\\testlecture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|solutionrelative:testlecture\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|d:\\oosong\\c#\\testlecture\\testlecture\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|solutionrelative:testlecture\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|d:\\oosong\\c#\\testlecture\\testlecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E8A1E9-585E-4E09-A5EB-E1525A481B24}|TestLecture\\LectureVariable.csproj|solutionrelative:testlecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|d:\\oosong\\c#\\testlecture\\lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|solutionrelative:lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972355E5-37B7-4A4D-A4E1-84F7692B617A}|Calc\\Calculator.csproj|d:\\oosong\\c#\\testlecture\\calc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972355E5-37B7-4A4D-A4E1-84F7692B617A}|Calc\\Calculator.csproj|solutionrelative:calc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757121DD-A4E8-4154-8DCA-76AEBF3FB2F4}|HalfPyramid\\HalfPyramid.csproj|d:\\oosong\\c#\\testlecture\\halfpyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757121DD-A4E8-4154-8DCA-76AEBF3FB2F4}|HalfPyramid\\HalfPyramid.csproj|solutionrelative:halfpyramid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureClass\\Program.cs",
+              "RelativeDocumentMoniker": "LectureClass\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureClass\\Program.cs",
+              "RelativeToolTip": "LectureClass\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:43:12.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Class2.cs",
+              "RelativeDocumentMoniker": "TestLecture\\Class2.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Class2.cs",
+              "RelativeToolTip": "TestLecture\\Class2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:15:11.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Program.cs",
+              "RelativeDocumentMoniker": "TestLecture\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Program.cs",
+              "RelativeToolTip": "TestLecture\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:14:28.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Class1.cs",
+              "RelativeDocumentMoniker": "TestLecture\\Class1.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\TestLecture\\Class1.cs",
+              "RelativeToolTip": "TestLecture\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:14:27.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\Calc\\Program.cs",
+              "RelativeDocumentMoniker": "Calc\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\Calc\\Program.cs",
+              "RelativeToolTip": "Calc\\Program.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAADwvw0BAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:19:04.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\Program.cs",
+              "RelativeDocumentMoniker": "HalfPyramid\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\Program.cs",
+              "RelativeToolTip": "HalfPyramid\\Program.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAYwMQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T12:20:28.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureString\\Program.cs",
+              "RelativeDocumentMoniker": "LectureString\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureString\\Program.cs",
+              "RelativeToolTip": "LectureString\\Program.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAQwO0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T12:09:42.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

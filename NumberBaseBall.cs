@@ -156,4 +156,71 @@ internal class NumberBaseBall
 
         return strike == 3 ? true : false;
     }
+
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    /// String 사용 버전
+    /// 
+
+    public static void CompareDigits(string answer, string user, out int strike, out int ball)
+    {
+        strike = 0;
+        ball = 0;
+
+        // strike: 같은 인덱스(자리)에서 같은 문자면 증가
+        for (int i = 0; i < 3; i++)
+        {
+            if (user[i] == answer[i])
+                strike++;
+        }
+
+        // ball: 자리는 다르지만(answer[i]와는 다름), 정답 문자열 안에 존재하면 증가
+        for (int i = 0; i < 3; i++)
+        {
+            if (user[i] != answer[i] && answer.Contains(user[i]))
+                ball++;
+        }
+    }
+
+    public static bool ProduceResult(string answer, string user, out int strike, out int ball)
+    {
+        CompareDigits(answer, user, out strike, out ball);
+        return strike == 3;
+    }
+
+    /*
+     // 정답을 배열 대신 문자열로 저장
+string answerStr = $"{q1}{q2}{q3}";
+WriteLine($"정답 : {answerStr}");
+
+int strike = 0;
+int ball = 0;
+
+do
+{
+    WriteLine("\n세 자리 숫자를 입력하세요: ");
+    string? userStr = Console.ReadLine();
+
+    if (string.IsNullOrEmpty(userStr) || userStr.Length != 3)
+    {
+        WriteLine("\n세 자리 숫자를 입력해야 합니다.");
+        continue;
+    }
+
+    // 문자열이 숫자 3개인지 검사 (int.TryParse 대신)
+    if (!char.IsDigit(userStr[0]) || !char.IsDigit(userStr[1]) || !char.IsDigit(userStr[2]))
+    {
+        WriteLine("\n유효한 세 자리 숫자를 입력하세요.");
+        continue;
+    }
+
+    // 문자열 비교 버전 호출
+    CompareDigits(answerStr, userStr, out strike, out ball);
+
+    WriteLine($"\n{userStr} : {strike} Strike, {ball} Ball");
+
+} while (strike < 3);
+
+WriteLine("\nStrike Out~!!! Game Over.");
+    */
+
 }

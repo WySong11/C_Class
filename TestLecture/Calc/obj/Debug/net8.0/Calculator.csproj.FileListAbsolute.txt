@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\Calc\bin\Debug\net8.0\Calculator.exe
+D:\ooSong\c#\TestLecture\Calc\bin\Debug\net8.0\Calculator.deps.json
+D:\ooSong\c#\TestLecture\Calc\bin\Debug\net8.0\Calculator.runtimeconfig.json
+D:\ooSong\c#\TestLecture\Calc\bin\Debug\net8.0\Calculator.dll
+D:\ooSong\c#\TestLecture\Calc\bin\Debug\net8.0\Calculator.pdb
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.dll
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\refint\Calculator.dll
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.pdb
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\Calc\obj\Debug\net8.0\ref\Calculator.dll

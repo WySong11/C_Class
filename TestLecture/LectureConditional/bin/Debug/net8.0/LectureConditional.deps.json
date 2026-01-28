@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LectureConditional/1.0.0": {
+        "runtime": {
+          "LectureConditional.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LectureConditional/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
