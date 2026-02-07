@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureTryCatch\bin\Debug\net8.0\LectureTryCatch.exe
+D:\ooSong\c#\TestLecture\LectureTryCatch\bin\Debug\net8.0\LectureTryCatch.deps.json
+D:\ooSong\c#\TestLecture\LectureTryCatch\bin\Debug\net8.0\LectureTryCatch.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureTryCatch\bin\Debug\net8.0\LectureTryCatch.dll
+D:\ooSong\c#\TestLecture\LectureTryCatch\bin\Debug\net8.0\LectureTryCatch.pdb
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.dll
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\refint\LectureTryCatch.dll
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.pdb
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\LectureTryCatch.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureTryCatch\obj\Debug\net8.0\ref\LectureTryCatch.dll

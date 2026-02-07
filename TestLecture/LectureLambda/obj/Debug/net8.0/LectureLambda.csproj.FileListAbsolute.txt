@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureLambda\bin\Debug\net8.0\LectureLambda.exe
+D:\ooSong\c#\TestLecture\LectureLambda\bin\Debug\net8.0\LectureLambda.deps.json
+D:\ooSong\c#\TestLecture\LectureLambda\bin\Debug\net8.0\LectureLambda.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureLambda\bin\Debug\net8.0\LectureLambda.dll
+D:\ooSong\c#\TestLecture\LectureLambda\bin\Debug\net8.0\LectureLambda.pdb
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.dll
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\refint\LectureLambda.dll
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.pdb
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\LectureLambda.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureLambda\obj\Debug\net8.0\ref\LectureLambda.dll

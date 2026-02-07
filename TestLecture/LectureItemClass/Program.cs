@@ -30,183 +30,209 @@ public class Program
             { ItemType.Potion, new List<Item>() }
         };
 
-        // 프로그램을 계속 반복할지 결정하는 플래그(스위치)
-        // true면 반복 계속, false면 반복 종료
-        bool m_loop = true;
+        bool m_loop = true; // 메인 루프 제어 변수
 
-        // do-while: 최소 1번은 실행하고, 조건이 true인 동안 계속 반복
         do
         {
-            // 사용자에게 명령어 입력 안내를 출력
-            Write("Add, List, Exit : ");
+            Write("Add, List, Quit: ");
+            
+            string input = ReadLine(); // 사용자 입력 받기
 
-            // 사용자가 입력한 문자열을 읽어옴
-            string input = ReadLine();
+            WriteLine(); // 빈 줄 출력
 
-            // 보기 좋게 한 줄 띄움
-            WriteLine();
-
-            // 입력을 소문자로 바꿔서 비교하면, Add / ADD / add 모두 같은 명령으로 처리 가능
-            switch (input.ToLower())
+            switch(input.ToLower())
             {
                 case "add":
+                    Write("Item Type (Weapon, Armor, Potion): ");
+                    
+                    string typeInput = ReadLine(); // 아이템 종류 입력 받기
+
+                    if(Enum.TryParse<ItemType>(typeInput, true, out ItemType itemType ))
                     {
-                        // 아이템 타입 입력 받기
-                        Write("Item Type (Weapon, Armor, Potion): ");
-
-                        // 타입 문자열 입력 받기
-                        string typeInput = ReadLine();
-
-                        // Enum.TryParse:
-                        // - 사용자가 입력한 문자열이 ItemType에 있는 값인지 검사하고
-                        // - 성공하면 itemType 변수에 변환된 enum 값을 넣어줌
-                        // true(대소문자 무시) 옵션을 줘서 "weapon"도 OK
-                        if (Enum.TryParse<ItemType>(typeInput, true, out ItemType itemType))
+                        Write("Item Name: ");
+                        string itemName = ReadLine(); // 아이템 이름 입력 받기
+                        Item newItem = itemType switch
                         {
-                            // 아이템 이름 입력 받기
-                            Write("Item Name: ");
+                            ItemType.Weapon => new Weapon { type = itemType, name = itemName },
+                            ItemType.Armor => new Armor { type = itemType, name = itemName },
+                            ItemType.Potion => new Potion { type = itemType, name = itemName },
+                            _ => null
+                        };
 
-                            // 이름 문자열 입력 받기
-                            string itemName = ReadLine();
-
-                            // switch 식(switch expression):
-                            // itemType에 따라 다른 "파생 클래스" 객체를 만들어줌
-                            // (Weapon / Armor / Potion)
-                            Item newItem = itemType switch
-                            {
-                                // 무기면 Weapon 객체 생성
-                                // - itemtype 필드에 타입 저장
-                                // - Name 프로퍼티에 이름 저장
-                                ItemType.Weapon => new Weapon { itemtype = itemType, Name = itemName },
-
-                                // 방어구면 Armor 객체 생성
-                                ItemType.Armor => new Armor { itemtype = itemType, Name = itemName },
-
-                                // 포션이면 Potion 객체 생성
-                                ItemType.Potion => new Potion { itemtype = itemType, Name = itemName },
-
-                                // 혹시 모를 예외(여기서는 사실상 안 들어옴)
-                                _ => null
-                            };
-
-                            // newItem이 null이 아니면 정상적으로 생성된 것
-                            if (newItem != null)
-                            {
-                                // inventory에서 해당 타입의 리스트를 꺼내서(newItemType)
-                                // 그 리스트에 아이템을 추가
-                                inventory[itemType].Add(newItem);
-
-                                // 사용자에게 추가 완료 메시지 출력
-                                WriteLine($"{itemType} '{itemName}' added to inventory.");
-                            }
-                        }
-                        else
+                        if (newItem != null)
                         {
-                            // Enum 변환에 실패했다는 뜻(예: "Wepon" 같은 오타)
-                            WriteLine("Invalid item type.");
+                            inventory[itemType].Add(newItem); // 인벤토리에 새 아이템 추가
+                            WriteLine($"{itemType} '{itemName}' added to inventory.");
                         }
+                    }
+                    else
+                    {
+                        WriteLine("Invalid item type.");
+
                     }
                     break;
 
                 case "list":
+                    foreach(var category in inventory)
                     {
-                        // inventory는 (ItemType -> List<Item>) 쌍들의 묶음
-                        // foreach로 하나씩 꺼내서 출력
-                        foreach (var category in inventory)
+                        WriteLine($"{category.Key}s:");
+
+                        if(category.Value.Count == 0)
                         {
-                            // category.Key : ItemType (Weapon/Armor/Potion)
-                            // category.Value : 그 타입의 아이템 리스트(List<Item>)
-                            // "Weapons:"처럼 보이게 s를 붙여 출력
-                            WriteLine($"{category.Key}s:");
+                            WriteLine(" - (none)");
+                            continue;
+                        }
 
-                            // 해당 타입의 리스트가 비어있으면 안내 출력
-                            if (category.Value.Count == 0)
-                            {
-                                WriteLine(" - (none)");
-                                continue; // 다음 타입으로 넘어감
-                            }
+                        foreach (var item in category.Value)
+                        {
+                            //Item tt = item as Item;
 
-                            // 리스트에 들어있는 아이템들을 하나씩 출력
-                            foreach (var item in category.Value)
-                            {
-                                // 아이템 이름 출력
-                                WriteLine($" - {item.Name}");
-                            }
+                            WriteLine($" - {item.name}");
                         }
                     }
                     break;
 
-                case "exit":
-                    // 반복 종료 스위치를 false로 바꿔서 do-while 탈출
+                case "quit":
                     m_loop = false;
-                    break;
-
-                default:
-                    // add/list/exit가 아닌 다른 입력이 들어왔을 때
-                    WriteLine("Unknown command.");
-                    break;
+                    break;  
             }
 
-            // 한 번의 명령 처리 후 보기 좋게 한 줄 띄움
-            WriteLine();
+            WriteLine(); // 빈 줄 출력
 
-        } while (m_loop); // m_loop가 true인 동안 계속 반복
+        } while (m_loop);
     }
+    
 }
 
-// 모든 아이템의 공통 부모 클래스
 public class Item
 {
-    // 아이템 타입을 저장하는 필드
-    // (Weapon/Armor/Potion)
-    public ItemType itemtype;
+    public ItemType type; // 아이템 종류
+    public string name;   // 아이템 이름
 
-    // 아이템 이름을 저장하는 프로퍼티
-    // { get; set; } 은 읽기/쓰기가 가능한 자동 구현 프로퍼티
-    public string Name { get; set; }
-
-    // 기본 생성자
-    // new Item() 할 때 호출됨
     public Item() { }
 
-    // 타입과 이름을 받아서 초기화하는 생성자
     public Item(ItemType type, string name)
     {
-        itemtype = type; // 필드에 타입 저장
-        Name = name;     // 프로퍼티에 이름 저장
+        this.type = type;
+        this.name = name;
     }
 }
 
-// 무기 클래스: Item을 상속받음(Weapon is-a Item)
-public class Weapon : Item
+public class Weapon : Item, IGetName
 {
-    // 기본 생성자
+    public int damage; // 무기 공격력
+ 
     public Weapon() { }
 
-    // 부모(Item)의 생성자를 호출해서 초기화하는 생성자
-    public Weapon(ItemType type, string name) : base(type, name)
+    public Weapon(string name, int damage) : base(ItemType.Weapon, name)
     {
-        // base(type, name)이 부모 생성자 호출이므로
-        // 여기서 따로 쓸 내용이 없으면 비워둬도 됨
+        this.damage = damage;
+    }
+
+    public void GetName()
+    {
+        WriteLine("111");
     }
 }
 
-// 방어구 클래스
-public class Armor : Item
+public class Armor : Item, IGetName
 {
+    public int defense; // 방어구 방어력
+
     public Armor() { }
 
-    public Armor(ItemType type, string name) : base(type, name)
+    public Armor(string name, int defense) : base(ItemType.Armor, name)
+    {
+        this.defense = defense;
+    }
+
+    public void GetName()
     {
     }
 }
 
-// 포션 클래스
-public class Potion : Item
+public class Potion : Item, IGetName
 {
+    public int healAmount; // 포션 회복량
+
     public Potion() { }
 
-    public Potion(ItemType type, string name) : base(type, name)
+    public Potion(string name, int healAmount) : base(ItemType.Potion, name)
+    {
+        this.healAmount = healAmount;
+    }
+
+    public void GetName()
+    {
+        WriteLine(name);
+    }
+}
+
+public interface IGetName
+{
+       void GetName();
+}
+
+public class Shop
+{
+       public List<Item> itemsForSale; // 판매 중인 아이템 목록
+    public Shop()
+    {
+        itemsForSale = new List<Item>();
+    }
+    public void AddItemForSale(Item item)
+    {
+        itemsForSale.Add(item);
+    }
+
+
+}
+
+/*public class npc : Shop, Item
+{
+    public string npcName;
+    public npc(string name)
+    {
+        npcName = name;
+    }
+    public void DisplayItemsForSale()
+    {
+        Console.WriteLine($"{npcName}'s Items for Sale:");
+        foreach (var item in itemsForSale)
+        {
+            Console.WriteLine($" - {item.name} ({item.type})");
+        }
+    }
+}*/
+
+public interface IUsable
+{
+    void Use();
+}
+
+public interface IEquipable
+{
+    int durability { get; set; }
+    void Equip();
+}
+
+public class UsablePotion : Potion, IUsable
+{
+    public UsablePotion(string name, int healAmount) : base(name, healAmount) { }
+    public void Use()
+    {
+        Console.WriteLine($"{name} used! Healed for {healAmount} HP.");
+    }
+}
+
+public class EquipableArmor : IUsable, IEquipable
+{
+    public int durability { get; set; }
+
+    public void Use()
+    {
+    }
+    public void Equip()
     {
     }
 }

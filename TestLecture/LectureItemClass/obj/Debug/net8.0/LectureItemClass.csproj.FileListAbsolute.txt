@@ -13,3 +13,17 @@ D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\refint\Lectu
 D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.pdb
 D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.genruntimeconfig.cache
 D:\Dev\GitHub\C_Class\TestLecture\LectureItemClass\obj\Debug\net8.0\ref\LectureItemClass.dll
+D:\ooSong\c#\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.exe
+D:\ooSong\c#\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.deps.json
+D:\ooSong\c#\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.dll
+D:\ooSong\c#\TestLecture\LectureItemClass\bin\Debug\net8.0\LectureItemClass.pdb
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.dll
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\refint\LectureItemClass.dll
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.pdb
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\LectureItemClass.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureItemClass\obj\Debug\net8.0\ref\LectureItemClass.dll

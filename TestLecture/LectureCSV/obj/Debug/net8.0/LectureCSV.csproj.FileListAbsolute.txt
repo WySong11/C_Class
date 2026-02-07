@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureCSV\bin\Debug\net8.0\LectureCSV.exe
+D:\ooSong\c#\TestLecture\LectureCSV\bin\Debug\net8.0\LectureCSV.deps.json
+D:\ooSong\c#\TestLecture\LectureCSV\bin\Debug\net8.0\LectureCSV.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureCSV\bin\Debug\net8.0\LectureCSV.dll
+D:\ooSong\c#\TestLecture\LectureCSV\bin\Debug\net8.0\LectureCSV.pdb
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.dll
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\refint\LectureCSV.dll
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.pdb
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\LectureCSV.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureCSV\obj\Debug\net8.0\ref\LectureCSV.dll

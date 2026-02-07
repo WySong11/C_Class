@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\PracticeLinq\bin\Debug\net8.0\PracticeLinq.exe
+D:\ooSong\c#\TestLecture\PracticeLinq\bin\Debug\net8.0\PracticeLinq.deps.json
+D:\ooSong\c#\TestLecture\PracticeLinq\bin\Debug\net8.0\PracticeLinq.runtimeconfig.json
+D:\ooSong\c#\TestLecture\PracticeLinq\bin\Debug\net8.0\PracticeLinq.dll
+D:\ooSong\c#\TestLecture\PracticeLinq\bin\Debug\net8.0\PracticeLinq.pdb
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.dll
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\refint\PracticeLinq.dll
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.pdb
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\PracticeLinq.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\PracticeLinq\obj\Debug\net8.0\ref\PracticeLinq.dll

@@ -49,10 +49,94 @@ public class Program
 
         //GC.Collect(); // 강제 가비지 컬렉션 호출
         //GC.WaitForPendingFinalizers(); // 소멸자 호출 대기        
+
+        Character ch1 = new Character();
+        Player p1 = new Player();
+
+        ch1.UseItem();
+        p1.UseItem();
+
+
+
+        if( ch1 is IGetName )
+        {
+            ch1.GetName();
+        }
+
+        // 인터페이스 상속 가능
+        if( p1 is IGetName )
+        {
+            p1.GetName();
+        }
+
+        if( testClass1 is IGetName )
+        {
+            testClass1.GetName();
+        }
+
+        Monster mm = new Monster();
+
+        if(mm is IGetName)
+        {
+            // interface 구현 안됨
+            //mm.GetName();
+        }
+
+        Character ch2 = p1 as Character;
+
+        if (ch2 != null)
+        {
+            WriteLine("as 연산자 성공");
+        }
+
+
+        Player p2 = ch1 as Player;
+
+        if (p2 == null)
+        {
+            WriteLine("as 연산자 실패");
+        }
+
+        
     }
 }
 
-public class  TestClass
+public interface IGetName
+{
+    void GetName();
+}
+
+public class Character : IGetName
+{
+    // 가상 메서드
+    // 파생 클래스에서 재정의(오버라이드) 가능
+    // 파생 클래승에서 재정의하지 않으면 이 구현이 사용됨
+    // 기본적으로 virtual 메서드는 비어있는 구현을 제공하는 경우가 많음
+    public virtual void UseItem()
+    {
+        Console.WriteLine("Character UseItem 호출");
+    }
+
+    public void GetName()
+    {
+        Console.WriteLine("Character GetName 호출");
+    }
+}
+
+public class Player : Character
+{
+    // 오버라이드 메서드
+    // base 클래스의 가상 메서드를 재정의
+    // 반드시 virtual 메서드와 동일한 시그니처여야 함
+    public override void UseItem()
+    {
+        //base.UseItem(); // base 클래스의 UseItem 호출
+
+        Console.WriteLine("Player UseItem 호출");
+    }
+}
+
+public class  TestClass : IGetName
 {
     List<Monster> monsters = new List<Monster>();
 
@@ -126,6 +210,11 @@ public class  TestClass
             monsters.Add(monster);
         }
     }
+
+    public void GetName()
+    {
+        Console.WriteLine("TestClass GetName 호출");
+    }
 }
 
 public static class TestClassExtensions
@@ -176,3 +265,4 @@ public class Goblin : Monster
         Console.WriteLine("Goblin MaxHealth => " + maxHealth);
     }
 }
+
