@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\HalfPyramid.csproj": {}
+    "D:\\Dev\\GitHub\\C_Class\\TestLecture\\HalfPyramid\\HalfPyramid.csproj": {}
   },
   "projects": {
-    "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\HalfPyramid.csproj": {
+    "D:\\Dev\\GitHub\\C_Class\\TestLecture\\HalfPyramid\\HalfPyramid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\HalfPyramid.csproj",
+        "projectUniqueName": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\HalfPyramid\\HalfPyramid.csproj",
         "projectName": "HalfPyramid",
-        "projectPath": "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\HalfPyramid.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\ooSong\\c#\\TestLecture\\HalfPyramid\\obj\\",
+        "projectPath": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\HalfPyramid\\HalfPyramid.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\HalfPyramid\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

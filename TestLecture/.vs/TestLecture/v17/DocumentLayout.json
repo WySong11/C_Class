@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ooSong\\c#\\TestLecture\\",
+  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A110801-5FE2-4107-B646-06A2505BAB50}|LectureCSV\\LectureCSV.csproj|d:\\oosong\\c#\\testlecture\\lecturecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A110801-5FE2-4107-B646-06A2505BAB50}|LectureCSV\\LectureCSV.csproj|d:\\dev\\github\\c_class\\testlecture\\lecturecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A110801-5FE2-4107-B646-06A2505BAB50}|LectureCSV\\LectureCSV.csproj|solutionrelative:lecturecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c#\\testlecture\\lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\dev\\github\\c_class\\testlecture\\lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c#\\testlecture\\lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\dev\\github\\c_class\\testlecture\\lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureCSV\\Program.cs",
               "RelativeDocumentMoniker": "LectureCSV\\Program.cs",
-              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureCSV\\Program.cs",
               "RelativeToolTip": "LectureCSV\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwCsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T12:26:56.105Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FileReadWrite.cs",
-              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
               "RelativeDocumentMoniker": "LectureFileIO\\FileReadWrite.cs",
-              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
               "RelativeToolTip": "LectureFileIO\\FileReadWrite.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAABDwG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T12:02:17.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T12:02:17.123Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureFileIO\\Program.cs",
               "RelativeDocumentMoniker": "LectureFileIO\\Program.cs",
-              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\Program.cs",
+              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestLecture\\LectureFileIO\\Program.cs",
               "RelativeToolTip": "LectureFileIO\\Program.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAAAK0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T12:28:25.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T12:28:25.769Z"
             }
           ]
         }
