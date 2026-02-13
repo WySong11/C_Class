@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureTimer\bin\Debug\net8.0\LectureTimer.exe
+D:\ooSong\c#\TestLecture\LectureTimer\bin\Debug\net8.0\LectureTimer.deps.json
+D:\ooSong\c#\TestLecture\LectureTimer\bin\Debug\net8.0\LectureTimer.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureTimer\bin\Debug\net8.0\LectureTimer.dll
+D:\ooSong\c#\TestLecture\LectureTimer\bin\Debug\net8.0\LectureTimer.pdb
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.dll
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\refint\LectureTimer.dll
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.pdb
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\LectureTimer.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureTimer\obj\Debug\net8.0\ref\LectureTimer.dll

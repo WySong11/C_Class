@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "D:\\ooSong\\c#\\TestLecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}|LectureLock\\LectureLock.csproj|d:\\oosong\\c#\\testlecture\\lecturelock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}|LectureLock\\LectureLock.csproj|solutionrelative:lecturelock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACE0D35-4302-49FC-989D-DF53F2275B24}|LectureThread\\LectureThread.csproj|d:\\oosong\\c#\\testlecture\\lecturethread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACE0D35-4302-49FC-989D-DF53F2275B24}|LectureThread\\LectureThread.csproj|solutionrelative:lecturethread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99703928-8511-4A69-AD45-692707D321EE}|TestSkillClass\\TestSkillClass.csproj|d:\\oosong\\c#\\testlecture\\testskillclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99703928-8511-4A69-AD45-692707D321EE}|TestSkillClass\\TestSkillClass.csproj|solutionrelative:testskillclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C655B72F-0525-46F4-999B-E7986A766A67}|LectureTimer\\LectureTimer.csproj|d:\\oosong\\c#\\testlecture\\lecturetimer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C655B72F-0525-46F4-999B-E7986A766A67}|LectureTimer\\LectureTimer.csproj|solutionrelative:lecturetimer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564B4C25-0B56-4805-97C1-7F0F64397313}|LectureDateTime\\LectureDateTime.csproj|d:\\oosong\\c#\\testlecture\\lecturedatetime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564B4C25-0B56-4805-97C1-7F0F64397313}|LectureDateTime\\LectureDateTime.csproj|solutionrelative:lecturedatetime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|d:\\oosong\\c#\\testlecture\\lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|solutionrelative:lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B1D72D9-4883-4946-84FC-EB8C89D2842E}|LectureJSON\\LectureJSON.csproj|d:\\oosong\\c#\\testlecture\\lecturejson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1D72D9-4883-4946-84FC-EB8C89D2842E}|LectureJSON\\LectureJSON.csproj|solutionrelative:lecturejson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c#\\testlecture\\lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A110801-5FE2-4107-B646-06A2505BAB50}|LectureCSV\\LectureCSV.csproj|d:\\oosong\\c#\\testlecture\\lecturecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A110801-5FE2-4107-B646-06A2505BAB50}|LectureCSV\\LectureCSV.csproj|solutionrelative:lecturecsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c#\\testlecture\\lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c#\\testlecture\\lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,40 +56,123 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
-              "RelativeDocumentMoniker": "LectureCSV\\Program.cs",
-              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
-              "RelativeToolTip": "LectureCSV\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwCsAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureLock\\Program.cs",
+              "RelativeDocumentMoniker": "LectureLock\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureLock\\Program.cs",
+              "RelativeToolTip": "LectureLock\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T12:26:56.105Z",
+              "WhenOpened": "2026-02-13T11:43:08.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FileReadWrite.cs",
-              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
-              "RelativeDocumentMoniker": "LectureFileIO\\FileReadWrite.cs",
-              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
-              "RelativeToolTip": "LectureFileIO\\FileReadWrite.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAABDwG4AAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureThread\\Program.cs",
+              "RelativeDocumentMoniker": "LectureThread\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureThread\\Program.cs",
+              "RelativeToolTip": "LectureThread\\Program.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAuwKgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T12:02:17.123Z",
+              "WhenOpened": "2026-02-12T12:01:53.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\TestSkillClass\\Program.cs",
+              "RelativeDocumentMoniker": "TestSkillClass\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\TestSkillClass\\Program.cs",
+              "RelativeToolTip": "TestSkillClass\\Program.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwJcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:11:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureTimer\\Program.cs",
+              "RelativeDocumentMoniker": "LectureTimer\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureTimer\\Program.cs",
+              "RelativeToolTip": "LectureTimer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:43:07.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureString\\Program.cs",
+              "RelativeDocumentMoniker": "LectureString\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureString\\Program.cs",
+              "RelativeToolTip": "LectureString\\Program.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAD4v/AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:38:53.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureDateTime\\Program.cs",
+              "RelativeDocumentMoniker": "LectureDateTime\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureDateTime\\Program.cs",
+              "RelativeToolTip": "LectureDateTime\\Program.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAmwIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:28:06.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureJSON\\Program.cs",
+              "RelativeDocumentMoniker": "LectureJSON\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureJSON\\Program.cs",
+              "RelativeToolTip": "LectureJSON\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwG8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T11:07:58.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
+              "RelativeDocumentMoniker": "LectureCSV\\Program.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureCSV\\Program.cs",
+              "RelativeToolTip": "LectureCSV\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA0wF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T12:26:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileReadWrite.cs",
+              "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
+              "RelativeDocumentMoniker": "LectureFileIO\\FileReadWrite.cs",
+              "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
+              "RelativeToolTip": "LectureFileIO\\FileReadWrite.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T12:02:17.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\Program.cs",
               "RelativeDocumentMoniker": "LectureFileIO\\Program.cs",
               "ToolTip": "D:\\ooSong\\c#\\TestLecture\\LectureFileIO\\Program.cs",
               "RelativeToolTip": "LectureFileIO\\Program.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAK0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAK0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T12:28:25.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T12:28:25.769Z"
             }
           ]
         }

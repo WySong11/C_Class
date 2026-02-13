@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureJSON\bin\Debug\net8.0\LectureJSON.exe
+D:\ooSong\c#\TestLecture\LectureJSON\bin\Debug\net8.0\LectureJSON.deps.json
+D:\ooSong\c#\TestLecture\LectureJSON\bin\Debug\net8.0\LectureJSON.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureJSON\bin\Debug\net8.0\LectureJSON.dll
+D:\ooSong\c#\TestLecture\LectureJSON\bin\Debug\net8.0\LectureJSON.pdb
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.dll
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\refint\LectureJSON.dll
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.pdb
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\LectureJSON.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureJSON\obj\Debug\net8.0\ref\LectureJSON.dll

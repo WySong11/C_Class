@@ -1,0 +1,14 @@
+D:\ooSong\c#\TestLecture\LectureDateTime\bin\Debug\net8.0\LectureDateTime.exe
+D:\ooSong\c#\TestLecture\LectureDateTime\bin\Debug\net8.0\LectureDateTime.deps.json
+D:\ooSong\c#\TestLecture\LectureDateTime\bin\Debug\net8.0\LectureDateTime.runtimeconfig.json
+D:\ooSong\c#\TestLecture\LectureDateTime\bin\Debug\net8.0\LectureDateTime.dll
+D:\ooSong\c#\TestLecture\LectureDateTime\bin\Debug\net8.0\LectureDateTime.pdb
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.AssemblyInfoInputs.cache
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.AssemblyInfo.cs
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.csproj.CoreCompileInputs.cache
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.dll
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\refint\LectureDateTime.dll
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.pdb
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\LectureDateTime.genruntimeconfig.cache
+D:\ooSong\c#\TestLecture\LectureDateTime\obj\Debug\net8.0\ref\LectureDateTime.dll

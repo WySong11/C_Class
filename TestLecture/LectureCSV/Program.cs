@@ -59,6 +59,37 @@ public class program
         {
             WriteLine($"id: {item.id}, name: {item.name}");
         }
+
+        ////////////////////////////////////////////////////
+        /// Write CSV File
+        /// 
+
+        string outputFilePath = "output.csv";
+        string outputFullPath = Path.Combine(Directory.GetCurrentDirectory(), outputFilePath);
+
+        try
+        {   
+            if (File.Exists(outputFullPath))
+            {
+                File.Delete(outputFullPath);
+            }
+
+            using (StreamWriter writer = new StreamWriter(outputFullPath))
+            {
+                // 헤더 작성
+                writer.WriteLine("id,name");
+                // 데이터 작성
+                foreach (var item in list)
+                {
+                    writer.WriteLine($"{item.id},{item.name}");
+                }
+            }
+        }
+        catch (IOException ex)
+        {
+            WriteLine($"파일 삭제 중 오류 발생: {ex.Message}");
+            return;
+        }        
     }
 }
 
