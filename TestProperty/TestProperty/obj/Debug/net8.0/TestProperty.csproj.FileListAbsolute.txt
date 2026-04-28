@@ -1,0 +1,15 @@
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\bin\Debug\net8.0\TestProperty.exe
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\bin\Debug\net8.0\TestProperty.deps.json
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\bin\Debug\net8.0\TestProperty.runtimeconfig.json
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\bin\Debug\net8.0\TestProperty.dll
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\bin\Debug\net8.0\TestProperty.pdb
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.AssemblyInfoInputs.cache
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.AssemblyInfo.cs
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.csproj.CoreCompileInputs.cache
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.sourcelink.json
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.dll
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\refint\TestProperty.dll
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.pdb
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\TestProperty.genruntimeconfig.cache
+D:\Dev\GitHub\C_Class\TestProperty\TestProperty\obj\Debug\net8.0\ref\TestProperty.dll
