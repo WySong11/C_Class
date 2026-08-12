@@ -5,7 +5,7 @@
 // 클래스
 
 
-public class Program
+public class LectureMethod
 {
     // public 접근 제한자
     // 누구나 접근 가능

@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-public class program
+public class LectureDateTime
 {
     public static void Main()
     {

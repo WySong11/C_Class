@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Program
+public class LectureString
 {
     static void Main(string[] args)
     {
@@ -27,6 +27,15 @@ public class Program
 
         Console.WriteLine();
 
+        string text = "Hello";
+
+        // Length 속성은 문자열의 길이를 반환
+        Console.WriteLine(text.Length);
+
+        Console.WriteLine(text[0]);
+        Console.WriteLine(text[1]);
+        Console.WriteLine(text[4]);
+
         string c = "abc";
         for (int i = 0; i < c.Length; i++)
         {
@@ -38,6 +47,15 @@ public class Program
 
         Console.WriteLine();
 
+        // 문자열 보간
+        // C#에서는 문자열을 만들 때 $""를 자주 사용합니다.
+        name = "홍길동";
+        int age = 20;
+
+        Console.WriteLine($"이름 : {name}");
+        Console.WriteLine($"나이 : {age}");
+        Console.WriteLine($"{name}님의 나이는 {age}살입니다.");
+
         for (int i = 0; i < 5; i++)
         {
             int spaces = 5 - i;
@@ -47,6 +65,19 @@ public class Program
             Console.Write(new string('*', stars));
             Console.WriteLine();
         }
+
+        text = "I Like Unity";
+
+        // contains : 특정 문자열이 포함되어 있는지 확인
+        if (text.Contains("Unity"))
+        {
+            Console.WriteLine("Unity라는 단어가 있습니다.");
+        }
+        else
+        {
+            Console.WriteLine("Unity라는 단어가 없습니다.");
+        }
+
 
         // join : 문자열 배열을 특정 구분자로 연결
         string join = string.Join("-", new string[] { "2024", "06", "12" });
@@ -76,8 +107,33 @@ public class Program
         string padded = "   hello   ";
         string trimmed = padded.Trim(); // "hello"
 
+        // trimStart, trimEnd : 문자열의 앞/뒤 공백 제거
+        string trimmedStart = padded.TrimStart(); // "hello   "
+        string trimmedEnd = padded.TrimEnd();
+
         // replace : 특정 문자열을 다른 문자열로 대체
         string replaced = join.Replace("-", "/"); // "2024/06/12"
+
+        // startsWith, endsWith : 특정 문자열로 시작/끝나는지 확인
+        string fileName = "PlayerData.csv";
+        if (fileName.StartsWith("Player"))
+        {
+            Console.WriteLine("Player 데이터 파일입니다.");
+        }
+        if (fileName.EndsWith(".csv"))
+        {
+            Console.WriteLine("CSV 파일입니다.");
+        }
+
+        // Insert : 특정 위치에 문자열 삽입
+        text = "HelloWorld";
+        string result = text.Insert(5, " ");
+        Console.WriteLine(result);
+
+        // Remove : 특정 위치의 문자열 제거
+        text = "Hello World";
+        result = text.Remove(1, 2);
+        Console.WriteLine(result);
 
         string testA = "TestA";
         string testB = "TestA";
@@ -188,9 +244,9 @@ public class Program
         // 문자열을 숫자로 안전하게 변환
         // 변환에 실패해도 예외가 발생하지 않음
         // 성공하면 true, 실패하면 false 반환
-        if ( int.TryParse("123", out int result))
+        if ( int.TryParse("123", out int outResult))
         {
-            Console.WriteLine($"Parsing succeeded: {result}");
+            Console.WriteLine($"Parsing succeeded: {outResult}");
         }
         else
         {
