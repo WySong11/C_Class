@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\ooSong\\C_Class\\TestLecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{797A5096-058D-4A16-B9A1-A82F82C43818}|LectureArray\\LectureArray.csproj|d:\\oosong\\c_class\\testlecture\\lecturearray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797A5096-058D-4A16-B9A1-A82F82C43818}|LectureArray\\LectureArray.csproj|solutionrelative:lecturearray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ooSong\\C_Class\\TestLecture\\LectureArray\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LectureArray\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}|LectureLock\\LectureLock.csproj|d:\\oosong\\c_class\\testlecture\\lecturelock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +23,6 @@
       "RelativeMoniker": "D:0:0:{C655B72F-0525-46F4-999B-E7986A766A67}|LectureTimer\\LectureTimer.csproj|solutionrelative:lecturetimer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{564B4C25-0B56-4805-97C1-7F0F64397313}|LectureDateTime\\LectureDateTime.csproj|d:\\oosong\\c_class\\testlecture\\lecturedatetime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{564B4C25-0B56-4805-97C1-7F0F64397313}|LectureDateTime\\LectureDateTime.csproj|solutionrelative:lecturedatetime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|d:\\oosong\\c_class\\testlecture\\lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C849571-80BD-48DA-8813-5DB6D9E7C859}|LectureString\\LectureString.csproj|solutionrelative:lecturestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B1D72D9-4883-4946-84FC-EB8C89D2842E}|LectureJSON\\LectureJSON.csproj|d:\\oosong\\c_class\\testlecture\\lecturejson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B1D72D9-4883-4946-84FC-EB8C89D2842E}|LectureJSON\\LectureJSON.csproj|solutionrelative:lecturejson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,6 +37,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|d:\\oosong\\c_class\\testlecture\\lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C3CD5-8919-476E-9895-073854DD8052}|LectureFileIO\\LectureFileIO.csproj|solutionrelative:lecturefileio\\filereadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ooSong\\C_Class\\TestLecture\\LectureString\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LectureString\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ooSong\\C_Class\\TestLecture\\LectureDateTime\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LectureDateTime\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,10 +64,8 @@
               "RelativeDocumentMoniker": "LectureArray\\Program.cs",
               "ToolTip": "D:\\ooSong\\C_Class\\TestLecture\\LectureArray\\Program.cs",
               "RelativeToolTip": "LectureArray\\Program.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAA2wIQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T01:28:21.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T01:28:21.117Z"
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "RelativeToolTip": "LectureLock\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T11:43:08.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T11:43:08.82Z"
             },
             {
               "$type": "Document",
@@ -120,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureString\\Program.cs",
               "RelativeDocumentMoniker": "LectureString\\Program.cs",
@@ -132,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureDateTime\\Program.cs",
               "RelativeDocumentMoniker": "LectureDateTime\\Program.cs",
@@ -144,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureJSON\\Program.cs",
               "RelativeDocumentMoniker": "LectureJSON\\Program.cs",
@@ -156,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureCSV\\Program.cs",
               "RelativeDocumentMoniker": "LectureCSV\\Program.cs",
@@ -168,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "FileReadWrite.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureFileIO\\FileReadWrite.cs",
               "RelativeDocumentMoniker": "LectureFileIO\\FileReadWrite.cs",
@@ -180,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestLecture\\LectureFileIO\\Program.cs",
               "RelativeDocumentMoniker": "LectureFileIO\\Program.cs",

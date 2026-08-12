@@ -253,4 +253,18 @@ public class LectureMethod
         Console.Write("*");
         PrintStars(count - 1);
     }
+
+    // 재귀 함수
+    // 재귀 함수는 자기 자신을 호출하는 함수로, 종료 조건이 반드시 필요하다.
+    static void RecursiveMethod(int count)
+    {
+        if (count <= 0)
+        {
+            return; // 종료 조건
+        }
+        Console.WriteLine("Count: " + count);
+        RecursiveMethod(count - 1); // 자기 자신을 호출
+
+        Console.WriteLine("Returning from count: " + count); // 재귀 호출 후 실행
+    }
 }
