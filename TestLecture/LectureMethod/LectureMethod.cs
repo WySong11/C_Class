@@ -69,6 +69,17 @@ public class LectureMethod
         // 매개 변수 값을 변경할 수 있음
         TestRef(ref refNumber);
 
+
+        CountDown(5);
+
+        Console.WriteLine(Sum(5));
+
+
+        string text = "Hello";
+
+        ReversePrint(text, text.Length - 1);
+
+
         Console.WriteLine("프로그램 종료");
     }
 
@@ -87,6 +98,13 @@ public class LectureMethod
     public static int Add(int a, int b = 12)
     {
         return a + b;
+    }
+
+    // Method Overloading
+    // 같은 이름의 함수를 여러 개 정의 가능
+    static int Add(int a, int b, int c)
+    {
+        return a + b + c;
     }
 
     // 세 정수를 더하는 함수
@@ -184,5 +202,55 @@ public class LectureMethod
         //number += 10; 
 
         return 0;
+    }
+
+    // 재귀 함수 예제
+    static void CountDown(int number)
+    {
+        Console.WriteLine(number);
+
+        CountDown(number - 1);
+    }
+
+    static int Sum(int number)
+    {
+        if (number <= 1)
+        {
+            return 1;
+        }
+
+        return number + Sum(number - 1);
+    }
+
+    static int Factorial(int number)
+    {
+        if (number <= 1)
+        {
+            return 1;
+        }
+
+        return number * Factorial(number - 1);
+    }
+
+    static void ReversePrint(string text, int index)
+    {
+        if (index < 0)
+        {
+            return;
+        }
+
+        Console.Write(text[index]);
+
+        ReversePrint(text, index - 1);
+    }
+
+    static void PrintStars(int count)
+    {
+        if (count <= 0)
+        {
+            return;
+        }
+        Console.Write("*");
+        PrintStars(count - 1);
     }
 }
