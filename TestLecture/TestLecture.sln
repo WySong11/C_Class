@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureVariable", "TestLecture\LectureVariable.csproj", "{97E8A1E9-585E-4E09-A5EB-E1525A481B24}"
 EndProject
@@ -54,6 +54,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureThread", "LectureThread\LectureThread.csproj", "{EACE0D35-4302-49FC-989D-DF53F2275B24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureLock", "LectureLock\LectureLock.csproj", "{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureArray", "LectureArray\LectureArray.csproj", "{797A5096-058D-4A16-B9A1-A82F82C43818}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8E600D4-DD09-40E5-9A84-1D6D58AC2045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797A5096-058D-4A16-B9A1-A82F82C43818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797A5096-058D-4A16-B9A1-A82F82C43818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797A5096-058D-4A16-B9A1-A82F82C43818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797A5096-058D-4A16-B9A1-A82F82C43818}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
