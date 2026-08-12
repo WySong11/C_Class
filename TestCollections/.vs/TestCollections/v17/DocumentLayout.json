@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\",
+  "WorkspaceRootPath": "D:\\ooSong\\C_Class\\TestCollections\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{597ABE7C-24B2-4BC3-B708-EA1749E28538}|ConsoleCollections\\ConsoleCollections.csproj|d:\\dev\\github\\c_class\\testcollections\\consolecollections\\consolecollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11FCE0F8-8FB8-487F-8BAC-214E5AE799D3}|ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.csproj|d:\\oosong\\c_class\\testcollections\\consolecollectionsgeneric\\consolecollectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FCE0F8-8FB8-487F-8BAC-214E5AE799D3}|ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.csproj|solutionrelative:consolecollectionsgeneric\\consolecollectionsgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597ABE7C-24B2-4BC3-B708-EA1749E28538}|ConsoleCollections\\ConsoleCollections.csproj|d:\\oosong\\c_class\\testcollections\\consolecollections\\consolecollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597ABE7C-24B2-4BC3-B708-EA1749E28538}|ConsoleCollections\\ConsoleCollections.csproj|solutionrelative:consolecollections\\consolecollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleCollectionsGeneric.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestCollections\\ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "RelativeDocumentMoniker": "ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestCollections\\ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "RelativeToolTip": "ConsoleCollectionsGeneric\\ConsoleCollectionsGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T09:02:33.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConsoleCollections.cs",
-              "DocumentMoniker": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.cs",
               "RelativeDocumentMoniker": "ConsoleCollections\\ConsoleCollections.cs",
-              "ToolTip": "D:\\Dev\\GitHub\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestCollections\\ConsoleCollections\\ConsoleCollections.cs",
               "RelativeToolTip": "ConsoleCollections\\ConsoleCollections.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA0wBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T05:42:15.187Z",
               "EditorCaption": ""
