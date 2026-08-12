@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace CaluculateLogList
 {
-    public class Program
+    public class CalculateLogList
     {
         static void Main(string[] args)
         {

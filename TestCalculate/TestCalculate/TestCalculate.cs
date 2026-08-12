@@ -1,55 +1,44 @@
 ﻿using System;
-using System.Collections.Generic;
-using static System.Console;
 
-namespace CalculateParse
+namespace TestCalculate
 {
-    public class Program
+    /// <summary>
+    /// 콘솔 기반 간단한 계산기
+    /// 입력: 1번째 숫자, 연산자(+, -, *, /, %, ^ 또는 pow), 2번째 숫자
+    /// 빈 입력 시 종료
+    /// </summary>
+    internal static class TestCalculate
     {
         static void Main(string[] args)
         {
-            List<string> CalculateLogs = new List<string>();
-
-            Console.WriteLine("간단한 계산기 (빈 입력 시 종료)");            
+            Console.WriteLine("간단한 계산기 (빈 입력 시 종료)");
 
             // 무한 루프: 사용자가 빈 줄을 입력하면 루프를 빠져나가 종료합니다.
             while (true)
             {
-                Console.Clear();
-
-                if (CalculateLogs.Count > 0)
-                {
-                    Console.WriteLine("이전 계산 기록:");
-                    foreach (var log in CalculateLogs)
-                    {
-                        Console.WriteLine(log);
-                    }
-                    Console.WriteLine(); // 보기 좋게 빈 줄 추가
-                }
-                
-                Console.Write("수식 입력 받기 : ");
-                string? input = Console.ReadLine();
+                // 1) 첫 번째 숫자 입력 받기
+                Console.Write("첫 번째 숫자: ");
+                string? aStr = Console.ReadLine();
 
                 // 사용자가 아무 것도 입력하지 않으면 종료 (빈 입력 처리)
-                if (string.IsNullOrWhiteSpace(input)) break;
+                if (string.IsNullOrWhiteSpace(aStr)) break;
 
-                // 공백을 기준으로 입력 문자열 분리
-                string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                // 2) 연산자 입력 받기
+                Console.Write("연산자 (+ - * / % ^ 또는 pow): ");
+                string? opStr = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(opStr)) break;
 
-                if(parts.Length != 3)
-                {
-                    Console.WriteLine("올바른 형식이 아닙니다. 예: 3 + 4");
-                    continue;
-                }
+                // 3) 두 번째 숫자 입력 받기
+                Console.Write("두 번째 숫자: ");
+                string? bStr = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(bStr)) break;
 
                 // TryCalculate를 호출하여 계산 시도
                 // 성공하면 result에 결과가 담기고 true 반환
                 // 실패하면 error에 오류 메시지 담기고 false 반환
-                if (TryCalculate(parts[0], parts[1], parts[2], out double result, out string? error))
+                if (TryCalculate(aStr, opStr, bStr, out double result, out string? error))
                 {
                     Console.WriteLine($"결과: {result}");
-
-                    CalculateLogs.Add($"{parts[0]} {parts[1]} {parts[2]} = {result}");
                 }
                 else
                 {

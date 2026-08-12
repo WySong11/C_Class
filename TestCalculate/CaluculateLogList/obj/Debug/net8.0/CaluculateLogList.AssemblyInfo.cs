@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaluculateLogList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85342906d54d20ff98a9551107c11688bc55622c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dce623235c3a4fd8ea83c454529b412caa08bb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaluculateLogList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaluculateLogList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
