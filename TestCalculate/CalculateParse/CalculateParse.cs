@@ -178,6 +178,7 @@ namespace CalculateParse
 
             foreach (char currentOp in operators)
             {
+                // IndexOf를 사용하여 연산자의 위치를 찾습니다. 연산자가 없으면 -1을 반환합니다.
                 operatorIndex = input.IndexOf(currentOp);
 
                 if (operatorIndex != -1)
