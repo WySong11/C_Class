@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\ooSong\\C_Class\\TestCalculate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|d:\\oosong\\c_class\\testcalculate\\calculateparse\\calculateparse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|solutionrelative:calculateparse\\calculateparse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58983C88-0D39-4A5A-927F-3C406801DF81}|CaluculateLogList\\CaluculateLogList.csproj|d:\\oosong\\c_class\\testcalculate\\caluculateloglist\\calculateloglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58983C88-0D39-4A5A-927F-3C406801DF81}|CaluculateLogList\\CaluculateLogList.csproj|solutionrelative:caluculateloglist\\calculateloglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9338411E-E3C7-4893-B760-A7E0320AEFBD}|TestCalculate\\TestCalculate.csproj|d:\\oosong\\c_class\\testcalculate\\testcalculate\\testcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9338411E-E3C7-4893-B760-A7E0320AEFBD}|TestCalculate\\TestCalculate.csproj|solutionrelative:testcalculate\\testcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|d:\\oosong\\c_class\\testcalculate\\calculateparse\\calculateparse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223414AD-1CA5-4850-825D-5ABB5D9030FE}|CalculateParse\\CalculateParse.csproj|solutionrelative:calculateparse\\calculateparse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CalculateLogList.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestCalculate\\CaluculateLogList\\CalculateLogList.cs",
+              "RelativeDocumentMoniker": "CaluculateLogList\\CalculateLogList.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestCalculate\\CaluculateLogList\\CalculateLogList.cs",
+              "RelativeToolTip": "CaluculateLogList\\CalculateLogList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T11:31:14.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CalculateParse.cs",
               "DocumentMoniker": "D:\\ooSong\\C_Class\\TestCalculate\\CalculateParse\\CalculateParse.cs",
               "RelativeDocumentMoniker": "CalculateParse\\CalculateParse.cs",
               "ToolTip": "D:\\ooSong\\C_Class\\TestCalculate\\CalculateParse\\CalculateParse.cs",
               "RelativeToolTip": "CalculateParse\\CalculateParse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAuwL8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T01:39:26.566Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "TestCalculate\\TestCalculate.cs",
               "ToolTip": "D:\\ooSong\\C_Class\\TestCalculate\\TestCalculate\\TestCalculate.cs",
               "RelativeToolTip": "TestCalculate\\TestCalculate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T08:53:21.314Z",
               "EditorCaption": ""

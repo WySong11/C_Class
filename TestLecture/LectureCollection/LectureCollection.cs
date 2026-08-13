@@ -6,6 +6,20 @@ using System.Linq;
 
 public class LectureCollection
 {
+    public enum E_Type
+    {
+        Player = 1001,
+        Enemy,
+        NPC,
+
+        Warrior = 2001,
+        Wizard,
+        Archer,
+
+        MAX,
+    };
+
+
     static void Main(string[] args)
     {
         int[] nums;
@@ -321,5 +335,294 @@ public class LectureCollection
         {
             Console.WriteLine($"Value: {value_item}");
         }
+
+        /////////////////////////////////////////////////////////////////////////////////
+        ///
+
+        // System.Collections
+        // 비제네릭 컬렉션
+        // ArrayList: 동적 배열, 크기가 자동으로 조정됨
+        // Queue: FIFO(First In First Out) 방식의 큐
+        // Stack: LIFO(Last In First Out) 방식의 스택
+        // Hashtable: 키-값 쌍으로 데이터를 저장하는 해시 테이블
+        // SortedList: 키-값 쌍으로 데이터를 저장하며, 키를 기준으로 정렬된 리스트
+
+        arrayList = new ArrayList();
+
+        // Add 메서드: ArrayList에 요소를 추가
+        // Remove 메서드: ArrayList에서 요소를 제거
+        // Contains 메서드: ArrayList에 특정 요소가 있는지 확인
+        // Clear 메서드: ArrayList의 모든 요소를 제거
+        // Count 속성: ArrayList의 요소 개수를 반환
+        // Capacity 속성: ArrayList의 현재 용량을 반환
+        // IndexOf 메서드: ArrayList에서 특정 요소의 인덱스를 반환. 찾으면 Index , 못 찾으면 -1
+        // Insert 메서드: ArrayList의 특정 인덱스에 요소를 삽입
+        // Sort 메서드: ArrayList의 요소를 정렬
+        // Reverse 메서드: ArrayList의 요소 순서를 반대로 변경
+        // ToArray 메서드: ArrayList의 요소를 배열로 반환
+        // TrimToSize 메서드: ArrayList의 용량을 현재 요소 개수에 맞게 조정
+        // GetRange 메서드: ArrayList의 특정 범위의 요소를 반환
+        // Clone 메서드: ArrayList의 얕은 복사본을 반환
+        // CopyTo 메서드: ArrayList의 요소를 배열로 복사
+        // ForEach 메서드: ArrayList의 각 요소에 대해 지정된 작업을 수행
+        // ToString 메서드: ArrayList의 문자열 표현을 반환
+        // Equals 메서드: ArrayList와 다른 객체를 비교
+        // GetHashCode 메서드: ArrayList의 해시 코드를 반환
+
+        // ArrayList에 요소 추가
+        // 1 : int 타입 추가
+        // Boxing: 값 형식(int)을 참조 형식(object)으로 변환하여 ArrayList에 저장
+        arrayList.Add(1);
+
+        // "Hello" : string 타입 추가
+        // Boxing: 값 형식이 아닌 참조 형식(string)을 그대로 ArrayList에 저장
+        arrayList.Add("Hello");
+
+        // 3.14f : float 타입 추가
+        // Boxing: 값 형식(float)을 참조 형식(object)으로 변환하여 ArrayList에 저장
+        arrayList.Add(3.14f);
+
+        arrayList.Add(20);
+
+        // ArrayList의 요소 출력
+        for (int i = 0; i < arrayList.Count; i++)
+        {
+            Console.WriteLine($"Element at index {i}: {arrayList[i]}");
+        }
+
+        // var 키워드: 변수의 타입을 컴파일러가 자동으로 추론하도록 하는 기능
+        foreach (var item in arrayList)
+        {
+            Console.WriteLine($"Element: {item}");
+        }
+
+        int number1 = (int)arrayList[0];
+        int number2 = (int)arrayList[3];
+
+        Console.WriteLine(number1);
+        Console.WriteLine(number2);
+
+        // RemoveAt : Index 를 삭제
+        arrayList.RemoveAt(0);
+        PrintArraylist(arrayList);
+
+        // Remove : 값을 찾아서 삭제
+        arrayList.Remove(20);
+        PrintArraylist(arrayList);
+
+        /////////////////////////////////////////////////////////////
+        // Queue
+        // FIFO : First In , First Out 선입선출
+
+        // Instance 생성
+        Queue que = new Queue();
+
+        // Enqueue : 값 삽입
+        que.Enqueue(1);
+        que.Enqueue(2);
+        que.Enqueue(3);
+
+        PrintQueue(que);
+
+        Console.WriteLine();
+
+        /////////////////////////////////////////////////////////////
+        // Stack
+        // LIFO : Last In , First Out 후입선출
+
+        Stack sta = new Stack();
+
+        // Push : 값 삽입
+        sta.Push(1);
+        sta.Push(2);
+        sta.Push(3);
+
+        PrintStack(sta);
+
+        Console.WriteLine();
+
+        ///////////////////////////////////////////////////
+        // Hashtable
+        // Key 와 Value 를 한 쌍으로 저장
+
+        ht = new Hashtable();
+
+
+
+        ht.Add(E_Type.Player, "Player");
+        ht.Add(E_Type.Enemy, "Enemy");
+        ht.Add(E_Type.NPC, "NPC");
+
+        Console.WriteLine(ht[1001]);
+        Console.WriteLine(ht[1002]);
+        Console.WriteLine(ht[1003]);
+
+        ht.Add("Warrior", E_Type.Warrior);
+        ht.Add("Wizard", E_Type.Wizard);
+        ht.Add("Archer", E_Type.Archer);
+
+        foreach (var item in ht)
+        {
+            Console.WriteLine(item);
+        }
+
+        Console.WriteLine();
+
+        foreach (DictionaryEntry item in ht)
+        {
+            Console.WriteLine($"Key -> {item.Key} , Value -> {item.Value}");
+        }
+
+        ///////////////////////////////////////////////////////////
+        // Collections.Generic
+
+        // List<T> : 가장 많이 사용하는 동적 배열
+        // Dictionary<T, T> : Key - Value 쌍으로 데이터를 저장
+        // Queue<T> : FIFO
+        // Stack<T> : LIFO
+        // HashSet<T> : 중복되지 않는 요소들만 저장
+
+        // Type 을 지정해서 Instance 생성
+        List<int> intList = new List<int>();
+
+        // 지정된 Type 만 입력 가능
+        // Boxing , Unboxing 이 없음
+        intList.Add(0);
+        intList.Add(1);
+        intList.Add(2);
+
+        //intList.Add(3.14f);
+        //intList.Add("string");
+
+        Console.WriteLine();
+
+        PrintList(intList);
+
+        intList.RemoveAt(0);
+
+        PrintList(intList);
+
+        intList[0] = 10;
+
+        PrintList(intList);
+
+        intList.Remove(10);
+
+        PrintList(intList);
+
+        // Clear : 모든 항목들을 삭제
+        intList.Clear();
+
+        PrintList(intList);
+
+        /*        for(E_Type t = E_Type.Player ; t<E_Type.MAX;  )
+                {
+                    intList.Add((int)t);
+                }*/
+
+        foreach (E_Type t in Enum.GetValues<E_Type>())
+        {
+            if (t == E_Type.MAX) break;
+
+            intList.Add((int)t);
+        }
+
+        PrintList(intList);
+
+        RemoveList(ref intList, (int)E_Type.NPC);
+
+        PrintList(intList);
+
+        RemoveList(ref intList, 1005);
+
+        PrintList(intList);
+
+        // Find : 값을 찾아서 Value반환
+        val = intList.Find(x => x == 10);
+
+        // FindIndex : 값을 찾아서 Index 반환
+        index = intList.FindIndex(x => x == 10);
+
+        // 오름차순 정렬
+        intList.Sort();
+
+        PrintList(intList);
+
+        // 내림차순 정렬
+        intList.Sort((a, b) => b.CompareTo(a));
+
+        PrintList(intList);
+
+        // 모든 요소의 합계 반환
+        Console.WriteLine("Sum => " + intList.Sum());
+
+        // 모든 요소의 평균
+        Console.WriteLine("Average => " + intList.Average());
+
+        intList.Reverse();
+
+        PrintList(intList);
+
+        Console.WriteLine("Min => " + intList.Min());
+        Console.WriteLine("Max => " + intList.Max());
+    }
+
+
+    static void RemoveList(ref List<int> list, int value)
+    {
+        // Contains : 리스트에 값이 있는지 확인하는 변수
+        // Indexof : 위치를 찾아준다. 없으면 -1
+
+        if (list.Contains(value) == true)
+        {
+            list.Remove(value);
+        }
+        else
+        {
+            Console.WriteLine("Not Find Value -> " + value);
+        }
+    }
+
+    static void PrintList(List<int> list)
+    {
+        foreach (int item in list)
+        {
+            Console.WriteLine(item);
+        }
+        Console.WriteLine();
+    }
+
+
+    static void PrintStack(Stack stack)
+    {
+        int count = stack.Count;
+
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine("Stack Value -> " + stack.Pop());
+
+            Console.WriteLine("Stack Count -> " + stack.Count);
+        }
+    }
+
+    static void PrintQueue(Queue queue)
+    {
+        int count = queue.Count;
+
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine("Queue Value -> " + queue.Dequeue());
+
+            Console.WriteLine("Queue Count -> " + queue.Count);
+        }
+    }
+
+    static void PrintArraylist(ArrayList inarrayList)
+    {
+        foreach (var item in inarrayList)
+        {
+            Console.WriteLine($"Element: {item}");
+        }
+        Console.WriteLine();
     }
 }
