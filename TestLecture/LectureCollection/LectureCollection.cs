@@ -565,8 +565,142 @@ public class LectureCollection
 
         Console.WriteLine("Min => " + intList.Min());
         Console.WriteLine("Max => " + intList.Max());
+
+
+        /// Dictionary
+        /// Key-Value 쌍으로 데이터를 저장
+        /// Key 는 중복 불가
+        /// Value 는 중복 가능
+        /// 
+
+        Dictionary<int, string> dict1 = new Dictionary<int, string>();
+
+        // Add
+        dict1.Add(1, "One");
+
+        // Indexer 를 사용한 방법
+        dict1[2] = "Two";
+
+        // 값을 가져옴
+        string temp = dict1[1];
+
+        PrintDictionary(dict1);
+
+        dict1[2] = "Three";
+
+        PrintDictionary(dict1);
+
+        if (dict1.ContainsKey(2) == false)
+        {
+            dict1[2] = "Two";
+        }
+        else
+        {
+            dict1[2] = "Four";
+        }
+
+        PrintDictionary(dict1);
+
+        if (dict1.ContainsValue("Four") == false)
+        {
+            dict1[4] = "Four";
+        }
+        else
+        {
+            // First 제일 처음에 나오는 조건에 맞는 데이터를 가져온다.
+            int key = dict1.First(x => x.Value == "Four").Key;
+            dict1.Remove(key);
+            dict1[4] = "Four";
+        }
+
+        PrintDictionary(dict1);
+
+
+        // ToList : Dictionary 를 List 로 변환
+        // KeyValuePair 리스트로 변환
+        var dictAsList1 = dict.ToList();
+
+        foreach (var tempPair in dictAsList1)
+        {
+            Console.WriteLine($"Key : {tempPair.Key} , Value : {tempPair.Value}");
+        }
+        Console.WriteLine();
+
+        var KeysList = dict.Keys.ToList();
+
+        foreach (var key in KeysList)
+        {
+            Console.WriteLine(key);
+        }
+        Console.WriteLine();
+
+        var ValuesList = dict.Values.ToList();
+
+        foreach (var value1 in ValuesList)
+        {
+            Console.WriteLine(value1);
+        }
+        Console.WriteLine();
+
+        ///////////////////////////////////////////////////////////////
+        // HashSet : 중복되지 않는 요소들만 저장
+
+        HashSet<string> keys = new HashSet<string>();
+
+        keys.Add("One");
+        keys.Add("Two");
+
+        foreach (var key in keys)
+        {
+            Console.WriteLine(key);
+        }
+        Console.WriteLine();
+
+        keys.Add("One");
+
+        foreach (var key in keys)
+        {
+            Console.WriteLine(key);
+        }
+        Console.WriteLine();
+
+
+        keys.Add("ONE");
+
+        foreach (var key in keys)
+        {
+            Console.WriteLine(key);
+        }
+        Console.WriteLine();
+
+        keys.Add("one".ToUpper());
+
+        foreach (var key in keys)
+        {
+            Console.WriteLine(key);
+        }
+        Console.WriteLine();
+
+        if (keys.TryGetValue("one".ToUpper(), out string? tempval) == true)
+        {
+            Console.WriteLine("Failed");
+        }
+        else
+        {
+            keys.Add("one".ToUpper());
+        }
     }
 
+    static void PrintDictionary(Dictionary<int, string> dict)
+    {
+        foreach (var item in dict)
+        {
+            Console.WriteLine(item);
+
+            Console.WriteLine($"Key -> {item.Key} , Value -> {item.Value}");
+        }
+        Console.WriteLine();
+    }
 
     static void RemoveList(ref List<int> list, int value)
     {
