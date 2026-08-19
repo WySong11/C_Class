@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ooSong\\c#\\TestBaseClass\\",
+  "WorkspaceRootPath": "D:\\ooSong\\C_Class\\TestBaseClass\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|d:\\oosong\\c_class\\testbaseclass\\testbaseclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\animalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|d:\\oosong\\c_class\\testbaseclass\\testbaseclass\\animalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\animalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\dogclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|d:\\oosong\\c_class\\testbaseclass\\testbaseclass\\dogclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\dogclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|c:\\users\\oosong\\c#\\testbaseclass\\testbaseclass\\catclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|d:\\oosong\\c_class\\testbaseclass\\testbaseclass\\catclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BAD2D69-9450-4729-8D67-E5AA242C635F}|TestBaseClass\\TestBaseClass.csproj|solutionrelative:testbaseclass\\catclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,24 +32,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AnimalClass.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
               "RelativeDocumentMoniker": "TestBaseClass\\AnimalClass.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\AnimalClass.cs",
               "RelativeToolTip": "TestBaseClass\\AnimalClass.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAkwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T10:00:45.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T10:00:45.551Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\Program.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\Program.cs",
               "RelativeDocumentMoniker": "TestBaseClass\\Program.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\Program.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\Program.cs",
               "RelativeToolTip": "TestBaseClass\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T09:46:50.705Z",
               "EditorCaption": ""
@@ -58,14 +57,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CatClass.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\CatClass.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\CatClass.cs",
               "RelativeDocumentMoniker": "TestBaseClass\\CatClass.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\CatClass.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\CatClass.cs",
               "RelativeToolTip": "TestBaseClass\\CatClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T10:11:39.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T10:11:39.272Z"
             }
           ]
         },
@@ -77,9 +75,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DogClass.cs",
-              "DocumentMoniker": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\DogClass.cs",
+              "DocumentMoniker": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\DogClass.cs",
               "RelativeDocumentMoniker": "TestBaseClass\\DogClass.cs",
-              "ToolTip": "C:\\Users\\ooSong\\c#\\TestBaseClass\\TestBaseClass\\DogClass.cs",
+              "ToolTip": "D:\\ooSong\\C_Class\\TestBaseClass\\TestBaseClass\\DogClass.cs",
               "RelativeToolTip": "TestBaseClass\\DogClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
