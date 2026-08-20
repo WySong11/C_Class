@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TestClass;
 
-public class Test2026
+public class Class2026
 {
     static void Main(string[] args)
     {
