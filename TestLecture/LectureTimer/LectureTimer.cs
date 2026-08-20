@@ -2,7 +2,7 @@
 using static System.Console;
 using System.Timers;
 
-public class program
+public class LectureTimer
 {
     public static void Main()
     {
