@@ -1,6 +1,38 @@
-# Visual Studio
+# Visual Studio / IDE user files
 .vs/
-**/.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-bin/
-obj/
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+artifacts/
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Generated diagnostics and temporary files
+*.pdb
+*.cache
+*.log
+*.tmp
+*.temp
+
+# Local package/archive copies
+*.zip
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

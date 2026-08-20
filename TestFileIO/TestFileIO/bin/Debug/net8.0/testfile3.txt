@@ -1,4 +1,0 @@
-Hello, C# 1!
-Hello, C# 2!
-Hello, C# 3!
-Hello, C# 4!
