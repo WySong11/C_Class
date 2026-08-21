@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-public class Program
+public class LectureClass
 {  
     static void Main(string[] args)
     {
