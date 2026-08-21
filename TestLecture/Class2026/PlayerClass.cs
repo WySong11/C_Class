@@ -28,10 +28,14 @@ namespace TestClass
 
         public int m_moveSpeed;
 
+        protected int m_targetId;
+
         // 생성자 : 클래스가 생성될 때 호출됨
         public PlayerClass()
         {
             Console.WriteLine($"Player {m_name} 생성됨");
+
+            GameManager.Instance.AddPlayer(this);
         }
 
         // 소멸자 : 클래스가 파괴될 때 호출됨
@@ -50,6 +54,8 @@ namespace TestClass
             m_maxHp = maxHP;
             m_hp = hp;
             m_attackPower = attackPower;
+
+            GameManager.Instance.AddPlayer(this);
         }
 
         // virtual : 자식 클래스들이 재정의 할 수 있다고 선언
@@ -71,7 +77,12 @@ namespace TestClass
 
         private void SetHP(int hp)
         {
-            Console.WriteLine($"{m_name} ( {m_hp} => {Math.Clamp(hp, 0, m_maxHp)} )");
+            float percent = CommonUtil.GetPercent(m_maxHp, Math.Clamp(hp, 0, m_maxHp));
+
+
+            Console.WriteLine($"{m_name} ( {m_hp} => {Math.Clamp(hp, 0, m_maxHp)} , ( {CommonUtil.GetPercentString(percent)}% )");
+
+            Console.WriteLine( CommonUtil.GetPercentConvert(percent).ToString() );
 
             //m_hp = hp;
 
@@ -92,7 +103,7 @@ namespace TestClass
             {
                 Console.WriteLine($"{m_name} is Die~!!");
 
-                
+                GameManager.Instance.RemovePlayer(this);                
             }
         }
 
@@ -108,7 +119,7 @@ namespace TestClass
 
         public abstract void Attack();
 
-        protected void SetClssType(ClassType inType)
+        protected void SetClassType(ClassType inType)
         {
             m_type = inType;
         }
@@ -118,5 +129,14 @@ namespace TestClass
             Console.WriteLine($"{m_name} , {m_type}"
                 );
         }
+
+        public void SetTargetId(int id)
+        {
+            m_targetId = id;
+        }
+
+        public int GetID() => m_id;
+        public string GetName() => m_name;
+        public int GetAttackPower() => m_attackPower;
     }
 }

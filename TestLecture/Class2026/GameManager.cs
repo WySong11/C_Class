@@ -78,5 +78,38 @@ namespace TestClass
         {
             return PlayerList.Contains(player);
         }
+
+        public void UseSkill()
+        {
+            foreach(PlayerClass playerClass in PlayerList)
+            {
+                // is : ISkillUser Interface 가 있는지 확인
+                // 있으면 True
+                if(playerClass is ISkillUser)
+                {
+                    var temp = playerClass as ISkillUser;
+
+                    temp.UseSkill();
+                }
+            }
+
+            // ISkillUser Inteface 가 있는 Player 들은 Skill 사용
+            /*foreach(ISkillUser skillUser in PlayerList)
+            {
+                skillUser.UseSkill();
+            }*/
+        }
+
+        public void UseItem()
+        {
+            foreach (PlayerClass playerClass in PlayerList)
+            {
+                if (playerClass is IUseItem)
+                {
+                    var temp = playerClass as IUseItem;
+                    temp.UseItem();
+                }
+            }
+        }
     }
 }

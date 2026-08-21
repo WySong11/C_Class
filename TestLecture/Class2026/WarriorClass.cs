@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace TestClass
 {
-    public class WarriorClass : PlayerClass
+    public class WarriorClass : PlayerClass, ISkillUser
     {
         public WarriorClass() 
         {
@@ -36,7 +36,7 @@ namespace TestClass
             // this : 내 자신 클래스
             InitPlayerData(id, name, maxHP, hp, attackPower);
 
-            SetClssType(ClassType.Warrior);
+            SetClassType(ClassType.Warrior);
 
             Console.WriteLine($"22: WarriorClass {m_name} 생성됨");
         }
@@ -67,5 +67,12 @@ namespace TestClass
             Console.WriteLine($"Warrior Attack => {m_attackPower}");
         }
 
+        //////////////////////////////////
+        // Interfacte 구현
+
+        public void UseSkill()
+        {
+            Console.WriteLine($"\n{m_name} 스킬을 사용한다.\n");
+        }
     }
 }

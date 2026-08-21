@@ -38,22 +38,35 @@ public class Class2026
 
                 Player1.TakeDamage(200);*/
 
-        // Player List
-        List<PlayerClass> PlayerList = new List<PlayerClass>();
+
 
         WarriorClass warrior1 = new WarriorClass(1003, "Tauren", 150, 150, 50);
         WizardClass wiazrd1 = new WizardClass(1004, "Guldan", 80, 80, 100);
+        ArcherClass archer1 = new ArcherClass(1005, "Windrunner", 50, 50, 120);
 
-        // 생성된 Player 들을 List 에 추가
-        PlayerList.Add(warrior1);
-        PlayerList.Add(wiazrd1);
+        /*        GameManager.Instance.AddPlayer(warrior1);
+                GameManager.Instance.AddPlayer(wiazrd1);*/
+
+        warrior1.SetTargetId(wiazrd1.GetID());
+        wiazrd1.SetTargetId(warrior1.GetID());
+        archer1.SetTargetId(wiazrd1.GetID());
 
         Console.WriteLine();
 
-        foreach (PlayerClass playerClass in PlayerList)
-        {
-            playerClass.PrintInfo();
-        }
+        // Singleton 은 인스턴스를 생성하지 않는다.
+        //GameManager tt = new GameManager();
+
+        // Instance 를 통해서만 사용 가능
+        GameManager.Instance.PrintPlayerList();
+
+
+        GameManager.Instance.AttackPlayer(warrior1, wiazrd1);
+
+        GameManager.Instance.AttackPlayer(wiazrd1, warrior1);
+
+        GameManager.Instance.UseSkill();
+
+        GameManager.Instance.UseItem();
     }
 
     static void Create()
